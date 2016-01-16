@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>Temel Ayarlar</value>
+  </data>
+  <data name="BasicSettingsHelp.Text" xml:space="preserve">
+    <value>Bu bölümde bu sayfa için temel ayarları yapabilirsiniz.</value>
+  </data>
+  <data name="TabName.Text" xml:space="preserve">
+    <value>Sayfa Adı</value>
+  </data>
+  <data name="TabNameHelp.Text" xml:space="preserve">
+    <value>Bu, sayfanın adıdır.  Girdiğiniz metin menü sisteminde görüntülenir.</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Sayfa Başlığı</value>
+  </data>
+  <data name="TitleHelp.Text" xml:space="preserve">
+    <value>Sayfa için bir başlık girin. Girdiğiniz metin tarayıcı penceresinin başlığında görüntülenir.</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="DescriptionHelp.Text" xml:space="preserve">
+    <value>Bu sayfa hakkında bir açıklama girin.</value>
+  </data>
+  <data name="ParentTab.Text" xml:space="preserve">
+    <value>Üst Sayfa</value>
+  </data>
+  <data name="ParentTab.Help" xml:space="preserve">
+    <value>Bu sayfanın alt sayfası olacağı sayfayı seçin.</value>
+  </data>
+  <data name="DefaultTemplate.Text" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="Url.Text" xml:space="preserve">
+    <value>Bağlantı URL'si</value>
+  </data>
+  <data name="UrlHelp.Text" xml:space="preserve">
+    <value>Bu sayfanın başka bir kaynağa giden bir gezinme bağlantısı gibi davranmasını sağlamak için isteğe bağlı olarak Bağlantı URL'si değerini belirtin.</value>
+  </data>
+  <data name="Copy.Text" xml:space="preserve">
+    <value>Sayfayı Kopyala</value>
+  </data>
+  <data name="CopyModules.Text" xml:space="preserve">
+    <value>Kopyalanacak Sayfa</value>
+  </data>
+  <data name="CopyModulesHelp.Text" xml:space="preserve">
+    <value>Modüllerini kopyalamak istediğiniz sayfayı (varsa) seçin.</value>
+  </data>
+  <data name="CopyContent.Text" xml:space="preserve">
+    <value>Modülleri Belirtin</value>
+  </data>
+  <data name="CopyContentHelp.Text" xml:space="preserve">
+    <value>Kopyalamak istediğiniz modülleri seçin ve modülün başlığını girin. Ayrıca Yeni bir modül mü (içeriksiz), modülün bir Kopyasını mı (içerikle birlikte) yoksa mevcut bir modüle Başvuru mu (paylaşılan içerik) oluşturmak istediğinizi belirtin.</value>
+  </data>
+  <data name="ModuleNew.Text" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="ModuleCopy.Text" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="ModuleReference.Text" xml:space="preserve">
+    <value>Referans</value>
+  </data>
+  <data name="AdvancedSettings.Text" xml:space="preserve">
+    <value>Gelişmiş Ayarlar</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
+    <value>Bu bölümde bu sayfa için daha gelişmiş ayarları yapabilirsiniz.</value>
+  </data>
+  <data name="Appearance.Text" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="Icon.Text" xml:space="preserve">
+    <value>Simge</value>
+  </data>
+  <data name="IconHelp.Text" xml:space="preserve">
+    <value>Menüde kullanılabilecek bir simge seçebilirsiniz.</value>
+  </data>
+  <data name="plSkin.Text" xml:space="preserve">
+    <value>Sayfa Teması</value>
+  </data>
+  <data name="plSkin.Help" xml:space="preserve">
+    <value>Seçilen tema bu sayfaya uygulanır.</value>
+  </data>
+  <data name="plContainer.Text" xml:space="preserve">
+    <value>Sayfa Konteyneri</value>
+  </data>
+  <data name="plContainer.Help" xml:space="preserve">
+    <value>Seçilen konteyner bu sayfadaki tüm modüllere uygulanır.</value>
+  </data>
+  <data name="Menu.Text" xml:space="preserve">
+    <value>Menüye Dahil Et</value>
+  </data>
+  <data name="MenuHelp.Text" xml:space="preserve">
+    <value>Sayfanın ana gezinme menüsüne dahil edilip edilmeyeceğini seçebilirsiniz. Menüye dahil edilmeyen bir sayfaya yine de sayfa URL'si üzerinden bağlantı verebilirsiniz.</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>Devre Dışı</value>
+  </data>
+  <data name="DisabledHelp.Text" xml:space="preserve">
+    <value>Sayfa devre dışı bırakılırsa hiçbir gezinme menüsünde tıklanamaz.  Bu seçenek, alt menü öğeleri için yer tutucu sağlamak amacıyla kullanılır.</value>
+  </data>
+  <data name="SecuritySettings.Text" xml:space="preserve">
+    <value>Güvenlik Ayarları</value>
+  </data>
+  <data name="Permissions.Text" xml:space="preserve">
+    <value>İzinler</value>
+  </data>
+  <data name="PermissionsHelp.Text" xml:space="preserve">
+    <value>Bu sayfayı görüntüleyebilecek ve yönetebilecek kişi gruplarını seçin.</value>
+  </data>
+  <data name="OtherSettings.Text" xml:space="preserve">
+    <value>Diğer Ayarlar</value>
+  </data>
+  <data name="KeyWords.Text" xml:space="preserve">
+    <value>Anahtar Kelimeler</value>
+  </data>
+  <data name="KeyWordsHelp.Text" xml:space="preserve">
+    <value>Bu sayfa için bazı anahtar kelimeler girin (virgülle ayrılmış).  Bu anahtar kelimeler, Google gibi bazı internet arama motorları tarafından sitenizin sayfalarını dizinlemeye yardımcı olmak için kullanılır.</value>
+  </data>
+  <data name="plSecure.Text" xml:space="preserve">
+    <value>Güvenli mi?</value>
+  </data>
+  <data name="plSecure.Help" xml:space="preserve">
+    <value>Bu sayfanın güvenli bağlantı (SSL) kullanmaya zorlanıp zorlanmayacağını belirtin. Bu seçenek yalnızca yönetici site ayarlarında SSL'i etkinleştirmişse kullanılabilir.</value>
+  </data>
+  <data name="plStartDate.Text" xml:space="preserve">
+    <value>Başlangıç Tarihi:</value>
+  </data>
+  <data name="plStartDate.Help" xml:space="preserve">
+    <value>Bu sayfanın görüntülenmesi için başlangıç tarihini girin. Tarih seçmek için Takvimi kullanabilirsiniz.</value>
+  </data>
+  <data name="plEndDate.Text" xml:space="preserve">
+    <value>Bitiş Tarihi:</value>
+  </data>
+  <data name="plEndDate.Help" xml:space="preserve">
+    <value>Bu sayfanın görüntülenmesi için bitiş tarihini girin. Tarih seçmek için Takvimi kullanabilirsiniz.</value>
+  </data>
+  <data name="SubmitToGoogle.Text" xml:space="preserve">
+    <value>Sayfayı Google'a Gönder</value>
+  </data>
+  <data name="ControlTitle_tab.Text" xml:space="preserve">
+    <value>Sayfa Ayarları</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Sayfayı Düzenle</value>
+  </data>
+  <data name="valTabName.ErrorMessage" xml:space="preserve">
+    <value>Sayfa Adı Zorunludur</value>
+  </data>
+  <data name="DeleteSpecialPage.Text" xml:space="preserve">
+    <value>Web sitesi için Ana Sayfa, Açılış Sayfası, Giriş Sayfası veya Kullanıcı Sayfası olarak tanımlanmış bir sayfa ya da web sitesindeki son görünür sayfa silinemez. Ayrıca Yönetici ve Sunucu sayfaları da silinemez.</value>
+  </data>
+  <data name="valStartDate.ErrorMessage" xml:space="preserve">
+    <value>Geçersiz Başlangıç Tarihi</value>
+  </data>
+  <data name="valEndDate.ErrorMessage" xml:space="preserve">
+    <value>Geçersiz Bitiş Tarihi</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Sayfa Yönetimi&lt;/h1&gt;&lt;p&gt;Bu modül, mevcut bir sayfanın ayarlarını değiştirmenizi, sayfayı silmenizi veya dizinlenmesi için Google'a göndermenizi sağlar.&lt;/p&gt;</value>
+  </data>
+  <data name="PageDetails.Text" xml:space="preserve">
+    <value>Sayfa Ayrıntıları</value>
+  </data>
+  <data name="RefreshInterval.Text" xml:space="preserve">
+    <value>Yenileme Aralığı (saniye)</value>
+  </data>
+  <data name="RefreshInterval.Help" xml:space="preserve">
+    <value>Otomatik sayfa yenilemeleri arasında beklenecek süreyi girin. (Örnek: 1 dakika için "60" girin veya devre dışı bırakmak için boş bırakın.)</value>
+  </data>
+  <data name="PageHeadText.Text" xml:space="preserve">
+    <value>Sayfa Başlık Etiketleri</value>
+  </data>
+  <data name="PageHeadText.Help" xml:space="preserve">
+    <value>Bu sayfanın HTML kodundaki "HEAD" etiketinde işlenmesi gereken etiketleri (ör. META etiketleri) girin.</value>
+  </data>
+  <data name="cmdCopySkin.Text" xml:space="preserve">
+    <value>Tasarımı Kopyala</value>
+  </data>
+  <data name="plCopySkin.Help" xml:space="preserve">
+    <value>Sayfa için seçili olan tasarımı (tema ve konteyner) alt sayfalara kopyalar. Bu seçenek yalnızca Web Sitesi Yöneticileri ve Süper Kullanıcılar tarafından kullanılabilir.</value>
+  </data>
+  <data name="plCopySkin.Text" xml:space="preserve">
+    <value>Tasarımı Alt Sayfalara Kopyala:</value>
+  </data>
+  <data name="cmdCopyPerm.Text" xml:space="preserve">
+    <value>İzinleri Kopyala</value>
+  </data>
+  <data name="plCopyPerm.Help" xml:space="preserve">
+    <value>Sayfa için seçili olan izinleri alt sayfalara kopyalar.</value>
+  </data>
+  <data name="plCopyPerm.Text" xml:space="preserve">
+    <value>İzinleri Alt Sayfalara Kopyala:</value>
+  </data>
+  <data name="ExceededQuota.Text" xml:space="preserve">
+    <value>Bu sayfanın eklenmesi, bu site için tanımlı Sayfa Kotasını aşacaktır.  Sayfa Kotanızın artırılmasıyla ilgili sorularınız için lütfen barındırma sağlayıcınızla iletişime geçin.</value>
+  </data>
+  <data name="plFolder.Help" xml:space="preserve">
+    <value>Kullanılacak şablon klasörünü seçin</value>
+  </data>
+  <data name="plFolder.Text" xml:space="preserve">
+    <value>Şablon Klasörü:</value>
+  </data>
+  <data name="plTemplate.Help" xml:space="preserve">
+    <value>Bu sayfayı oluşturmak için kullanmak istediğiniz sayfa şablonunu seçin.</value>
+  </data>
+  <data name="plTemplate.Text" xml:space="preserve">
+    <value>Sayfa Şablonu:</value>
+  </data>
+  <data name="Root.Text" xml:space="preserve">
+    <value>Kök</value>
+  </data>
+  <data name="DesignCopied.Text" xml:space="preserve">
+    <value>Tasarım başarıyla kopyalandı</value>
+  </data>
+  <data name="DesignCopyError.Text" xml:space="preserve">
+    <value>Tasarım kopyalanırken bir hata oluştu</value>
+  </data>
+  <data name="PermissionCopyError.Text" xml:space="preserve">
+    <value>İzinler kopyalanırken bir hata oluştu</value>
+  </data>
+  <data name="PermissionsCopied.Text" xml:space="preserve">
+    <value>İzinler başarıyla kopyalandı</value>
+  </data>
+  <data name="TabExists.Text" xml:space="preserve">
+    <value>Seçtiğiniz Sayfa Adı, sayfa hiyerarşisinin aynı düzeyindeki başka bir sayfa tarafından zaten kullanılıyor.</value>
+  </data>
+  <data name="InsertPosition.Help" xml:space="preserve">
+    <value>Bu sayfanın önüne veya arkasına ekleneceği sayfayı seçin ya da isteğe bağlı olarak sayfayı geçerli düzeyin sonuna ekleyin.</value>
+  </data>
+  <data name="InsertPosition.Text" xml:space="preserve">
+    <value>Sayfa Ekle:</value>
+  </data>
+  <data name="InvalidTabName.Text" xml:space="preserve">
+    <value>Geçersiz Sayfa Adı</value>
+  </data>
+  <data name="InsertAfter.Text" xml:space="preserve">
+    <value>Sonra</value>
+  </data>
+  <data name="InsertBefore.Text" xml:space="preserve">
+    <value>Önce</value>
+  </data>
+  <data name="valEndDate2.ErrorMessage" xml:space="preserve">
+    <value>Bitiş Tarihi, Başlangıç Tarihinden sonra olmalıdır</value>
+  </data>
+  <data name="InsertAtEnd.Text" xml:space="preserve">
+    <value>Sona Ekle</value>
+  </data>
+  <data name="plPermanentRedirect.Help" xml:space="preserve">
+    <value>İstemciye bu sayfanın kalıcı olarak taşınmış kabul edilmesi gerektiğini bildirmek istiyorsanız bu kutuyu işaretleyin.  Bu, arama motorlarının URL'lerini doğrudan kaynağa bağlanacak şekilde değiştirmesine olanak tanır.  Bağlantı Türü Yok ise bu ayar yok sayılır.</value>
+  </data>
+  <data name="plPermanentRedirect.Text" xml:space="preserve">
+    <value>Kalıcı Olarak Yönlendirilsin mi?</value>
+  </data>
+  <data name="plPriority.Help" xml:space="preserve">
+    <value>İstediğiniz önceliği girin (0 ile 1.0 arasında).  Bu değer, bu sayfanın Google'da sitenizdeki diğer sayfalara göre nasıl sıralanacağının belirlenmesine yardımcı olur (varsayılan değer 0.5'tir).</value>
+  </data>
+  <data name="plPriority.Text" xml:space="preserve">
+    <value>Site Haritası Önceliği:</value>
+  </data>
+  <data name="DeletePermissionError.Text" xml:space="preserve">
+    <value>Bu sayfayı silme izniniz yok.</value>
+  </data>
+  <data name="IconLarge.Text" xml:space="preserve">
+    <value>Büyük Simge</value>
+  </data>
+  <data name="IconLargeHelp.Text" xml:space="preserve">
+    <value>Konsolda kullanılacak büyük bir simge seçebilirsiniz.</value>
+  </data>
+  <data name="TabRecycled.Text" xml:space="preserve">
+    <value>Bu ada sahip bir sayfa Geri Dönüşüm Kutusunda bulunmaktadır. Bu sayfayı geri yüklemek için Geri Dönüşüm Kutusunu kullanın.</value>
+  </data>
+  <data name="InvalidTabDates.Text" xml:space="preserve">
+    <value>Geçersiz Başlangıç ve Bitiş tarihleri girdiniz; sayfa hiçbir zaman görüntülenmeyecek.</value>
+  </data>
+  <data name="CacheProvider.Help" xml:space="preserve">
+    <value>Bu sayfa için kullanılacak sağlayıcıyı seçin.</value>
+  </data>
+  <data name="CacheDuration.Help" xml:space="preserve">
+    <value>Sayfanın önbelleğe alınacağı süreyi (saniye cinsinden) girin. Bu bir tam sayı olmalıdır.</value>
+  </data>
+  <data name="CacheMaxVaryByCount.Help" xml:space="preserve">
+    <value>Bu sayfa için önbelleğe alınacak en fazla varyasyon sayısını girin.  Bu değer bir tam sayı olmalıdır. (Not: Bu özellik olası hizmet reddi saldırılarını önler.)</value>
+  </data>
+  <data name="CacheProvider.Text" xml:space="preserve">
+    <value>Çıktı Önbellek Sağlayıcısı</value>
+  </data>
+  <data name="CacheDuration.Text" xml:space="preserve">
+    <value>Önbellek Süresi (saniye)</value>
+  </data>
+  <data name="CacheMaxVaryByCount.Text" xml:space="preserve">
+    <value>Varyasyon Sınırı</value>
+  </data>
+  <data name="CacheIncludeExclude.Text" xml:space="preserve">
+    <value>Parametreleri Varsayılan Olarak Dahil Et/Hariç Tut</value>
+  </data>
+  <data name="CacheIncludeExclude.Help" xml:space="preserve">
+    <value>INCLUDE olarak ayarlanırsa, sorgu dizesi parametre değerlerinin her farklı varyasyonu çıktı önbelleğinde yeni bir öğe oluşturur.  EXCLUDE olarak ayarlanırsa, sorgu dizesi parametreleri önbelleğe alınan sayfanın varyasyonları için kullanılmaz.</value>
+  </data>
+  <data name="IncludeVaryBy.Text" xml:space="preserve">
+    <value>Önbellek Varyasyonuna Dahil Edilecek Parametreler</value>
+  </data>
+  <data name="IncludeVaryBy.Help" xml:space="preserve">
+    <value>Önbelleğe alınan sayfa varyasyonlarına DAHİL EDİLECEK sorgu dizesi parametre adlarının listesi (virgülle ayrılmış).  Bu ayar yalnızca yukarıdaki varsayılan değer, sorgu dizesi parametrelerini önbellek varyasyonlarından HARİÇ TUTACAK şekilde ayarlandığında geçerlidir.</value>
+  </data>
+  <data name="ExcludeVaryBy.Text" xml:space="preserve">
+    <value>Önbellek Varyasyonundan Hariç Tutulacak Parametreler</value>
+  </data>
+  <data name="ExcludeVaryBy.Help" xml:space="preserve">
+    <value>Önbelleğe alınan sayfa varyasyonlarından HARİÇ TUTULACAK sorgu dizesi parametre adlarının listesi (virgülle ayrılmış).  Bu ayar yalnızca yukarıdaki varsayılan değer, sorgu dizesi parametrelerini önbellek varyasyonlarına DAHİL EDECEK şekilde ayarlandığında geçerlidir.</value>
+  </data>
+  <data name="cmdClearPageCache.Text" xml:space="preserve">
+    <value>Önbelleği Temizle - Bu Sayfa</value>
+  </data>
+  <data name="cmdClearAllPageCache.Text" xml:space="preserve">
+    <value>Önbelleği Temizle - Tüm Sayfalar</value>
+  </data>
+  <data name="lblCachedItemCount.Text" xml:space="preserve">
+    <value>Geçerli Önbellek Sayısı: Bu sayfa için {0} varyasyon</value>
+  </data>
+  <data name="valCacheTime.ErrorMessage" xml:space="preserve">
+    <value>Önbellek Süresi bir sayı olmalıdır</value>
+  </data>
+  <data name="valCacheVaryByLimit.ErrorMessage" xml:space="preserve">
+    <value>Önbellek Varyasyon Sınırı bir sayı olmalıdır</value>
+  </data>
+  <data name="CacheDurationInfo.Text" xml:space="preserve">
+    <value>Not: Çıktı Önbelleğini temizlemek için zamanlanmış bir görev vardır. Bu görev, burada belirttiğiniz Önbellek Süresinden daha sık çalışmalıdır.</value>
+  </data>
+  <data name="BadTemplate.Text" xml:space="preserve">
+    <value>Sayfa şablonu geçerli bir xml belgesi değil. Lütfen farklı bir şablon seçip yeniden deneyin.</value>
+  </data>
+  <data name="plTags.Help" xml:space="preserve">
+    <value>Bu sayfayı etiketlemek için açılır listeden öğeler seçin.</value>
+  </data>
+  <data name="plTags.Text" xml:space="preserve">
+    <value>Etiketler:</value>
+  </data>
+  <data name="LocalizedModules.Text" xml:space="preserve">
+    <value>Modül Yerelleştirme</value>
+  </data>
+  <data name="cultureLabel.Help" xml:space="preserve">
+    <value>Bu sayfanın kültürü</value>
+  </data>
+  <data name="cultureLabel.Text" xml:space="preserve">
+    <value>Sayfa Kültürü:</value>
+  </data>
+  <data name="defaultCultureLabel.Help" xml:space="preserve">
+    <value>Bu sayfanın varsayılan kültürdeki sürümünü görüntülemek için bu bağlantıya tıklayın</value>
+  </data>
+  <data name="defaultCultureLabel.Text" xml:space="preserve">
+    <value>Varsayılan Kültür:</value>
+  </data>
+  <data name="edit.Text" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="Localization.Text" xml:space="preserve">
+    <value>Yerelleştirme</value>
+  </data>
+  <data name="view.Text" xml:space="preserve">
+    <value>Görüntüle</value>
+  </data>
+  <data name="LocalizedTabs.Text" xml:space="preserve">
+    <value>Sayfa Yerelleştirme</value>
+  </data>
+  <data name="IsTranslated.Text" xml:space="preserve">
+    <value>Çevrildi mi?</value>
+  </data>
+  <data name="TranslateConfirm.Text" xml:space="preserve">
+    <value>Bu sayfayı çevrildi olarak işaretlemek üzeresiniz.  İşlem hemen uygulanır.  Emin misiniz?</value>
+  </data>
+  <data name="UnTranslateConfirm.Text" xml:space="preserve">
+    <value>Bu sayfayı çevrilmedi olarak işaretlemek üzeresiniz.  İşlem hemen uygulanır.  Emin misiniz?</value>
+  </data>
+  <data name="CreateLocalizedPages.Text" xml:space="preserve">
+    <value>Yerelleştirilmiş Sayfalar Oluştur</value>
+  </data>
+  <data name="cultureTypeLabel.Help" xml:space="preserve">
+    <value>Bunun tüm dillerde aynı olan kültürden bağımsız bir sayfa mı olduğunu, yoksa her dil için yerelleştirilmiş sürümlere mi sahip olması gerektiğini seçin.</value>
+  </data>
+  <data name="cultureTypeLabel.Text" xml:space="preserve">
+    <value>Kültür Türü:</value>
+  </data>
+  <data name="Localized.Text" xml:space="preserve">
+    <value>Sayfanın Yerelleştirilmiş Sürümlerini Oluştur</value>
+  </data>
+  <data name="Neutral.Text" xml:space="preserve">
+    <value>Tek Bir Nötr Kültür Sayfası Oluştur</value>
+  </data>
+  <data name="avalableCulturesLabel.Text" xml:space="preserve">
+    <value>Kullanılabilir Diller</value>
+  </data>
+  <data name="DefaultCulture.Text" xml:space="preserve">
+    <value>Bu, varsayılan site dilidir</value>
+  </data>
+  <data name="IsTranslated.Help" xml:space="preserve">
+    <value>Bu sayfanın çevrilip çevrilmediğini belirtmek için bu kutuyu işaretleyin veya işareti kaldırın</value>
+  </data>
+  <data name="PopulatePages.Text" xml:space="preserve">
+    <value>Sayfaları Doldur</value>
+  </data>
+  <data name="Localize.Confirm" xml:space="preserve">
+    <value>Bu sitedeki tüm sayfaların "{0}" kültürü için yerelleştirilmiş kopyalarını oluşturmak üzeresiniz.  Bu sayfalar, modüller yerelleştirilene kadar varsayılan kültürdeki ("{1}") aynı sayfayla içerik paylaşır.</value>
+  </data>
+  <data name="Culture.Text" xml:space="preserve">
+    <value>Yalnızca Geçerli Kültürde Oluştur.</value>
+  </data>
+  <data name="PublishPage.Text" xml:space="preserve">
+    <value>Sayfayı yayımlamak için bu düğmeye tıklayın.  Bu işlem, görüntüleme izinlerini sayfanın varsayılan kültür sürümünden kopyalar ve böylece sayfayı site ziyaretçileri için görünür hale getirir.</value>
+  </data>
+  <data name="Publish.Text" xml:space="preserve">
+    <value>Yayınla</value>
+  </data>
+  <data name="Publish.Confirm" xml:space="preserve">
+    <value>Bu sayfayı yayımlamak üzeresiniz.  Bu işlem tüm modülleri çevrildi olarak işaretler ve tüm Görüntüleme izinlerini ana/varsayılan dilden otomatik olarak kopyalar.  Bunu yapmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="ReadyForTranslation.Text" xml:space="preserve">
+    <value>Çevirmenleri Bilgilendir</value>
+  </data>
+  <data name="NewContentMessage.Body" xml:space="preserve">
+    <value>Aşağıdaki sayfada çeviriye hazır yeni içerik var&lt;br/&gt;
+
+Sayfa: &lt;a href='{1}'&gt;{0}&lt;/a&gt;&lt;br/&gt;{2}</value>
+  </data>
+  <data name="NewContentMessage.Subject" xml:space="preserve">
+    <value>Çeviriye Hazır Yeni İçerik</value>
+  </data>
+  <data name="publishPageLabel.Help" xml:space="preserve">
+    <value>Sayfayı yayımlamak için sağdaki düğmeye tıklayın.  Bu işlem, görüntüleme izinlerini sayfanın varsayılan kültür sürümünden kopyalar ve böylece sayfayı site ziyaretçileri için görünür hale getirir.</value>
+  </data>
+  <data name="publishPageLabel.Text" xml:space="preserve">
+    <value>Sayfayı Yayımla</value>
+  </data>
+  <data name="CacheSettings.Text" xml:space="preserve">
+    <value>Önbellek Ayarları</value>
+  </data>
+  <data name="RequiredFields.Text" xml:space="preserve">
+    <value>Gerekli alanları gösterir</value>
+  </data>
+  <data name="SkinPreview.Text" xml:space="preserve">
+    <value>Tema ve Konteyneri Önizle</value>
+  </data>
+  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
+    <value>Lütfen önizlemek için bir tema ve/veya konteyner seçin.</value>
+  </data>
+  <data name="Add.Text" xml:space="preserve">
+    <value>Sayfa Ekle</value>
+  </data>
+  <data name="Update.Text" xml:space="preserve">
+    <value>Sayfayı Güncelle</value>
+  </data>
+  <data name="CopyPage.Text" xml:space="preserve">
+    <value>Sayfayı Kopyala</value>
+  </data>
+  <data name="TranslationComment.Text" xml:space="preserve">
+    <value>Çevirmenlere Bildirim Gönder</value>
+  </data>
+  <data name="cmdSubmit.Text" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="PathDuplicateWithAlias.Text" xml:space="preserve">
+    <value>Sayfa yolunuzla aynı olan bir site alan adı var.</value>
+  </data>
+  <data name="CopyDesignToChildren.Confirm" xml:space="preserve">
+    <value>Bu sayfanın tüm alt sayfaları için tema ve konteyner değiştirilecek. Devam etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="RefreshInterval.Invalid" xml:space="preserve">
+    <value>Geçersiz sayı</value>
+  </data>
+  <data name="valPriority.ErrorMessage" xml:space="preserve">
+    <value>Öncelik için geçersiz değer</value>
+  </data>
+  <data name="valPriorityRequired.ErrorMessage" xml:space="preserve">
+    <value>Öncelik Zorunludur</value>
+  </data>
+  <data name="plAllowIndex.Help" xml:space="preserve">
+    <value>Bu ayar, bir sayfanın arama motoru tarayıcıları tarafından dizine eklenip eklenmeyeceğini denetler. ROBOTS meta etiketinin INDEX/NOINDEX değerlerini kullanır.</value>
+  </data>
+  <data name="plAllowIndex.Text" xml:space="preserve">
+    <value>Dizine Eklemeye İzin Ver:</value>
+  </data>
+  <data name="UrlManagement.Text" xml:space="preserve">
+    <value>URL Yönetimi</value>
+  </data>
+  <data name="cmdUpdateLocalization.Text" xml:space="preserve">
+    <value>Yerelleştirmeyi Güncelle</value>
+  </data>
+  <data name="MakeNeutral.Confirm" xml:space="preserve">
+    <value>Bu işlem, sayfanın tüm çevrilmiş sürümlerini silecek. Sayfanın yalnızca varsayılan kültür sürümü kalacak. Bunu yapmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="MakeNeutral.Text" xml:space="preserve">
+    <value>Sayfayı Nötr Dile Dönüştür</value>
+  </data>
+  <data name="MakeTranslatable.Text" xml:space="preserve">
+    <value>Sayfayı Çevrilebilir Yap</value>
+  </data>
+  <data name="AddMissingLanguages.Text" xml:space="preserve">
+    <value>Eksik Dilleri Ekle</value>
+  </data>
+  <data name="plCustomStylesheet.Help" xml:space="preserve">
+    <value>Yalnızca bu sayfa için yüklenecek bir stil sayfası. Dosya, geçerli web sitesinin ana dizininde veya bir alt klasöründe bulunmalıdır.</value>
+  </data>
+  <data name="plCustomStylesheet.Text" xml:space="preserve">
+    <value>Sayfa Stil Sayfası</value>
+  </data>
+  <data name="urlLabel.Help" xml:space="preserve">
+    <value>Sayfa için özel bir URL girebilirsiniz.</value>
+  </data>
+  <data name="urlLabel.Text" xml:space="preserve">
+    <value>Sayfa URL'si:</value>
+  </data>
+  <data name="doNotRedirectLabel.Help" xml:space="preserve">
+    <value>Bu sayfanın yeniden yönlendirmeyle sonuçlanabilecek tüm kurallardan hariç tutulmasını sağlamak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="doNotRedirectLabel.Text" xml:space="preserve">
+    <value>Yönlendirme Yapma:</value>
+  </data>
+  <data name="UrlPathCleaned.Error" xml:space="preserve">
+    <value>Gönderilen Sayfa URL'si geçersiz karakterler içeriyordu; bu karakterler kaldırıldı.  Değiştirilen URL'yi kabul etmek için Güncelle'ye yeniden tıklayabilirsiniz.</value>
+  </data>
+  <data name="UrlPathNotUnique.Error" xml:space="preserve">
+    <value>Gönderilen Sayfa URL'si kullanılamıyor.  Önerilen alternatifi kabul etmek istiyorsanız lütfen Güncelle'ye tıklayın.</value>
+  </data>
+  <data name="UpdateUrlButton.Caption" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="UpdateUrlButton.Tooltip" xml:space="preserve">
+    <value>URL'yi Güncelle</value>
+  </data>
+  <data name="TranslationMessageConfirmMessage.Error" xml:space="preserve">
+    <value>Çevirmenler bilgilendirilirken bir sorun oluştu.</value>
+  </data>
+  <data name="TranslationMessageConfirmMessage.Text" xml:space="preserve">
+    <value>Çevirmenler başarıyla bilgilendirildi.</value>
+  </data>
+</root>

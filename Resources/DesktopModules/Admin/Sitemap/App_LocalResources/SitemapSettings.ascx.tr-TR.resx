@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblLevelPriority.Help" xml:space="preserve">
+    <value>İşaretlendiğinde, her sayfanın önceliği sayfanın hiyerarşi düzeyine göre hesaplanır. Üst düzey sayfalar 1, ikinci düzey 0.9, üçüncü düzey 0.8 ... değerini alır.  Bu ayar, sayfada kayıtlı değeri değiştirmez ancak gerektiğinde hesaplanan değeri kullanır.</value>
+  </data>
+  <data name="lblLevelPriority.Text" xml:space="preserve">
+    <value>Sayfa Düzeyine Dayalı Öncelikler Kullanılsın mı?</value>
+  </data>
+  <data name="MessageUpdated.Text" xml:space="preserve">
+    <value>Yapılandırmanız kaydedildi</value>
+  </data>
+  <data name="PageTitle.Header" xml:space="preserve">
+    <value>Sayfa Başlığı</value>
+  </data>
+  <data name="Priority.Header" xml:space="preserve">
+    <value>Öncelik</value>
+  </data>
+  <data name="lblMinPagePriority.Help" xml:space="preserve">
+    <value>"Sayfa düzeyine dayalı öncelikler" kullanıldığında, alt düzey sayfalarda kullanılacak en düşük önceliği belirlemek için sayfalar için asgari öncelik kullanılabilir</value>
+  </data>
+  <data name="lblMinPagePriority.Text" xml:space="preserve">
+    <value>Sayfalar İçin Asgari Öncelik:</value>
+  </data>
+  <data name="SectionCoreSettings.Text" xml:space="preserve">
+    <value>Temel Sayfa URL Ayarları</value>
+  </data>
+  <data name="cmdSaveAll.Text" xml:space="preserve">
+    <value>Site Haritası Yapılandırmasını Kaydet</value>
+  </data>
+  <data name="lblExcludePriority.Help" xml:space="preserve">
+    <value>Bu seçenek, bazı sayfaları site haritasından çıkarmak için kullanılabilir. Örneğin bir sayfa için -1 önceliği belirleyip burada -1 girerek o sayfanın oluşturulan site haritasına dahil edilmemesini sağlayabilirsiniz.</value>
+  </data>
+  <data name="lblExcludePriority.Text" xml:space="preserve">
+    <value>Önceliği Şundan Düşük Olan URL'leri Hariç Tut:</value>
+  </data>
+  <data name="lblIncludeHidden.Help" xml:space="preserve">
+    <value>İşaretlendiğinde gizli sayfalar (menüde görünmeyenler) da Site Haritasına dahil edilir. Varsayılan olarak gizli sayfalar dahil edilmez.</value>
+  </data>
+  <data name="lblIncludeHidden.Text" xml:space="preserve">
+    <value>Gizli Sayfalar Dahil Edilsin mi?</value>
+  </data>
+  <data name="SectionGeneralSettings.Text" xml:space="preserve">
+    <value>Genel Site Haritası Ayarları</value>
+  </data>
+  <data name="valPriority.Text" xml:space="preserve">
+    <value>0.0 ile 1.0 arasında geçerli bir sayı girmelisiniz.</value>
+  </data>
+  <data name="Description.Header" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="Keywords.Header" xml:space="preserve">
+    <value>Sayfa Anahtar Kelimeleri</value>
+  </data>
+  <data name="Level.Header" xml:space="preserve">
+    <value>Düzey</value>
+  </data>
+  <data name="cmdRefresh.Text" xml:space="preserve">
+    <value>Sayfa Önceliklerini Yenile</value>
+  </data>
+  <data name="SectionProviderSettings.Help" xml:space="preserve">
+    <value>Bu bölümde geçerli web sitesi için kullanılabilen site haritası sağlayıcılarını görüntüleyebilir ve yapılandırabilirsiniz. Bir sağlayıcı için oluşturulan URL'lerin son site haritası dosyasına dahil edilmesini istiyorsanız "Etkin" onay kutusunu işaretleyin. Ayrıca ilgili onay kutusunu işaretleyip yeni öncelik için bir değer vererek herhangi bir sağlayıcının tüm URL'lerinin önceliğini geçersiz kılabilirsiniz</value>
+  </data>
+  <data name="SectionProviderSettings.Text" xml:space="preserve">
+    <value>Yüklü Site Haritası Sağlayıcıları</value>
+  </data>
+  <data name="ProviderDescription.Header" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="ProviderEnabled.Header" xml:space="preserve">
+    <value>Etkin mi?</value>
+  </data>
+  <data name="ProviderName.Header" xml:space="preserve">
+    <value>Sağlayıcı Adı</value>
+  </data>
+  <data name="ProviderOverride.Header" xml:space="preserve">
+    <value>Öncelikler Geçersiz Kılınsın mı?</value>
+  </data>
+  <data name="lblCache.Help" xml:space="preserve">
+    <value>Site Haritasının her istendiğinde yeniden oluşturulmaması için önbelleğe alınmasını istiyorsanız bu seçeneği etkinleştirin. Bu, özellikle büyük siteler için gereklidir. Sitenizde 50.000'den fazla URL varsa Site Haritası varsayılan olarak 1 gün süreyle önbelleğe alınır. Önbelleğe almayı devre dışı bırakmak için bu değeri 0 olarak ayarlayın.</value>
+  </data>
+  <data name="lblCache.Text" xml:space="preserve">
+    <value>Site Haritasının Önbellekte Tutulacağı Gün Sayısı</value>
+  </data>
+  <data name="lnkResetCache.Text" xml:space="preserve">
+    <value>Önbelleği Temizle</value>
+  </data>
+  <data name="ResetOK.Text" xml:space="preserve">
+    <value>Site haritası önbelleği başarıyla temizlendi.</value>
+  </data>
+  <data name="cmdVerification.Text" xml:space="preserve">
+    <value>Oluştur</value>
+  </data>
+  <data name="lblSearchEngine.Help" xml:space="preserve">
+    <value>Dizine eklenmesi için sitenizi seçilen arama motoruna gönderin.</value>
+  </data>
+  <data name="lblSearchEngine.Text" xml:space="preserve">
+    <value>Arama Motoru:</value>
+  </data>
+  <data name="lblSiteMap.Help" xml:space="preserve">
+    <value>Daha iyi arama optimizasyonu için site haritanızı Google'a gönderin. Bir Google Webmaster Tools hesabı almak ve site sahipliğinizi doğrulamak (aşağıdaki Doğrulama seçeneğini kullanarak) için Gönder'e tıklayın. Doğrulandıktan sonra Google Sitemaps bölümünde Add General Web Sitemap seçeneğini seçebilir ve görüntülenen Site Haritası URL'sini yapıştırabilirsiniz.</value>
+  </data>
+  <data name="lblSiteMap.Text" xml:space="preserve">
+    <value>Site Haritası URL'si:</value>
+  </data>
+  <data name="lblVerification.Help" xml:space="preserve">
+    <value>Google Webmaster Tools'a kaydolurken site sahipliğinizi doğrulamanız gerekir. Google Doğrulama ekranından "Upload an HTML File" yöntemini seçin. Görüntülenen dosya adını (ör. google53c0cef435b2b81e.html) Doğrulama metin kutusuna girin ve Oluştur'a tıklayın. Google'a dönün ve Verify düğmesini seçin.</value>
+  </data>
+  <data name="lblVerification.Text" xml:space="preserve">
+    <value>Doğrulama:</value>
+  </data>
+  <data name="lnkTestSitemap.Text" xml:space="preserve">
+    <value>Geçerli Site Haritasını Görüntüle</value>
+  </data>
+  <data name="SectionSubmissionSettings.Text" xml:space="preserve">
+    <value>Site Gönderimi</value>
+  </data>
+  <data name="NoCacheToReset.Text" xml:space="preserve">
+    <value>Sıfırlanacak önbellek verisi yok.</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="cmdSubmitToSearch.Text" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="SectionCoreSettingsLbl.Text" xml:space="preserve">
+    <value>Genel DNN sayfalarına uygulanan temel ayarları değiştirin.</value>
+  </data>
+  <data name="SectionGeneralSettingsLbl.Text" xml:space="preserve">
+    <value>Site haritasına dahil edilen tüm URL'lere uygulanan ayarları yapılandırın.</value>
+  </data>
+  <data name="SectionSubmissionSettingsLbl.Text" xml:space="preserve">
+    <value>Bu bölümde sitenizi farklı arama motorlarına gönderebilirsiniz.</value>
+  </data>
+  <data name="cmdSubmitToSearch.ToolTip" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="Edit.Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Edit.Edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="Edit.Update" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="Enabled.Header" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="OverridePriority.Header" xml:space="preserve">
+    <value>Önceliği Geçersiz Kıl</value>
+  </data>
+  <data name="1Day.Text" xml:space="preserve">
+    <value>1 Gün</value>
+  </data>
+  <data name="2Days.Text" xml:space="preserve">
+    <value>2 Gün</value>
+  </data>
+  <data name="3Days.Text" xml:space="preserve">
+    <value>3 Gün</value>
+  </data>
+  <data name="4Days.Text" xml:space="preserve">
+    <value>4 Gün</value>
+  </data>
+  <data name="5Days.Text" xml:space="preserve">
+    <value>5 Gün</value>
+  </data>
+  <data name="6Days.Text" xml:space="preserve">
+    <value>6 Gün</value>
+  </data>
+  <data name="7Days.Text" xml:space="preserve">
+    <value>7 Gün</value>
+  </data>
+  <data name="DisableCaching.Text" xml:space="preserve">
+    <value>Önbelleğe Almayı Devre Dışı Bırak</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Arama Motoru Site Haritası</value>
+  </data>
+</root>

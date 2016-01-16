@@ -1,0 +1,1262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Configuration.Text" xml:space="preserve">
+    <value>Yapılandırma</value>
+  </data>
+  <data name="plServerTime.Text" xml:space="preserve">
+    <value>Sunucu Saati:</value>
+  </data>
+  <data name="plServerTime.Help" xml:space="preserve">
+    <value>Web sunucusunun geçerli tarihi ve saati.</value>
+  </data>
+  <data name="plebFarm.Text" xml:space="preserve">
+    <value>Web Grubu Etkin:</value>
+  </data>
+  <data name="plWebFarm.Help" xml:space="preserve">
+    <value>Bu DNN uygulamasının bir web grubunda (web farm) çalışıp çalışmadığını belirtir.</value>
+  </data>
+  <data name="plVersion.Text" xml:space="preserve">
+    <value>Sürüm:</value>
+  </data>
+  <data name="plVersion.Help" xml:space="preserve">
+    <value>Bu uygulamanın sürümü.</value>
+  </data>
+  <data name="plDataProvider.Text" xml:space="preserve">
+    <value>Veri Sağlayıcısı:</value>
+  </data>
+  <data name="plDataProvider.Help" xml:space="preserve">
+    <value>Bu uygulama için varsayılan veri sağlayıcısı.</value>
+  </data>
+  <data name="plFramework.Text" xml:space="preserve">
+    <value>.NET Framework:</value>
+  </data>
+  <data name="plFramework.Help" xml:space="preserve">
+    <value>Uygulamanın üzerinde çalıştığı, IIS aracılığıyla belirtilen .NET Framework sürümü.</value>
+  </data>
+  <data name="plIdentity.Text" xml:space="preserve">
+    <value>ASP.NET Kimliği:</value>
+  </data>
+  <data name="plIdentity.Help" xml:space="preserve">
+    <value>Uygulamanın altında çalıştığı Windows kullanıcı hesabı. Bu hesaba sunucuda klasör izinleri verilmesi gerekir.</value>
+  </data>
+  <data name="plHostName.Text" xml:space="preserve">
+    <value>Sunucu Adı:</value>
+  </data>
+  <data name="plHostName.Help" xml:space="preserve">
+    <value>Sunucunun adı.</value>
+  </data>
+  <data name="plIPAddress.Text" xml:space="preserve">
+    <value>IP Adresi:</value>
+  </data>
+  <data name="plIPAddress.Help" xml:space="preserve">
+    <value>Sunucunun IP adresi.</value>
+  </data>
+  <data name="plPermissions.Text" xml:space="preserve">
+    <value>İzinler:</value>
+  </data>
+  <data name="plPermissions.Help" xml:space="preserve">
+    <value>Barındırma ortamında kullanılabilen kod erişim izinleri.</value>
+  </data>
+  <data name="plApplicationPath.Text" xml:space="preserve">
+    <value>Göreli Yol:</value>
+  </data>
+  <data name="plApplicationPath.Help" xml:space="preserve">
+    <value>Uygulamanın, sitenin köküne göre konumu.</value>
+  </data>
+  <data name="plApplicationMapPath.Text" xml:space="preserve">
+    <value>Fiziksel Yol:</value>
+  </data>
+  <data name="plApplicationMapPath.Help" xml:space="preserve">
+    <value>Site kök dizininin sunucudaki fiziksel konumu.</value>
+  </data>
+  <data name="plGUID.Text" xml:space="preserve">
+    <value>GUID:</value>
+  </data>
+  <data name="plGUID.Help" xml:space="preserve">
+    <value>Bu uygulamayı tanımlamak için kullanılabilecek genel benzersiz tanımlayıcı.</value>
+  </data>
+  <data name="plHostPortal.Text" xml:space="preserve">
+    <value>Sunucu Sitesi:</value>
+  </data>
+  <data name="plHostTitle.Text" xml:space="preserve">
+    <value>Sunucu Başlığı:</value>
+  </data>
+  <data name="plHostURL.Text" xml:space="preserve">
+    <value>Sunucu URL'si:</value>
+  </data>
+  <data name="plHostEmail.Text" xml:space="preserve">
+    <value>Sunucu E-postası:</value>
+  </data>
+  <data name="plHostSkin.Text" xml:space="preserve">
+    <value>Sunucu Teması:</value>
+  </data>
+  <data name="plHostContainer.Text" xml:space="preserve">
+    <value>Sunucu Konteyneri:</value>
+  </data>
+  <data name="plProcessor.Text" xml:space="preserve">
+    <value>Ödeme İşlemcisi:</value>
+  </data>
+  <data name="plUserId.Text" xml:space="preserve">
+    <value>İşlemci Kullanıcı Kimliği:</value>
+  </data>
+  <data name="plPassword.Text" xml:space="preserve">
+    <value>İşlemci Şifresi:</value>
+  </data>
+  <data name="plHostFee.Text" xml:space="preserve">
+    <value>Barındırma Ücreti:</value>
+  </data>
+  <data name="plHostCurrency.Text" xml:space="preserve">
+    <value>Barındırma Para Birimi:</value>
+  </data>
+  <data name="plHostSpace.Text" xml:space="preserve">
+    <value>Barındırma Alanı (MB):</value>
+  </data>
+  <data name="plDemoPeriod.Text" xml:space="preserve">
+    <value>Deneme Süresi:</value>
+  </data>
+  <data name="plDemoSignup.Text" xml:space="preserve">
+    <value>Anonim Deneme Kaydı:</value>
+  </data>
+  <data name="plUsersOnline.Text" xml:space="preserve">
+    <value>Çevrimiçi Kullanıcıları Etkinleştir:</value>
+  </data>
+  <data name="plUsersOnlineTime.Text" xml:space="preserve">
+    <value>Çevrimiçi Kullanıcı Süresi:</value>
+  </data>
+  <data name="plProxyServer.Text" xml:space="preserve">
+    <value>Proxy Sunucusu:</value>
+  </data>
+  <data name="plProxyPort.Text" xml:space="preserve">
+    <value>Proxy Bağlantı Noktası:</value>
+  </data>
+  <data name="plProxyUsername.Text" xml:space="preserve">
+    <value>Proxy Kullanıcı Adı:</value>
+  </data>
+  <data name="plProxyPassword.Text" xml:space="preserve">
+    <value>Proxy Şifresi:</value>
+  </data>
+  <data name="plWebRequestTimeout.Text" xml:space="preserve">
+    <value>Web İsteği Zaman Aşımı:</value>
+  </data>
+  <data name="plSMTPServer.Text" xml:space="preserve">
+    <value>SMTP Sunucusu ve Bağlantı Noktası:</value>
+  </data>
+  <data name="EmailTest.Text" xml:space="preserve">
+    <value>SMTP Ayarlarını Test Et</value>
+  </data>
+  <data name="plSMTPAuthentication.Text" xml:space="preserve">
+    <value>SMTP Kimlik Doğrulaması:</value>
+  </data>
+  <data name="plSMTPUsername.Text" xml:space="preserve">
+    <value>SMTP Kullanıcı Adı:</value>
+  </data>
+  <data name="plSMTPPassword.Text" xml:space="preserve">
+    <value>SMTP Şifresi:</value>
+  </data>
+  <data name="plSMTPEnableSSL.Text" xml:space="preserve">
+    <value>SMTP SSL'yi Etkinleştir:</value>
+  </data>
+  <data name="plSMTPEnableSSL.Help" xml:space="preserve">
+    <value>Güvenli bağlantı gerektiren SMTP hizmetleri için kullanılır. Bu ayar genellikle gerekli değildir.</value>
+  </data>
+  <data name="plFileExtensions.Text" xml:space="preserve">
+    <value>İzin Verilen Dosya Uzantıları:</value>
+  </data>
+  <data name="plSkinUpload.Text" xml:space="preserve">
+    <value>Tema Yükleme İzni:</value>
+  </data>
+  <data name="plCache.Text" xml:space="preserve">
+    <value>Önbellek Zaman Aşımı (Saniye):</value>
+  </data>
+  <data name="ClearCache.Text" xml:space="preserve">
+    <value>Önbelleği Temizle</value>
+  </data>
+  <data name="plCopyright.Text" xml:space="preserve">
+    <value>Telif Hakkı Bilgilerini Göster:</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Text" xml:space="preserve">
+    <value>Özel Hata Mesajları Kullan:</value>
+  </data>
+  <data name="UpgradeLog.Text" xml:space="preserve">
+    <value>Sürüm İçin Yükseltme Günlüğü</value>
+  </data>
+  <data name="EmailSentMessage.Text" xml:space="preserve">
+    <value>E-posta {0} adresinden {0} adresine başarıyla gönderildi</value>
+  </data>
+  <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
+    <value>Sunucu e-posta adresini belirtmelisiniz.</value>
+  </data>
+  <data name="15Seconds.Text" xml:space="preserve">
+    <value>15 Saniye</value>
+  </data>
+  <data name="30Seconds.Text" xml:space="preserve">
+    <value>30 Saniye</value>
+  </data>
+  <data name="45Seconds.Text" xml:space="preserve">
+    <value>45 Saniye</value>
+  </data>
+  <data name="60Seconds.Text" xml:space="preserve">
+    <value>60 Saniye</value>
+  </data>
+  <data name="plPerformance.Text" xml:space="preserve">
+    <value>Önbellek Ayarı:</value>
+  </data>
+  <data name="HeavyCaching.Text" xml:space="preserve">
+    <value>Yoğun</value>
+  </data>
+  <data name="ModerateCaching.Text" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="LightCaching.Text" xml:space="preserve">
+    <value>Hafif</value>
+  </data>
+  <data name="NoCaching.Text" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="BasicSettingsHelp.Text" xml:space="preserve">
+    <value>Barındırma hesabı için temel ayarları girin.</value>
+  </data>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>Temel Ayarlar</value>
+  </data>
+  <data name="HostDetails.Text" xml:space="preserve">
+    <value>Sunucu Ayrıntıları</value>
+  </data>
+  <data name="plHostTitle.Help" xml:space="preserve">
+    <value>Sunucu sitesinin başlığını girin.</value>
+  </data>
+  <data name="plHostURL.Help" xml:space="preserve">
+    <value>Barındırma hesabının URL'sini girin.</value>
+  </data>
+  <data name="plHostEmail.Help" xml:space="preserve">
+    <value>Barındırma hesabı için bir destek e-posta adresi girin.</value>
+  </data>
+  <data name="plHostSkin.Help" xml:space="preserve">
+    <value>Tüm siteler için kullanılacak varsayılan temayı seçin.</value>
+  </data>
+  <data name="plHostContainer.Help" xml:space="preserve">
+    <value>Tüm siteler için kullanılacak varsayılan konteyneri seçin.</value>
+  </data>
+  <data name="Appearance.Text" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="Payment.Text" xml:space="preserve">
+    <value>Ödeme Ayarları</value>
+  </data>
+  <data name="Proxy.Text" xml:space="preserve">
+    <value>Proxy Ayarları</value>
+  </data>
+  <data name="SMTP.Text" xml:space="preserve">
+    <value>SMTP Sunucusu Ayarları</value>
+  </data>
+  <data name="OtherSettings.Text" xml:space="preserve">
+    <value>Diğer Ayarlar</value>
+  </data>
+  <data name="AdvancedSettings.Text" xml:space="preserve">
+    <value>Gelişmiş Ayarlar</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
+    <value>Barındırma hesabı için gelişmiş ayarlar.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Diğer Ayarlar</value>
+  </data>
+  <data name="plCopyright.Help" xml:space="preserve">
+    <value>DNN telif hakkı bilgilerini sayfa kaynağına eklemek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Help" xml:space="preserve">
+    <value>Özel hata mesajları kullanmak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plProcessor.Help" xml:space="preserve">
+    <value>Alt sitelerden ödeme kabul etmek için bir ödeme işlemcisi seçin.</value>
+  </data>
+  <data name="plUserId.Help" xml:space="preserve">
+    <value>Ödeme işlemcisi için kullanıcı kimliğini (UserId) girin.</value>
+  </data>
+  <data name="plPassword.Help" xml:space="preserve">
+    <value>Ödeme işlemcisinin şifresini girin.</value>
+  </data>
+  <data name="plHostFee.Help" xml:space="preserve">
+    <value>Site barındırma için temel ücreti girin.</value>
+  </data>
+  <data name="plHostCurrency.Help" xml:space="preserve">
+    <value>Barındırma ücretleri için para birimini seçin.</value>
+  </data>
+  <data name="plDemoPeriod.Help" xml:space="preserve">
+    <value>Deneme hesabı için gün sayısını girin.</value>
+  </data>
+  <data name="plDemoSignup.Help" xml:space="preserve">
+    <value>Kullanıcıların bir deneme sitesine kaydolmasına izin vermek için kutuyu işaretleyin.</value>
+  </data>
+  <data name="plHostSpace.Help" xml:space="preserve">
+    <value>Bir hesap için izin verilen dosya alanı miktarını girin.</value>
+  </data>
+  <data name="plSMTPServer.Help" xml:space="preserve">
+    <value>Varsayılan bağlantı noktası numarasını (25) kullanmak için SMTP sunucu adını girin. İsteğe bağlı olarak, SMTP sunucu adresine iki nokta üst üste ve bağlantı noktası numarasını ekleyerek farklı bir bağlantı noktası belirtebilirsiniz. Örn. smtp.googlemail.com:587.</value>
+  </data>
+  <data name="plSMTPAuthentication.Help" xml:space="preserve">
+    <value>SMTP sunucusu kimlik doğrulama yöntemini girin. Varsayılan değer Anonim'dir.</value>
+  </data>
+  <data name="SMTPAnonymous.Text" xml:space="preserve">
+    <value>Anonim</value>
+  </data>
+  <data name="SMTPBasic.Text" xml:space="preserve">
+    <value>Temel</value>
+  </data>
+  <data name="SMTPNTLM.Text" xml:space="preserve">
+    <value>NTLM</value>
+  </data>
+  <data name="plSMTPUsername.Help" xml:space="preserve">
+    <value>SMTP sunucusunun kullanıcı adını girin.</value>
+  </data>
+  <data name="plSMTPPassword.Help" xml:space="preserve">
+    <value>SMTP sunucusunun şifresini girin.</value>
+  </data>
+  <data name="plControlPanel.Text" xml:space="preserve">
+    <value>Kontrol Paneli:</value>
+  </data>
+  <data name="plControlPanel.Help" xml:space="preserve">
+    <value>Tüm siteler için Kontrol Panelini seçin.</value>
+  </data>
+  <data name="plFileExtensions.Help" xml:space="preserve">
+    <value>Siteye yüklenebilecek dosya uzantılarını (virgülle ayırarak) girin.</value>
+  </data>
+  <data name="plSkinUpload.Help" xml:space="preserve">
+    <value>Temaların Yöneticiler tarafından yüklenip yüklenemeyeceğini veya yüklemenin Süper Kullanıcı hesabıyla sınırlı olup olmadığını seçin.</value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>Sunucu</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="plCache.Help" xml:space="preserve">
+    <value>Nesnelerin önbellekte kalacağı süreyi ayarlayın.</value>
+  </data>
+  <data name="plPerformance.Help" xml:space="preserve">
+    <value>Performansın nasıl optimize edileceğini seçin.</value>
+  </data>
+  <data name="plProxyServer.Help" xml:space="preserve">
+    <value>Proxy sunucusunun adresini girin.</value>
+  </data>
+  <data name="plProxyPort.Help" xml:space="preserve">
+    <value>Proxy sunucusunun bağlantı noktasını girin.</value>
+  </data>
+  <data name="plProxyUsername.Help" xml:space="preserve">
+    <value>Proxy sunucusunun kullanıcı adını girin.</value>
+  </data>
+  <data name="plProxyPassword.Help" xml:space="preserve">
+    <value>Proxy sunucusunun şifresini girin.</value>
+  </data>
+  <data name="plWebRequestTimeout.Help" xml:space="preserve">
+    <value>Web isteği için bir zaman aşımı değeri girin.</value>
+  </data>
+  <data name="plUsersOnline.Help" xml:space="preserve">
+    <value>Çevrimiçi Kullanıcılar özelliğini etkinleştirmek için kutuyu işaretleyin.</value>
+  </data>
+  <data name="plUsersOnlineTime.Help" xml:space="preserve">
+    <value>Etkin olmayan bir kullanıcının kaç dakika boyunca izleneceğini girin. Bu süreden sonra kullanıcı çevrimdışı kabul edilir ve artık izlenmez.</value>
+  </data>
+  <data name="FriendlyUrl.Text" xml:space="preserve">
+    <value>Kullanıcı Dostu URL Ayarları</value>
+  </data>
+  <data name="RequestFilter.Text" xml:space="preserve">
+    <value>İstek Filtresi Ayarları</value>
+  </data>
+  <data name="plEnableRequestFilters.Text" xml:space="preserve">
+    <value>İstek Filtrelerini Etkinleştir:</value>
+  </data>
+  <data name="plEnableRequestFilters.Help" xml:space="preserve">
+    <value>İstek filtrelerini etkinleştirmek için kutuyu işaretleyin.</value>
+  </data>
+  <data name="plHostPortal.Help" xml:space="preserve">
+    <value>Varsayılan siteyi seçin.</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Sunucu Ayarları</value>
+  </data>
+  <data name="SkinUpload.Text" xml:space="preserve">
+    <value>Tema/Konteyner Yükle</value>
+  </data>
+  <data name="ContainerUpload.Text" xml:space="preserve">
+    <value>Konteyner Yükle</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>Veritabanı</value>
+  </data>
+  <data name="FileSystem.Text" xml:space="preserve">
+    <value>Dosya Sistemi</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Sunucu Ayarları Hakkında&lt;/h1&gt;&lt;p&gt;Süper Kullanıcı, sitenin tamamı için geçerli olan yapılandırma ayarlarını yönetebilir.&lt;/p&gt;</value>
+  </data>
+  <data name="plLogBuffer.Text" xml:space="preserve">
+    <value>Olay Günlüğü Arabelleğini Etkinleştir:</value>
+  </data>
+  <data name="plLogBuffer.Help" xml:space="preserve">
+    <value>Günlük girdilerinin bellekte tutulup düzenli aralıklarla veri deposuna aktarılması için bu kutuyu işaretleyin; girdilerin hemen yazılması için işareti kaldırın.</value>
+  </data>
+  <data name="plAutoAccountUnlock.Text" xml:space="preserve">
+    <value>Hesap Kilidini Otomatik Açma Süresi:</value>
+  </data>
+  <data name="plAutoAccountUnlock.Help" xml:space="preserve">
+    <value>Başarısız giriş denemeleri nedeniyle kilitlenen bir hesabın kilidi, belirli bir süre geçtikten sonra başarılı bir kimlik doğrulamayla otomatik olarak açılabilir. Hesap kilidinin otomatik olarak açılabilmesi için beklenecek dakika sayısını girin. Otomatik kilit açma özelliğini devre dışı bırakmak için "0" girin.</value>
+  </data>
+  <data name="plCacheMethod.Text" xml:space="preserve">
+    <value>Modül Önbellekleme Yöntemi:</value>
+  </data>
+  <data name="plCacheMethod.Help" xml:space="preserve">
+    <value>Tercih edilen önbellekleme yöntemini seçin. Bellek önbelleği en fazla esnekliği sağlar ve en yüksek performanslı yöntemdir, ancak en fazla sistem kaynağını da tüketir. Disk önbelleği daha az kaynak gerektirir, ancak herhangi bir esneklik sunmaz.</value>
+  </data>
+  <data name="Memory.Text" xml:space="preserve">
+    <value>Bellek</value>
+  </data>
+  <data name="Disk.Text" xml:space="preserve">
+    <value>Disk</value>
+  </data>
+  <data name="ProcessorWebSite.Text" xml:space="preserve">
+    <value>Ödeme İşlemcisinin Web Sitesine Git</value>
+  </data>
+  <data name="plHelpUrl.Text" xml:space="preserve">
+    <value>Yardım URL'si:</value>
+  </data>
+  <data name="plHelpUrl.Help" xml:space="preserve">
+    <value>Sağladığınız Çevrimiçi Yardım'ın URL'sini girin veya kaldırmak için boş bırakın.</value>
+  </data>
+  <data name="plEnableHelp.Text" xml:space="preserve">
+    <value>Modül Çevrimiçi Yardımını Etkinleştir:</value>
+  </data>
+  <data name="plEnableHelp.Help" xml:space="preserve">
+    <value>Modüller için Çevrimiçi Yardım eylem menüsünü etkinleştirmek için bu kutuyu işaretleyin. Etkinleştirilirse, Modül Tanımları'nda modül için Yardım URL'sini sağlamanız gerekir; ancak bu URL modülün geliştiricisi tarafından zaten sağlanmış olabilir.</value>
+  </data>
+  <data name="plcboUnauthCacheability.Text" xml:space="preserve">
+    <value>Kimliği Doğrulanmamış Kullanıcılar İçin Önbelleğe Alınabilirlik:</value>
+  </data>
+  <data name="plcboUnauthCacheability.Help" xml:space="preserve">
+    <value>Kimliği doğrulanmamış kullanıcılar için Cache-Control HTTP üst bilgisi değerini ayarlar.</value>
+  </data>
+  <data name="plCacheability.Text" xml:space="preserve">
+    <value>Kimliği Doğrulanmış Kullanıcılar İçin Önbelleğe Alınabilirlik:</value>
+  </data>
+  <data name="plCacheability.Help" xml:space="preserve">
+    <value>Kimliği doğrulanmış kullanıcılar için Cache-Control HTTP üst bilgisi değerini ayarlar.</value>
+  </data>
+  <data name="NoCache.Text" xml:space="preserve">
+    <value>Önbellek Yok</value>
+  </data>
+  <data name="Private.Text" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="Public.Text" xml:space="preserve">
+    <value>Herkese Açık</value>
+  </data>
+  <data name="Server.Text" xml:space="preserve">
+    <value>Sunucu</value>
+  </data>
+  <data name="ServerAndNoCache.Text" xml:space="preserve">
+    <value>Sunucu ve Önbellek Yok</value>
+  </data>
+  <data name="ServerAndPrivate.Text" xml:space="preserve">
+    <value>Sunucu ve Özel</value>
+  </data>
+  <data name="plUpgrade.Text" xml:space="preserve">
+    <value>Yükseltmeleri Denetle</value>
+  </data>
+  <data name="plUpgrade.Help" xml:space="preserve">
+    <value>Uygulamanın kullanılabilir güncelleme olup olmadığını denetlemesi için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="UpgradeNever.Text" xml:space="preserve">
+    <value>Hiçbir zaman</value>
+  </data>
+  <data name="plAvailable.Text" xml:space="preserve">
+    <value>Yükseltme Mevcut:</value>
+  </data>
+  <data name="plAvailable.Help" xml:space="preserve">
+    <value>Uygulamanın yeni bir sürümü kullanıma sunulduğunda bir simge görüntülenir.</value>
+  </data>
+  <data name="plLog.Text" xml:space="preserve">
+    <value>Sürüm İçin Yükseltme Günlüğünü Görüntüle:</value>
+  </data>
+  <data name="plLog.Help" xml:space="preserve">
+    <value>Belirli bir sürüm için veritabanı yükseltme günlüğünü görüntüleyin.</value>
+  </data>
+  <data name="cmdRestart.Text" xml:space="preserve">
+    <value>Uygulamayı Yeniden Başlat</value>
+  </data>
+  <data name="plAutoSync.Text" xml:space="preserve">
+    <value>Dosya Sistemini Otomatik Eşitle:</value>
+  </data>
+  <data name="plAutoSync.Help" xml:space="preserve">
+    <value>Dosya sistemini otomatik olarak eşitlemek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plPageQuota.Help" xml:space="preserve">
+    <value>Site başına en fazla sayfa sayısını girin veya sınır olmaması için boş bırakın.</value>
+  </data>
+  <data name="plPageQuota.Text" xml:space="preserve">
+    <value>Sayfa Kotası:</value>
+  </data>
+  <data name="plUserQuota.Help" xml:space="preserve">
+    <value>Site başına en fazla kullanıcı sayısını girin veya sınır olmaması için boş bırakın.</value>
+  </data>
+  <data name="plUserQuota.Text" xml:space="preserve">
+    <value>Kullanıcı Kotası:</value>
+  </data>
+  <data name="Performance.Text" xml:space="preserve">
+    <value>Performans Ayarları</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="plPageState.Help" xml:space="preserve">
+    <value>Sayfa durumunun saklanması için kullanılacak modu seçin. Bu, Sayfadaki gizli bir alan (Varsayılan) veya Bellek (Önbellek) olabilir.</value>
+  </data>
+  <data name="plPageState.Text" xml:space="preserve">
+    <value>Sayfa Durumu Saklama:</value>
+  </data>
+  <data name="plWhitespace.Text" xml:space="preserve">
+    <value>Boşluk Filtresi Kullan:</value>
+  </data>
+  <data name="plWhitespace.Help" xml:space="preserve">
+    <value>İstemciye gönderilen yanıttaki fazla boşlukları kaldırmak için seçin. Bu, indirme boyutunu küçültür (%10-15) ancak HTML'nin okunabilirliğini azaltır.</value>
+  </data>
+  <data name="plExcludedPaths.Text" xml:space="preserve">
+    <value>Hariç Tutulan Yollar:</value>
+  </data>
+  <data name="plExcludedPaths.Help" xml:space="preserve">
+    <value>Hariç tutulan yolların listesini girin.</value>
+  </data>
+  <data name="plWhitespaceFilter.Text" xml:space="preserve">
+    <value>Boşluk Filtresi:</value>
+  </data>
+  <data name="plWhitespaceFilter.Help" xml:space="preserve">
+    <value>Boşlukları kaldırmak için bir Düzenli İfade filtresi girin.</value>
+  </data>
+  <data name="valHostFee.Error" xml:space="preserve">
+    <value>Ücret geçersiz. Ücret bir para birimi değeri olmalıdır.</value>
+  </data>
+  <data name="LogEmpty.Text" xml:space="preserve">
+    <value>Belirtilen betik sürümü için günlük dosyası boş. Bu genellikle betiğin başarıyla çalıştığını gösterir.</value>
+  </data>
+  <data name="NoLog.Text" xml:space="preserve">
+    <value>Belirtilen betik sürümü için bir günlük dosyası yok. Bu genellikle betiğin hiç çalıştırılmadığını gösterir.</value>
+  </data>
+  <data name="Authentication.Text" xml:space="preserve">
+    <value>Kimlik Doğrulama Ayarları</value>
+  </data>
+  <data name="EmailErrorMessage.Text" xml:space="preserve">
+    <value>Test e-postası gönderilmeye çalışılırken bir hata oluştu. Hata:&lt;br /&gt;{0}</value>
+  </data>
+  <data name="plAJAX.Help" xml:space="preserve">
+    <value>AJAX desteğini etkinleştirmek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plAJAX.Text" xml:space="preserve">
+    <value>AJAX'ı Etkinleştir</value>
+  </data>
+  <data name="UserRestart.Text" xml:space="preserve">
+    <value>Kullanıcı bir Uygulama Yeniden Başlatma tetikledi</value>
+  </data>
+  <data name="NoPermissions.Text" xml:space="preserve">
+    <value>İzin Yok</value>
+  </data>
+  <data name="Items.Text" xml:space="preserve">
+    <value>Öğeler</value>
+  </data>
+  <data name="plHostDefaultDocType.Text" xml:space="preserve">
+    <value>Yedek Tema Doctype Değeri:</value>
+  </data>
+  <data name="plHostDefaultDocType.Help" xml:space="preserve">
+    <value>Sayfa teması doctype tanımlamıyorsa kullanılacak doctype.</value>
+  </data>
+  <data name="LegacyDoctype.Text" xml:space="preserve">
+    <value>HTML 4 (Eski)</value>
+  </data>
+  <data name="TransDoctype.Text" xml:space="preserve">
+    <value>XHTML 1.0 Transitional</value>
+  </data>
+  <data name="StrictDoctype.Text" xml:space="preserve">
+    <value>XHTML 1.0 Strict</value>
+  </data>
+  <data name="plRememberMe.Text" xml:space="preserve">
+    <value>Giriş Denetiminde Beni Hatırla Seçeneğini Etkinleştir:</value>
+  </data>
+  <data name="plRememberMe.Help" xml:space="preserve">
+    <value>Giriş denetiminde, kullanıcıların birden çok ziyaret boyunca oturumlarının açık kalmasını sağlayan Beni Hatırla onay kutusunu göstermek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plWebFarm.Text" xml:space="preserve">
+    <value>Web Grubunda Çalışıyor</value>
+  </data>
+  <data name="valFileExtensions.Error" xml:space="preserve">
+    <value>&lt;br/&gt;Dosya Uzantıları yalnızca harf, rakam ve alt çizgi içerebilir ve virgülle ayrılmalıdır.</value>
+  </data>
+  <data name="UpgradeFramework.Text" xml:space="preserve">
+    <value>Mevcut .NET Framework'ü Güncelle</value>
+  </data>
+  <data name="plNotifyUpgrade.Help" xml:space="preserve">
+    <value>Yükseltmelerle ilgili e-posta bildirimlerini Süper Kullanıcıya göndermek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plNotifyUpgrade.Text" xml:space="preserve">
+    <value>Süper Kullanıcıyı Bilgilendir</value>
+  </data>
+  <data name="plAdminContainer.Help" xml:space="preserve">
+    <value>Tüm düzenleme modülleri için varsayılan konteyner.</value>
+  </data>
+  <data name="plAdminContainer.Text" xml:space="preserve">
+    <value>Düzenleme Konteyneri:</value>
+  </data>
+  <data name="plAdminSkin.Help" xml:space="preserve">
+    <value>Tüm düzenleme sayfaları için varsayılan tema.</value>
+  </data>
+  <data name="plAdminSkin.Text" xml:space="preserve">
+    <value>Düzenleme Teması:</value>
+  </data>
+  <data name="plJQueryDebugVersion.Help" xml:space="preserve">
+    <value>Standart jQuery betik dosyasını kullanmak için bu kutuyu işaretleyin. İşaretlenmezse, JavaScript dosyasının boyutunu önemli ölçüde azaltan ancak kodun okunabilirliğini düşüren küçültülmüş bir sürüm kullanılır.</value>
+  </data>
+  <data name="plJQueryDebugVersion.Text" xml:space="preserve">
+    <value>jQuery Hata Ayıklama Sürümünü Kullan</value>
+  </data>
+  <data name="plJQueryHostUrl.Help" xml:space="preserve">
+    <value>jQuery betiğinin tam URL'si. Varsayılan olarak, en iyi performans için Google'ın CDN sunucularında barındırılan en son küçültülmüş jQuery betiğine ayarlanmıştır.</value>
+  </data>
+  <data name="plJQueryHostUrl.Text" xml:space="preserve">
+    <value>Barındırılan jQuery URL'si:</value>
+  </data>
+  <data name="plJQueryUseHosted.Help" xml:space="preserve">
+    <value>İşaretlenirse, jQuery dosyası için ilişkili URL kullanılır. İşaretlenmezse dosyanın yerel kopyaları kullanılır.</value>
+  </data>
+  <data name="plJQueryUseHosted.Text" xml:space="preserve">
+    <value>Barındırılan jQuery Sürümünü Kullan</value>
+  </data>
+  <data name="plJQueryVersion.Help" xml:space="preserve">
+    <value>Yerel jQuery betiğine gömülü sürüm dizesini belirtir.</value>
+  </data>
+  <data name="plJQueryVersion.Text" xml:space="preserve">
+    <value>Yüklü jQuery Sürümü:</value>
+  </data>
+  <data name="plEnableCDN.Help" xml:space="preserve">
+    <value>İşaretlenirse, JavaScript kitaplıkları için ilişkili URL kullanılır. İşaretlenmezse dosyanın yerel kopyaları kullanılır.</value>
+  </data>
+  <data name="plEnableCDN.Text" xml:space="preserve">
+    <value>JavaScript Kitaplıkları İçin CDN Kullan:</value>
+  </data>
+  <data name="HostEmail.Error" xml:space="preserve">
+    <value>E-posta Adresi geçersiz</value>
+  </data>
+  <data name="JQuery.Text" xml:space="preserve">
+    <value>jQuery Ayarları</value>
+  </data>
+  <data name="plProduct.Text" xml:space="preserve">
+    <value>Ürün:</value>
+  </data>
+  <data name="plProduct.Help" xml:space="preserve">
+    <value>Çalıştırdığınız uygulama</value>
+  </data>
+  <data name="FrameworkDownLevel.Text" xml:space="preserve">
+    <value>Not: .NET Framework'ün eski bir sürümünde çalışıyorsunuz. DNN Platform, .NET 4.0 veya üzeri bir sürüm gerektirir.</value>
+  </data>
+  <data name="plBetaNotice.Help" xml:space="preserve">
+    <value>Çalışan sürümün bir Beta sürümü olduğunu belirten bir mesaj görüntülemek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plBetaNotice.Text" xml:space="preserve">
+    <value>Beta Mesajını Görüntüle:</value>
+  </data>
+  <data name="plThrowExceptions.Help" xml:space="preserve">
+    <value>Veritabanından döndürülen verilerdeki eksik alanlardan kaynaklanan çekirdek istisnalarının yeniden fırlatılmasını etkinleştirmek için bu kutuyu işaretleyin. İşaretlenmezse hata Olay Günlüğü'ne kaydedilir. İşaretlenirse hata üst katmanlara iletilir. Bu ayar öncelikle geliştiricilerin sorunları teşhis etmesi için kullanılır.</value>
+  </data>
+  <data name="plThrowExceptions.Text" xml:space="preserve">
+    <value>CBO İstisnalarını Yeniden Fırlat:</value>
+  </data>
+  <data name="plPsWarning.Text" xml:space="preserve">
+    <value>Uyarı: Sayfa durumunun bellekte saklanması Ajax sorunlarına neden olabilir.</value>
+  </data>
+  <data name="ModuleCacheProvider.Help" xml:space="preserve">
+    <value>Varsayılan modül önbellek sağlayıcısını seçin. Bu ayar her modül tarafından ayrı ayrı geçersiz kılınabilir.</value>
+  </data>
+  <data name="ModuleCacheProvider.Text" xml:space="preserve">
+    <value>Modül Önbellek Sağlayıcısı:</value>
+  </data>
+  <data name="plContentLocalization.Help" xml:space="preserve">
+    <value>Dinamik site ve içerik yerelleştirmeye izin vermek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plContentLocalization.Text" xml:space="preserve">
+    <value>İçerik Yerelleştirmeye İzin Ver:</value>
+  </data>
+  <data name="PageCacheProvider.Help" xml:space="preserve">
+    <value>Varsayılan Sayfa Önbellek Sağlayıcısını seçin. Önbellek sağlayıcısının etkinleştirilmesi için her sayfada önbellek zaman aşımının ayarlanması gerekir.</value>
+  </data>
+  <data name="PageCacheProvider.Text" xml:space="preserve">
+    <value>Sayfa Çıktısı Önbellek Sağlayıcısı</value>
+  </data>
+  <data name="plUseCustomModuleCssClass.Help" xml:space="preserve">
+    <value>Modül tanımına dayalı özel bir CSS sınıfının oluşturulmasını etkinleştirmek için bu kutuyu işaretleyin.  Tema tasarımcıları bunu, belirli modül türlerine özel CSS stilleri uygulamak için kullanabilir.</value>
+  </data>
+  <data name="plUseCustomModuleCssClass.Text" xml:space="preserve">
+    <value>Özel Modül CSS Sınıfı Kullan:</value>
+  </data>
+  <data name="plEnableContentLocalization.Help" xml:space="preserve">
+    <value>Yöneticilerin siteleri için içerik yerelleştirmeyi etkinleştirmesine izin vermek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plEnableContentLocalization.Text" xml:space="preserve">
+    <value>İçerik Yerelleştirmeye İzin Ver</value>
+  </data>
+  <data name="SkinPreview.Text" xml:space="preserve">
+    <value>Sunucu Temasını ve Konteynerini Önizle</value>
+  </data>
+  <data name="EditSkinPreview.Text" xml:space="preserve">
+    <value>Düzenleme Temasını ve Konteynerini Önizle</value>
+  </data>
+  <data name="plJQueryUIHostUrl.Help" xml:space="preserve">
+    <value>Bu, jQuery UI betiğinin tam URL'sidir.  Varsayılan olarak, en iyi performans için Google'ın CDN sunucularında barındırılan en son küçültülmüş jQuery UI betiğine ayarlanmıştır.</value>
+  </data>
+  <data name="plJQueryUIHostUrl.Text" xml:space="preserve">
+    <value>Barındırılan jQuery UI URL'si:</value>
+  </data>
+  <data name="plJQueryUIVersion.Help" xml:space="preserve">
+    <value>Yerel jQuery UI betiğine gömülü sürüm dizesini belirtir.</value>
+  </data>
+  <data name="plJQueryUIVersion.Text" xml:space="preserve">
+    <value>Yüklü jQuery UI Sürümü:</value>
+  </data>
+  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
+    <value>Lütfen önizlemek için bir tema ve/veya konteyner seçin.</value>
+  </data>
+  <data name="ClientResourceManagement.Text" xml:space="preserve">
+    <value>İstemci Kaynak Yönetimi</value>
+  </data>
+  <data name="plCrmVersion.Help" xml:space="preserve">
+    <value>Tarayıcı önbelleğini yönetmek için istemci kaynaklarına bir sürüm numarası atanır. Bu numara bir uzantı yüklendiğinde, portal.css güncellendiğinde veya sunucu önbelleği temizlendiğinde artırılır.  İşlenmiş tüm dosyalar (birleştirilmiş ve/veya küçültülmüş) için geçerlidir.  Tarayıcıları kaynak dosyaların yeni kopyalarını indirmeye zorlamak için aşağıdaki numarayı el ile artırabilirsiniz.</value>
+  </data>
+  <data name="plCrmVersion.Text" xml:space="preserve">
+    <value>Geçerli Sunucu Sürümü:</value>
+  </data>
+  <data name="plCrmEnableCompositeFiles.Help" xml:space="preserve">
+    <value>Birleşik dosyalar, tarayıcının yaptığı dosya isteği sayısını azaltmak için oluşturulan kaynak (JavaScript ve CSS) birleşimleridir. Bu, sayfa yükleme hızını önemli ölçüde artırır.</value>
+  </data>
+  <data name="plCrmEnableCompositeFiles.Text" xml:space="preserve">
+    <value>Birleşik Dosyaları Etkinleştir:</value>
+  </data>
+  <data name="plCrmMinifyCss.Help" xml:space="preserve">
+    <value>CSS küçültme, düzenli ifadeler kullanarak yorumları, boşlukları ve "kullanılmayan CSS" kodunu kaldırır ve böylece CSS kodunun boyutunu azaltır.  Yalnızca birleşik dosyalar etkinleştirildiğinde kullanılabilir.</value>
+  </data>
+  <data name="plCrmMinifyCss.Text" xml:space="preserve">
+    <value>CSS'yi Küçült:</value>
+  </data>
+  <data name="plCrmMinifyJs.Help" xml:space="preserve">
+    <value>JS küçültme, JSMin kullanarak JavaScript kodunun boyutunu azaltır. Yalnızca birleşik dosyalar etkinleştirildiğinde kullanılabilir.</value>
+  </data>
+  <data name="plCrmMinifyJs.Text" xml:space="preserve">
+    <value>JS'yi Küçült:</value>
+  </data>
+  <data name="CrmIncrementCrmVersionButton.Text" xml:space="preserve">
+    <value>Sürümü Artır</value>
+  </data>
+  <data name="IncrementCrmVersionButton.Text" xml:space="preserve">
+    <value>Site Sürümünü Artır</value>
+  </data>
+  <data name="IncrementCrmVersionConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Bu işlem, tüm site ziyaretçilerini CSS ve JavaScript dosyalarının yeni sürümlerini indirmeye zorlar. Bunu yalnızca dosyaların değiştiğinden eminseniz ve bu değişikliklerin istemcinin tarayıcısına yansımasını istiyorsanız yapmalısınız.&lt;/p&gt;&lt;p&gt;Sitenizin sürüm numarasını artırmak istediğinizden emin misiniz?&lt;/p&gt;</value>
+  </data>
+  <data name="IncrementCrmVersionError.Text" xml:space="preserve">
+    <value>İstemci Kaynağı sürümü artırılırken bir hata oluştu.</value>
+  </data>
+  <data name="DebugEnabled.Text" xml:space="preserve">
+    <value>Hata ayıklama modu şu anda uygulama düzeyinde etkin (bu, web.config dosyasında belirtilir). Bu, dosya birleştirme burada veya site düzeyinde etkinleştirilmiş olsa bile dosyaların birleştirilmeyeceği anlamına gelir.</value>
+  </data>
+  <data name="DebugEnabled.Title" xml:space="preserve">
+    <value>Uygulama hata ayıklama moduna ilişkin önemli not</value>
+  </data>
+  <data name="MinificationSettingsInfo.Text" xml:space="preserve">
+    <value>Birleşik dosyalar etkinken küçültme ayarları değiştirilirse, önce Güncelle'ye tıklayarak küçültme ayarlarını kaydetmeli ve ardından sürüm numarasını artırmalısınız. Bu işlem, yeni küçültme ayarlarını kullanan yeni birleşik dosyalar oluşturur.</value>
+  </data>
+  <data name="MinificationSettingsInfo.Title" xml:space="preserve">
+    <value>Küçültme ayarlarına ilişkin önemli not</value>
+  </data>
+  <data name="IPFiltersDisabled.Text" xml:space="preserve">
+    <value>Giriş IP filtrelemesi şu anda devre dışı. Etkinleştirmek için Üyelik Yönetimi altındaki IP adresi denetimini etkinleştir onay kutusunu işaretleyin.</value>
+  </data>
+  <data name="IPFiltersDisabled.Title" xml:space="preserve">
+    <value>IP Filtrelemeye ilişkin önemli not</value>
+  </data>
+  <data name="IPFiltersInfo.Text" xml:space="preserve">
+    <value>Filtrelenecek IP adreslerini yapılandırırken kullanıcılar, kendi geçerli IP adreslerini engelleyecek bir girdiyi düzenleyemez veya silemez.</value>
+  </data>
+  <data name="IPFiltersInfo.Title" xml:space="preserve">
+    <value>IP Filtreleme ayarlarına ilişkin önemli not</value>
+  </data>
+  <data name="txtBatch.Text" xml:space="preserve">
+    <value>Toplu İşlem Başına Mesaj Sayısı:</value>
+  </data>
+  <data name="txtBatch.Help" xml:space="preserve">
+    <value>Mesajlaşma zamanlayıcısı tarafından her toplu işte gönderilen mesaj sayısı.</value>
+  </data>
+  <data name="SmtpServerWarning.Text" xml:space="preserve">
+    <value>Orta güven (medium trust) düzeyinde çalışan kurulumunuzda özel bir SMTP bağlantı noktası kullanmaya çalışıyorsunuz. Bu ayarın sunucuda doğru çalışabildiğinden emin olmak için barındırma sağlayıcınızla iletişime geçin.</value>
+  </data>
+  <data name="LogSettings.Text" xml:space="preserve">
+    <value>Günlükler</value>
+  </data>
+  <data name="LogSettingsHelp.Text" xml:space="preserve">
+    <value>Kurulum günlüklerini ve diğer günlükleri görüntüleyin</value>
+  </data>
+  <data name="Html5Doctype.Text" xml:space="preserve">
+    <value>HTML 5</value>
+  </data>
+  <data name="LogLocations.Text" xml:space="preserve">
+    <value>Günlük Konumları</value>
+  </data>
+  <data name="plLogs.Text" xml:space="preserve">
+    <value>Günlük Dosyaları:</value>
+  </data>
+  <data name="plLogs.Help" xml:space="preserve">
+    <value>Görüntülenebilecek günlük dosyalarının listesi.</value>
+  </data>
+  <data name="SelectLog.Text" xml:space="preserve">
+    <value>Görüntülemek için bir günlük dosyası seçin</value>
+  </data>
+  <data name="plBatch.Help" xml:space="preserve">
+    <value>Mesajlaşma zamanlayıcısı tarafından her toplu işte gönderilen mesaj sayısı.</value>
+  </data>
+  <data name="plBatch.Text" xml:space="preserve">
+    <value>Her toplu işte gönderilen mesaj sayısı:</value>
+  </data>
+  <data name="MembershipManagement.Text" xml:space="preserve">
+    <value>Üyelik Yönetimi</value>
+  </data>
+  <data name="plResetLinkValidity.Text" xml:space="preserve">
+    <value>Sıfırlama Bağlantısı Zaman Aşımı (Dakika):</value>
+  </data>
+  <data name="plAdminResetLinkValidity.Text" xml:space="preserve">
+    <value>Yönetici Sıfırlama Bağlantısı Zaman Aşımı (Dakika)</value>
+  </data>
+  <data name="plNumberPasswords.Text" xml:space="preserve">
+    <value>Saklanacak Şifre Sayısı:</value>
+  </data>
+  <data name="plNumberPasswords.Help" xml:space="preserve">
+    <value>Yeniden kullanım denetimi için saklanacak şifre sayısını girin</value>
+  </data>
+  <data name="plEnableBannedList.Text" xml:space="preserve">
+    <value>Yasaklı Şifre Listesini Etkinleştir:</value>
+  </data>
+  <data name="plEnableBannedList.Help" xml:space="preserve">
+    <value>Şifreleri yasaklı öğeler listesine göre denetlemek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plEnableStrengthMeter.Text" xml:space="preserve">
+    <value>Şifre Gücü Denetimini Etkinleştir:</value>
+  </data>
+  <data name="plEnableStrengthMeter.Help" xml:space="preserve">
+    <value>Kayıt ekranında şifre gücü göstergesinin gösterilip gösterilmeyeceğini belirler</value>
+  </data>
+  <data name="plEnableIPChecking.Text" xml:space="preserve">
+    <value>IP Adresi Denetimini Etkinleştir:</value>
+  </data>
+  <data name="plEnableIPChecking.Help" xml:space="preserve">
+    <value>Giriş sırasında IP adresinin denetlenip denetlenmeyeceğini belirler</value>
+  </data>
+  <data name="CdnSettings.Text" xml:space="preserve">
+    <value>CDN Ayarları</value>
+  </data>
+  <data name="plMsAjaxCdn.Help" xml:space="preserve">
+    <value>Microsoft Ajax Kitaplığı için CDN ayarını etkinleştirin.</value>
+  </data>
+  <data name="plMsAjaxCdn.Text" xml:space="preserve">
+    <value>MS Ajax CDN Kullanımını Etkinleştir:</value>
+  </data>
+  <data name="plTelerikBasicUrl.Help" xml:space="preserve">
+    <value>Telerik CDN temel URL'sini girin; bu alanı boş bırakırsanız Telerik sunucusundaki dosyalar kullanılır. Daha fazla bilgiyi &lt;a href="http://www.telerik.com/help/aspnet-ajax/cdn-custom-provider.html" target="_blank"&gt;burada&lt;/a&gt; bulabilirsiniz.</value>
+  </data>
+  <data name="plTelerikBasicUrl.Text" xml:space="preserve">
+    <value>Telerik CDN Temel URL'si:</value>
+  </data>
+  <data name="plTelerikCdn.Help" xml:space="preserve">
+    <value>Telerik Denetimleri için CDN Ayarlarını etkinleştirmek üzere bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plTelerikCdn.Text" xml:space="preserve">
+    <value>Telerik CDN Kullanımını Etkinleştir:</value>
+  </data>
+  <data name="plTelerikSecureUrl.Help" xml:space="preserve">
+    <value>Telerik CDN güvenli URL'sini girin veya Telerik sunucusundaki dosyaları kullanmak için bu alanı boş bırakın.  Daha fazla ayrıntı için &lt;a href="http://www.telerik.com/help/aspnet-ajax/cdn-custom-provider.html" target="_blank"&gt;buraya&lt;/a&gt; bakın.</value>
+  </data>
+  <data name="plTelerikSecureUrl.Text" xml:space="preserve">
+    <value>Telerik CDN Güvenli URL'si:</value>
+  </data>
+  <data name="plAsyncTimeout.Help" xml:space="preserve">
+    <value>Yanıt alınamadığında zaman uyumsuz geri gönderimlerin zaman aşımına uğramadan önceki süresini saniye cinsinden belirtin; değer 90-9999 saniye arasında olmalıdır.</value>
+  </data>
+  <data name="plAsyncTimeout.Text" xml:space="preserve">
+    <value>Zaman Aşımı Süresi:</value>
+  </data>
+  <data name="plEnablePasswordHistory.Help" xml:space="preserve">
+    <value>Yeniden kullanımı önlemek için son kullanılan şifrelerin bir listesinin tutulup denetlenip denetlenmeyeceğini belirler.</value>
+  </data>
+  <data name="plEnablePasswordHistory.Text" xml:space="preserve">
+    <value>Şifre Geçmişini Etkinleştir:</value>
+  </data>
+  <data name="plResetLinkValidity.Help" xml:space="preserve">
+    <value>Şifre sıfırlama bağlantılarının geçerli kalacağı süre (dakika cinsinden).</value>
+  </data>
+  <data name="valResetLink.Error" xml:space="preserve">
+    <value>Sıfırlama bağlantısı zaman aşımları 0'dan büyük olmalıdır</value>
+  </data>
+  <data name="plAdminResetLinkValidity.Help" xml:space="preserve">
+    <value>Site Yöneticisi tarafından gönderilen şifre sıfırlama bağlantılarının geçerli kalacağı süre (dakika cinsinden).</value>
+  </data>
+  <data name="valAdminResetLink.Error" xml:space="preserve">
+    <value>Yönetici sıfırlama bağlantısı zaman aşımları 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="AlwaysUse.Text" xml:space="preserve">
+    <value>Tüm URL'ler.</value>
+  </data>
+  <data name="CharacterSubListLabel.Help" xml:space="preserve">
+    <value>URL'leri birleştirmek için kullanılacak karakteri seçin.</value>
+  </data>
+  <data name="CharacterSubListLabel.Text" xml:space="preserve">
+    <value>Karakter:</value>
+  </data>
+  <data name="ExtensionLabel.Help" xml:space="preserve">
+    <value>Uzantıyı, başındaki nokta ile birlikte girin.  Varsayılan uzantı .aspx şeklindedir.</value>
+  </data>
+  <data name="ExtensionLabel.Text" xml:space="preserve">
+    <value>Kullanılacak Uzantı (Varsayılan: .aspx):</value>
+  </data>
+  <data name="PageOnly.Text" xml:space="preserve">
+    <value>Yalnızca Sorgu Dizesi Olmayan Sayfalar.</value>
+  </data>
+  <data name="EmptyString.Text" xml:space="preserve">
+    <value>&lt;&lt;Boş Dize&gt;&gt;</value>
+  </data>
+  <data name="Never.Text" xml:space="preserve">
+    <value>Hiçbir zaman</value>
+  </data>
+  <data name="IPFilters.Text" xml:space="preserve">
+    <value>Giriş IP Filtreleri</value>
+  </data>
+  <data name="plJQueryMigrateHostUrl.Help" xml:space="preserve">
+    <value>jQuery Migrate eklentisinin tam URL'si.  Bu alan boşsa sitedeki kaynak kullanılmaya devam edilir.</value>
+  </data>
+  <data name="plJQueryMigrateHostUrl.Text" xml:space="preserve">
+    <value>Barındırılan jQuery Migrate Eklentisi URL'si:</value>
+  </data>
+  <data name="lblSearchIndexPath.Help" xml:space="preserve">
+    <value>Arama dizininin depolandığı konum. Bu konum, veritabanında "Search_IndexFolder" adlı bir Host ayarı oluşturularak elle değiştirilebilir. Bu değişikliği yapmadan önce App Pool'un durdurulması önerilir. Eski klasördeki içerik yeni konuma elle kopyalanmalı veya elle yeniden dizinleme başlatılmalıdır. </value>
+  </data>
+  <data name="lblSearchIndexPath.Text" xml:space="preserve">
+    <value>Arama Dizini Yolu:</value>
+  </data>
+  <data name="SearchIndex.Text" xml:space="preserve">
+    <value>Arama Ayarları</value>
+  </data>
+  <data name="btnCompactSearchIndex.Text" xml:space="preserve">
+    <value>Dizini Sıkıştır</value>
+  </data>
+  <data name="MessageIndexWarning.Text" xml:space="preserve">
+    <value>&lt;b&gt;Sıkıştırma&lt;/b&gt;, Dizin Deposu'ndaki silinmiş öğelerin kapladığı alanı geri kazanır. Sıkıştırma yalnızca Dizin Deposu'nda çok sayıda 'Silinmiş Belge' olduğunda önerilir.  Sıkıştırma, işlem sırasında mevcut Dizin Deposu boyutunun iki katı kadar alan gerektirebilir.
+&lt;b&gt;Yeniden Dizinleme&lt;/b&gt; yalnızca Host sayfalarındaki içerik için geçerlidir. Yeniden dizinleme, mevcut içeriği Dizin Deposu'ndan siler ve ardından her şeyi yeniden dizinler.
+Hem Sıkıştırma hem de Yeniden Dizinleme, Site Search Crawler zamanlanmış görevi tarafından yapılır.
+
+&lt;b&gt;Dikkat&lt;/b&gt; - İşlem CPU'yu yoğun kullanabileceğinden Sıkıştırma veya Yeniden Dizinleme yoğun olmayan saatlerde yapılmalıdır.</value>
+  </data>
+  <data name="btnHostSearchReindex.Text" xml:space="preserve">
+    <value>Host İçeriğini Yeniden Dizinle</value>
+  </data>
+  <data name="CompactIndexConfirmationCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="CompactIndexConfirmationMessage.Text" xml:space="preserve">
+    <value>Dizini sıkıştırmak yoğun CPU kullanabilir ve işlem için mevcut dizin deposunun iki katı kadar alan gerektirebilir. Sıkıştırma, site arama tarayıcısı tarafından yapılır ve onun zamanlama sıklığına bağlıdır. Devam etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="CompactIndexConfirmationTitle.Text" xml:space="preserve">
+    <value>Sıkıştırmayı Onayla</value>
+  </data>
+  <data name="CompactIndexConfirmationYes.Text" xml:space="preserve">
+    <value>Devam</value>
+  </data>
+  <data name="lblGetMoreInformation.Text" xml:space="preserve">
+    <value>Daha Fazla Bilgi Al</value>
+  </data>
+  <data name="lblIndexWordMaxLength.Help" xml:space="preserve">
+    <value>Dizine eklenecek en fazla kelime uzunluğunu girin.</value>
+  </data>
+  <data name="lblIndexWordMaxLength.Text" xml:space="preserve">
+    <value>En Fazla Kelime Uzunluğu:</value>
+  </data>
+  <data name="lblIndexWordMinLength.Help" xml:space="preserve">
+    <value>Dizine eklenecek en az kelime uzunluğunu girin.</value>
+  </data>
+  <data name="lblIndexWordMinLength.Text" xml:space="preserve">
+    <value>En Az Kelime Uzunluğu:</value>
+  </data>
+  <data name="lblSearchIndexActiveDocuments.Help" xml:space="preserve">
+    <value>Arama dizini dosyalarındaki etkin belge sayısı</value>
+  </data>
+  <data name="lblSearchIndexActiveDocuments.Text" xml:space="preserve">
+    <value>Etkin Belgeler:</value>
+  </data>
+  <data name="lblSearchIndexDeletedDocuments.Help" xml:space="preserve">
+    <value>Arama dizini dosyalarındaki silinmiş belge sayısı</value>
+  </data>
+  <data name="lblSearchIndexDeletedDocuments.Text" xml:space="preserve">
+    <value>Silinmiş Belgeler:</value>
+  </data>
+  <data name="lblSearchIndexLastModifiedOn.Help" xml:space="preserve">
+    <value>Arama dizini dosyalarının son değiştirilme zamanı.</value>
+  </data>
+  <data name="lblSearchIndexLastModifiedOn.Text" xml:space="preserve">
+    <value>Son Değiştirilme:</value>
+  </data>
+  <data name="ReIndexConfirmationCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ReIndexConfirmationMessage.Text" xml:space="preserve">
+    <value>Yeniden dizinleme, dizin deposundaki mevcut içeriğin silinmesine neden olur. Yeniden dizinleme arama tarayıcıları tarafından yapılır ve bunların zamanlama sıklığına bağlıdır. Devam etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="ReIndexConfirmationTitle.Text" xml:space="preserve">
+    <value>Yeniden Dizinlemeyi Onayla</value>
+  </data>
+  <data name="ReIndexConfirmationYes.Text" xml:space="preserve">
+    <value>Devam</value>
+  </data>
+  <data name="valIndexWordMaxLengthCompare.Error" xml:space="preserve">
+    <value>Tamsayı, en az uzunluktan büyük olmalıdır.</value>
+  </data>
+  <data name="valIndexWordMaxLengthRequired.Error" xml:space="preserve">
+    <value>Dizin kelimesinin en fazla uzunluğu gereklidir.</value>
+  </data>
+  <data name="valIndexWordMinLengthCompare.Error" xml:space="preserve">
+    <value>Tamsayı 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="valIndexWordMinLengthRequired.Error" xml:space="preserve">
+    <value>Dizin kelimesinin en az uzunluğu gereklidir.</value>
+  </data>
+  <data name="lblSearchIndexDbSize.Help" xml:space="preserve">
+    <value>Arama dizini veritabanı dosyalarının toplam boyutu.</value>
+  </data>
+  <data name="lblSearchIndexDbSize.Text" xml:space="preserve">
+    <value>Arama Dizini Boyutu:</value>
+  </data>
+  <data name="plDebugMode.Help" xml:space="preserve">
+    <value>Kurulumu "hata ayıklama modunda" çalıştırmak için bu kutuyu işaretleyin. Bu, uygulamanın çeşitli bölümlerinin daha ayrıntılı hata günlükleri vb. yazmasına neden olur. Not: Bu durum performansın düşmesine yol açabilir.</value>
+  </data>
+  <data name="plDebugMode.Text" xml:space="preserve">
+    <value>Hata Ayıklama Modu:</value>
+  </data>
+  <data name="plShowCriticalErrors.Help" xml:space="preserve">
+    <value>Bu ayar, error sorgu dizesi parametresiyle gönderilen hata mesajlarının sayfa içinde gösterilip gösterilmeyeceğini belirler.</value>
+  </data>
+  <data name="plShowCriticalErrors.Text" xml:space="preserve">
+    <value>Kritik Hataları Ekranda Göster:</value>
+  </data>
+  <data name="lblCustomAnalyzer.Help" xml:space="preserve">
+    <value>Bu alan boşsa sistem, içeriği dizinlemek için standart çözümleyiciyi kullanır. Özel bir çözümleyici kullanmak istiyorsanız bu alana çözümleyici sınıfının tam adını yazın.  Not: Mevcut içeriğin yeni çözümleyiciyle dizinlenmesini istiyorsanız, yeniden dizinlemek istediğiniz her sitenin Yönetici &gt; Arama Yöneticisi sayfasına gidip "İçeriği Yeniden Dizinle" düğmesine tıklamalısınız.</value>
+  </data>
+  <data name="lblCustomAnalyzer.Text" xml:space="preserve">
+    <value>Özel Çözümleyici Türü:</value>
+  </data>
+  <data name="Mb.Text" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="plMaxUploadSize.Help" xml:space="preserve">
+    <value>Siteye yüklenebilecek en büyük dosya boyutu.  En küçük değer 12 MB'dir.</value>
+  </data>
+  <data name="plMaxUploadSize.Text" xml:space="preserve">
+    <value>En Büyük Yükleme Boyutu:</value>
+  </data>
+  <data name="maxUploadSize.Error" xml:space="preserve">
+    <value>En büyük yükleme boyutu 12 ile {0} arasında olmalıdır</value>
+  </data>
+  <data name="plMaxIdleTime.Text" xml:space="preserve">
+    <value>Azami Boşta Kalma Süresi:</value>
+  </data>
+  <data name="plMaxIdleTime.Help" xml:space="preserve">
+    <value>ServicePoint nesnesiyle ilişkili bir bağlantının, kapatılıp başka bir bağlantı için yeniden kullanılmadan önce boşta kalabileceği süre (milisaniye cinsinden).  En büyük değer 2147483647'dir.  Varsayılan değer 0'dır. 
+</value>
+  </data>
+  <data name="plConnectionLimit.Text" xml:space="preserve">
+    <value>Bağlantı Sınırı:</value>
+  </data>
+  <data name="plConnectionLimit.Help" xml:space="preserve">
+    <value>Bu ServicePoint nesnesinde izin verilen en fazla bağlantı sayısı.  En büyük değer 2147483647'dir. Varsayılan değer 1'dir.</value>
+  </data>
+  <data name="ConnectionLimitValidation.Text" xml:space="preserve">
+    <value>Yalnızca 1 ile 2147483647 arasındaki sayılar.</value>
+  </data>
+  <data name="MaxIdleTimeValidation.Text" xml:space="preserve">
+    <value>Yalnızca 1 ile 2147483647 arasındaki sayılar.</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Help" xml:space="preserve">
+    <value>Kullanıcının şifresini değiştirmesi gerekene kadar geçecek gün sayısını girin.  Şifrenin hiçbir zaman sona ermemesi için 0 (sıfır) girin.</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
+    <value>Şifre Geçerlilik Süresi (Gün):</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Help" xml:space="preserve">
+    <value>Şifrelerinin süresinin dolmak üzere olduğuna dair kullanıcılara kaç gün önceden uyarı verileceğini girin.</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Text" xml:space="preserve">
+    <value>Şifre Süresi Dolma Hatırlatıcısı (Gün):</value>
+  </data>
+  <data name="plSSLDomain.Help" xml:space="preserve">
+    <value>Yükseltme Sihirbazı SSL kanalında gösterilmeye zorlandığında kullanılan etki alanı.</value>
+  </data>
+  <data name="plSSLDomain.Text" xml:space="preserve">
+    <value>SSL Etki Alanı:</value>
+  </data>
+  <data name="plUpgradeForceSSL.Help" xml:space="preserve">
+    <value>Yükseltme Sihirbazının SSL kanalında gösterilmesini zorunlu kılmak için kutuyu işaretleyin.</value>
+  </data>
+  <data name="plUpgradeForceSSL.Text" xml:space="preserve">
+    <value>Yükseltme Sihirbazı İçin SSL Gerektir:</value>
+  </data>
+  <data name="lblAllowLeadingWildcard.Help" xml:space="preserve">
+    <value>Yalnızca kelimenin başında değil, kelimenin içinde geçen arama ölçütlerini de döndürmek için bu kutuyu işaretleyin. Uyarı: Joker karakterli aramayı etkinleştirmek performans sorunlarına neden olabilir.</value>
+  </data>
+  <data name="lblAllowLeadingWildcard.Text" xml:space="preserve">
+    <value>Kısmi Kelime Aramasını Etkinleştir (Yavaş):</value>
+  </data>
+  <data name="lblAuthorBoost.Help" xml:space="preserve">
+    <value>Yazar ağırlık değeri, dizinlenirken yazarla ilişkilendirilir. Değer ne kadar yüksekse, alan sonuçların sıralamasını belirlemede o kadar etkili olur.</value>
+  </data>
+  <data name="lblAuthorBoost.Text" xml:space="preserve">
+    <value>Yazar Ağırlığı:</value>
+  </data>
+  <data name="lblContentBoost.Help" xml:space="preserve">
+    <value>İçerik ağırlık değeri, dizinlenirken içerikle ilişkilendirilir. Değer ne kadar yüksekse, alan sonuçların sıralamasını belirlemede o kadar etkili olur.</value>
+  </data>
+  <data name="lblContentBoost.Text" xml:space="preserve">
+    <value>İçerik Ağırlığı:</value>
+  </data>
+  <data name="lblDescriptionBoost.Help" xml:space="preserve">
+    <value>Açıklama ağırlık değeri, dizine eklenirken açıklamayla ilişkilendirilir. Değer ne kadar yüksekse, alan sonuçların sıralamasını belirlemede o kadar etkili olur.</value>
+  </data>
+  <data name="lblDescriptionBoost.Text" xml:space="preserve">
+    <value>Açıklama Ağırlığı:</value>
+  </data>
+  <data name="lblTagBoost.Help" xml:space="preserve">
+    <value>Etiket ağırlık değeri, dizine eklenirken etiketle ilişkilendirilir. Değer ne kadar yüksekse, alan sonuçların sıralamasını belirlemede o kadar etkili olur.</value>
+  </data>
+  <data name="lblTagBoost.Text" xml:space="preserve">
+    <value>Etiket Ağırlığı:</value>
+  </data>
+  <data name="lblTitleBoost.Help" xml:space="preserve">
+    <value>Başlık ağırlık değeri, dizine eklenirken başlıkla ilişkilendirilir. Değer ne kadar yüksekse, alan sonuçların sıralamasını belirlemede o kadar etkili olur.</value>
+  </data>
+  <data name="lblTitleBoost.Text" xml:space="preserve">
+    <value>Başlık Ağırlığı:</value>
+  </data>
+</root>

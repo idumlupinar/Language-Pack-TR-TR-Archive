@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Introduction.Title" xml:space="preserve">
+    <value>Site Yapılandırma Sihirbazı</value>
+  </data>
+  <data name="Introduction.Help" xml:space="preserve">
+    <value>
+			Site Yapılandırma Sihirbazı, Yöneticilere bir sitenin en yaygın özelliklerini
+			kullanıcı dostu bir şekilde ayarlama olanağı sunar.
+			Sihirbaz sayfasının altındaki İleri/Geri düğmelerini kullanarak
+			sihirbazın adımları arasında ilerleyebilirsiniz.
+			Sihirbazı tamamlamak için yeterli bilgi toplandığında Bitir düğmesi
+			etkinleştirilir.
+		</value>
+  </data>
+  <data name="Template.Title" xml:space="preserve">
+    <value>Siteniz İçin Bir Şablon Seçin</value>
+  </data>
+  <data name="Template.Help" xml:space="preserve">
+    <value>
+				İsteğe bağlı olarak sitenizi önceden var olan bir şablondan oluşturmayı seçebilirsiniz.  Bir şablon seçmek için
+				şablon listesini etkinleştirmek üzere onay kutusunu işaretleyin ve listeden bir şablon seçin.
+				Sitenizi bir şablon kullanarak oluşturmayı seçerseniz, yinelenen modüllerin
+				nasıl işleneceğine karar vermeniz gerekir. Bunlar, hem Şablonda hem de
+				sitenizde zaten bulunan modüllerdir.
+		</value>
+  </data>
+  <data name="lblMergeModule.Help" xml:space="preserve">
+    <value>Yinelenen modüllerin nasıl işleneceğini seçin: "Yoksay" yinelenen modüllerin bir kopyasını aynı sayfaya yerleştirir; "Değiştir" mevcut içeriği siler ve şablon içeriğiyle değiştirir; "Birleştir" ise içerikleri birleştirir.</value>
+  </data>
+  <data name="Ignore.Text" xml:space="preserve">
+    <value>Yoksay</value>
+  </data>
+  <data name="Replace.Text" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="Merge.Text" xml:space="preserve">
+    <value>Birleştir</value>
+  </data>
+  <data name="MergeWarning.Text" xml:space="preserve">
+    <value>
+			&lt;span class="NormalRed"&gt;
+				Not: "Değiştir" seçeneğini seçerseniz, şablonda da bulunan sayfalardaki
+				tüm mevcut içerik kaybolur.
+			&lt;/span&gt;
+		</value>
+  </data>
+  <data name="TemplateRequired.Text" xml:space="preserve">
+    <value>Devam etmeden önce bir şablon seçmelisiniz.</value>
+  </data>
+  <data name="InvalidTemplate.Text" xml:space="preserve">
+    <value>{0} geçerli bir site şablonu dosyası değil.</value>
+  </data>
+  <data name="Skin.Title" xml:space="preserve">
+    <value>Siteniz İçin Bir Tema Seçin</value>
+  </data>
+  <data name="Skin.Help" xml:space="preserve">
+    <value>
+			Tema Görüntüleyiciden (aşağıda) bir Tema seçebilirsiniz. Bu tema sitenizdeki tüm
+			sayfalara uygulanır. Ancak Sayfa özelliklerini düzenlerken bu varsayılan
+			temayı farklı bir temayla geçersiz kılabilirsiniz.
+		</value>
+  </data>
+  <data name="Container.Title" xml:space="preserve">
+    <value>Siteniz İçin Varsayılan Bir Konteyner Seçin</value>
+  </data>
+  <data name="Container.Help" xml:space="preserve">
+    <value>
+			Konteyner Görüntüleyiciden bir Konteyner seçebilirsiniz. Bu konteyner sitenizdeki tüm
+			sayfalardaki tüm modüllere uygulanır. Ancak Modül özelliklerini düzenlerken bu varsayılan
+			konteyneri farklı bir konteynerle geçersiz kılabilirsiniz.
+		</value>
+  </data>
+  <data name="IncludeAll.Text" xml:space="preserve">
+    <value>Tüm Konteynerleri Göster:</value>
+  </data>
+  <data name="Details.Title" xml:space="preserve">
+    <value>Site Ayrıntılarını Ekle</value>
+  </data>
+  <data name="Details.Help" xml:space="preserve">
+    <value>
+			Bu sayfada siteniz hakkında bazı temel bilgiler sağlayabilirsiniz.
+			İsteğe bağlı olarak sitenizi tanımlamaya yardımcı olan bir Açıklama ve Anahtar Kelimeler girebilirsiniz.
+			Bunlar, sitenizin adıyla birlikte arama motorları tarafından sitenizi tanımlamak ve dizinlemek için kullanılır.
+			Anahtar kelimeler virgülle ayrılmalıdır.
+			&lt;p&gt;
+			Bazı temalar, genellikle sol üst köşede görüntülenen bir Logoyu destekler.  Logoları destekleyen
+			bir tema kullanıyorsanız logoyu bu sayfada seçebilirsiniz.
+			İstediğiniz dosya bu sitede yoksa yerel bilgisayarınızdan
+			bir dosya yükleyebilirsiniz.
+			&lt;/p&gt;
+		</value>
+  </data>
+  <data name="lblPortalName.Text" xml:space="preserve">
+    <value>Ad/Başlık:</value>
+  </data>
+  <data name="lblPortalName.Help" xml:space="preserve">
+    <value>Site adı tarayıcının başlık çubuğunda görüntülenir.</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Açıklama:</value>
+  </data>
+  <data name="lblDescription.Help" xml:space="preserve">
+    <value>Siteniz için bir açıklama girin.</value>
+  </data>
+  <data name="lblKeyWords.Text" xml:space="preserve">
+    <value>Anahtar Kelimeler:</value>
+  </data>
+  <data name="lblKeyWords.Help" xml:space="preserve">
+    <value>Siteniz için bazı anahtar kelimeler girin (virgülle ayrılmış).</value>
+  </data>
+  <data name="lblLogo.Text" xml:space="preserve">
+    <value>Logo:</value>
+  </data>
+  <data name="lblLogo.Help" xml:space="preserve">
+    <value>Bir logo seçin veya yükleyin.</value>
+  </data>
+  <data name="Complete.Title" xml:space="preserve">
+    <value>Site Yapılandırması Tamamlandı</value>
+  </data>
+  <data name="Complete.Help" xml:space="preserve">
+    <value>
+			&lt;p&gt;
+				Siteniz başarıyla yapılandırıldı.
+			&lt;/p&gt;
+			&lt;p&gt;
+				Sitenizin temasını değiştirdiyseniz, bu sayfadan ayrıldığınızda değişmiş olmalıdır.
+			&lt;/p&gt;
+        </value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Site Sihirbazı</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Site Sihirbazı Hakkında&lt;/h1&gt;&lt;p&gt;Yönetici, web sitesinin yaygın özelliklerini ayarlamak için bu kullanıcı dostu sihirbazı kullanabilir.&lt;/p&gt;</value>
+  </data>
+  <data name="Finish.Text" xml:space="preserve">
+    <value>Bitir</value>
+  </data>
+  <data name="Next.Text" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="Previous.Text" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="EditOnly.Text" xml:space="preserve">
+    <value>Bu modül yalnızca Düzenleme izni verilmiş kullanıcılar tarafından kullanılabilir.  Bu izne sahip olmanız gerektiğini düşünüyorsanız lütfen Site Yöneticisi ile iletişime geçin.</value>
+  </data>
+  <data name="lblMergeModule.Text" xml:space="preserve">
+    <value>Yinelenen Modüller Nasıl İşlensin</value>
+  </data>
+  <data name="lblTemplateList.Help" xml:space="preserve">
+    <value>Siteyi oluşturmak istediğiniz şablonu seçebilirsiniz.</value>
+  </data>
+  <data name="lblTemplateList.Text" xml:space="preserve">
+    <value>Şablon Listesi</value>
+  </data>
+  <data name="lblTemplateMessage.Help" xml:space="preserve">
+    <value>Sitenizi bir şablonla yeniden oluşturmak istiyorsanız lütfen bu onay kutusunu işaretleyin.</value>
+  </data>
+  <data name="lblTemplateMessage.Text" xml:space="preserve">
+    <value>Sitenizi Bir Şablondan Oluşturun</value>
+  </data>
+  <data name="ModulesNotInstalled.Text" xml:space="preserve">
+    <value>Bu şablonda kurulu olmayan şu modüller var.&lt;br /&gt;{0}</value>
+  </data>
+</root>
