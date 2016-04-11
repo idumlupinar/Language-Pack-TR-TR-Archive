@@ -1179,7 +1179,7 @@ Sunucu düzeyindeki ayarlar şu anda aşağıdaki gibidir:
     <value>SMTP Modu:</value>
   </data>
   <data name="plSMTPMode.Help" xml:space="preserve">
-    <value>Sunucu modu, uygulama düzeyinde ayarlanan tüm SMTP ayarlarını kullanır. Site düzeyi, kendi SMTP sunucunuzu, bağlantı noktanızı ve kimlik doğrulama yönteminizi seçmenize olanak tanır.</value>
+    <value>Sunucu modu, uygulama düzeyinde ayarlanan tüm SMTP ayarlarını kullanır. Site düzeyi ise kendi SMTP sunucunuzu, bağlantı noktanızı ve kimlik doğrulama yönteminizi seçmenize olanak tanır.</value>
   </data>
   <data name="plSMTPPassword.Text" xml:space="preserve">
     <value>SMTP Şifresi:</value>

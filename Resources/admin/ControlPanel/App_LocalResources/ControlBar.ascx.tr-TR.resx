@@ -163,7 +163,7 @@
     <value>Çevrimiçi Yardım</value>
   </data>
   <data name="Tool.RecycleApp.Text" xml:space="preserve">
-    <value>Uygulama Etki Alanını Yeniden Başlat</value>
+    <value>Uygulamayı Yeniden Başlat</value>
   </data>
   <data name="Tool.UploadFile.Text" xml:space="preserve">
     <value>Dosya Yükle</value>

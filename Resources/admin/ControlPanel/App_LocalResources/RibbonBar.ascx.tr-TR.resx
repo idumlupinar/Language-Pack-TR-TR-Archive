@@ -424,13 +424,13 @@
     <value>Önbelleği Temizle</value>
   </data>
   <data name="Tool.RecycleApp.Text" xml:space="preserve">
-    <value>Uygulama Etki Alanını Yeniden Başlat</value>
+    <value>Uygulamayı Yeniden Başlat</value>
   </data>
   <data name="Tool.ClearCache.ToolTip" xml:space="preserve">
     <value>Site önbelleğindeki tüm eski dosyaları temizlemek için seçin.</value>
   </data>
   <data name="Tool.RecycleApp.ToolTip" xml:space="preserve">
-    <value>Sunucuyu yeniden başlatmak ve geçerli site için tüm yeni dosyaları almak üzere seçin. Site kısa bir süre kullanılamayacak.</value>
+    <value>Uygulamayı yeniden başlatmak ve geçerli site için tüm yeni dosyaları almak üzere seçin. Site kısa bir süre kullanılamayacak.</value>
   </data>
   <data name="ModeMobilePreview.Text" xml:space="preserve">
     <value>Önizleme</value>

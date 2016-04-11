@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="plFolder.Text" xml:space="preserve">
     <value>Klasör:</value>
@@ -192,7 +192,7 @@
   <data name="valTemplate.ErrorMessage" xml:space="preserve">
     <value>Lütfen bir şablon seçin.</value>
   </data>
-  <data name="SpecifyName.Text" xml:space="preserve">
+  <data name="EmptyTabName.Text" xml:space="preserve">
     <value>Sayfa için bir ad belirtmeniz gerekmektedir.</value>
   </data>
   <data name="InsertAfter.Text" xml:space="preserve">
@@ -221,5 +221,8 @@
   </data>
   <data name="TabRecycled.Text" xml:space="preserve">
     <value>Bu ada sahip bir sayfa Geri Dönüşüm Kutusunda bulunmaktadır. Bu sayfayı geri yüklemek için Geri Dönüşüm Kutusunu kullanın.</value>
+  </data>
+  <data name="InvalidTabName.Text" xml:space="preserve">
+    <value>Geçersiz Sayfa Adı</value>
   </data>
 </root>
