@@ -1156,6 +1156,12 @@ Hem Sıkıştırma hem de Yeniden Dizinleme, Site Search Crawler zamanlanmış g
   <data name="plDebugMode.Text" xml:space="preserve">
     <value>Hata Ayıklama Modu:</value>
   </data>
+  <data name="plImprovementProgram.Help" xml:space="preserve">
+    <value>DNN İyileştirme Programı'na katılmak için bu kutuyu işaretleyin. &lt;a href="http://www.dnnsoftware.com/dnn-improvement-program" target="_blank"&gt;Daha Fazla Bilgi&lt;/a&gt;.</value>
+  </data>
+  <data name="plImprovementProgram.Text" xml:space="preserve">
+    <value>DNN İyileştirme Programına Katıl:</value>
+  </data>
   <data name="plShowCriticalErrors.Help" xml:space="preserve">
     <value>Bu ayar, error sorgu dizesi parametresiyle gönderilen hata mesajlarının sayfa içinde gösterilip gösterilmeyeceğini belirler.</value>
   </data>
@@ -1163,7 +1169,7 @@ Hem Sıkıştırma hem de Yeniden Dizinleme, Site Search Crawler zamanlanmış g
     <value>Kritik Hataları Ekranda Göster:</value>
   </data>
   <data name="lblCustomAnalyzer.Help" xml:space="preserve">
-    <value>Bu alan boşsa sistem, içeriği dizinlemek için standart çözümleyiciyi kullanır. Özel bir çözümleyici kullanmak istiyorsanız bu alana çözümleyici sınıfının tam adını yazın.  Not: Mevcut içeriğin yeni çözümleyiciyle dizinlenmesini istiyorsanız, yeniden dizinlemek istediğiniz her sitenin Yönetici &gt; Arama Yöneticisi sayfasına gidip "İçeriği Yeniden Dizinle" düğmesine tıklamalısınız.</value>
+    <value>Bu alan boşsa sistem, içeriği dizinlemek için standart çözümleyiciyi kullanır. Özel bir çözümleyici kullanmak istiyorsanız bu alana çözümleyici sınıfının tam adını yazın. Not: Mevcut içeriğin yeni çözümleyiciyle dizinlenmesini istiyorsanız, yeniden dizinlemek istediğiniz her sitenin Yönetici &gt; Arama Yöneticisi sayfasına gidip "İçeriği Yeniden Dizinle" düğmesine tıklamalısınız.</value>
   </data>
   <data name="lblCustomAnalyzer.Text" xml:space="preserve">
     <value>Özel Çözümleyici Türü:</value>

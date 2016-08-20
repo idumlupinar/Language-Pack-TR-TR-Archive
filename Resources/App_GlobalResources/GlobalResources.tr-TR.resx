@@ -633,13 +633,29 @@ Lütfen aşağıdaki bilgileri kullanarak giriş yapın:
 Web Sitesi Adresi: [Portal:URL]
 Kullanıcı Adı:   [User:Username]
 
-Şifre sıfırlama bağlantısı: http://[Portal:URL]/default.aspx?ctl=PasswordReset&amp;resetToken=[Membership:PasswordResetToken]
+Şifre sıfırlama bağlantısı: [Portal:PASSWORDREMINDERURL]?ctl=PasswordReset&amp;resetToken=[Membership:PasswordResetToken]
 
 Saygılarımızla,
 [Portal:PortalName]
 
 *Not: Şifre Sıfırlama Belirteci talep etmediyseniz lütfen bu mesajı dikkate almayın.
 </value>
+  </data>
+  <data name="EMAIL_USER_AUTHORIZED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:URL] için kayıt onaylandı</value>
+  </data>
+  <data name="EMAIL_USER_AUTHORIZED_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesine kaydolduğunuz için teşekkür ederiz. Kaydınız onaylandı ve hesabınız artık etkin.
+
+Web Sitesi Adresi: [Portal:URL]
+Kullanıcı Adı: [User:UserName]
+
+Teşekkür ederiz, desteğiniz için minnettarız...
+
+[Portal:PortalName]
+    </value>
   </data>
   <data name="EMAIL_PROFILE_UPDATED_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Profil Güncelleme Bildirimi</value>
@@ -946,7 +962,7 @@ E-posta mesajları:   [Custom:2]
   </data>
   <data name="License.Text" xml:space="preserve">
     <value>&lt;p&gt;DotNetNuke&amp;reg; - http://www.dotnetnuke.com&lt;br /&gt;
-Copyright (c) 2002-2014&lt;br/&gt;
+Copyright (c) 2002-2016&lt;br/&gt;
     by DotNetNuke Corporation&lt;/p&gt;
     &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation 

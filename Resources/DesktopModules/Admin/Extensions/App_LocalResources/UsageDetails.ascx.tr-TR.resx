@@ -147,9 +147,6 @@
   <data name="grd.PagerSettings.PreviousPageText" xml:space="preserve">
     <value>&lt; Önceki Sayfa   </value>
   </data>
-  <data name="FilterOptionSelect.Text" xml:space="preserve">
-    <value>&lt; Seçin &gt;</value>
-  </data>
   <data name="Msg.NotUsedBy" xml:space="preserve">
     <value>Bu modül {0} sitesindeki hiçbir sayfada bulunmuyor.</value>
   </data>

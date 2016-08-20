@@ -172,6 +172,17 @@
   <data name="Password.Text" xml:space="preserve">
     <value>Şifre:</value>
   </data>
+  <data name="ImprovementsProgramTitle.Text" xml:space="preserve">
+    <value>Ürün Geliştirme Programı</value>
+  </data>
+  <data name="ImprovementProgramExplain.Text" xml:space="preserve">
+    <value>Ürün geliştirme programı, DNN'i sizin için nasıl daha iyi hale getirebileceğimizi
+daha iyi anlamamızı sağlar. Veriler, kullanımı ve ürünü kullananlar için neyin
+önemli olduğunu analiz etmemize yardımcı olur. Tüm veriler anonimdir ve yalnızca dahili kullanım içindir. &lt;a href="http://www.dnnsoftware.com/dnn-improvement-program" target="_blank"&gt;Ürün Geliştirme Programı&lt;/a&gt; hakkında daha fazla bilgi edinin.</value>
+  </data>
+  <data name="ImprovementProgramLabel.Text" xml:space="preserve">
+    <value>Anonim kullanım bilgilerini DNN'e gönder</value>
+  </data>
   <data name="Retry.Text" xml:space="preserve">
     <value>Yeniden Dene</value>
   </data>

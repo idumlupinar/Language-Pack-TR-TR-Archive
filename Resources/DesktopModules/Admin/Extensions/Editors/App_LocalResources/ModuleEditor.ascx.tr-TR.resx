@@ -133,7 +133,7 @@
     <value>Taşınabilir mi?</value>
   </data>
   <data name="IsSearchable.Help" xml:space="preserve">
-    <value>Modülün, içeriğinin dizine eklenmesini sağlayan ISearchable arabirimini destekleyip desteklemediğini belirtir.</value>
+    <value>Modülün, içeriğinin dizinlenmesine olanak tanıyan ISearchable veya ModuleSearchBase arabirimini destekleyip desteklemediğini belirtir.</value>
   </data>
   <data name="IsSearchable.Text" xml:space="preserve">
     <value>Aranabilir mi?</value>
