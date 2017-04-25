@@ -652,7 +652,7 @@ Saygılarımızla,
 Web Sitesi Adresi: [Portal:URL]
 Kullanıcı Adı: [User:UserName]
 
-Teşekkür ederiz, desteğiniz için minnettarız...
+Teşekkür ederiz, desteğiniz için minnettarız.
 
 [Portal:PortalName]
     </value>
@@ -1585,5 +1585,27 @@ Saygılarımızla,
   </data>
   <data name="ThereIsAInstallationCurrentlyInProgress.Error" xml:space="preserve">
     <value>Şu anda devam eden bir kurulum var. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="EMAIL_USER_UNAUTHORIZED_BODY.Text" xml:space="preserve">
+    <value>Sayın [User:DisplayName],
+
+[Portal:PortalName] sitesindeki hesabınızın yetkisi kaldırıldı.
+
+Web Sitesi Adresi: [Portal:URL]
+Kullanıcı Adı: [User:UserName]
+
+Herhangi bir sorunuz olursa [Portal:Email] adresinden yöneticiyle iletişime geçebilirsiniz.
+
+Saygılarımızla,
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_USER_UNAUTHORIZED_SUBJECT.Text" xml:space="preserve">
+    <value>Hesabınızın [Portal:URL] için yetkisi kaldırıldı</value>
+  </data>
+  <data name="DefaultStopwordGroup.Text" xml:space="preserve">
+    <value>ve,ile,ama,fakat,ancak,için,gibi,bu,şu,o,bir,da,de,ki,mi,daha,çok,her,ise,veya,ya,olan,olarak</value>
+  </data>
+    <data name="DefaultSynonymGroup.Text" xml:space="preserve">
+    <value>dnn,dotnetnuke</value>
   </data>
 </root>

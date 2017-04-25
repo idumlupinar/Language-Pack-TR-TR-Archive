@@ -1066,7 +1066,7 @@
     <value>CAPTCHA görüntüsü</value>
   </data>
   <data name="PrivateConfirmationMessage.Text" xml:space="preserve">
-    <value>&lt;strong&gt;Bilgilerinizi içeren bir e-posta, doğrulama için Site Yöneticisine gönderildi. Kaydınız onaylandığında e-posta ile bilgilendirileceksiniz. Bu arada açılır pencereyi kapatarak siteyi gezmeye devam edebilirsiniz.&lt;/strong&gt;  </value>
+    <value>&lt;strong&gt;Detaylarınız içeren bir e-posta doğrulama için Site Yöneticisine gönderildi. Kaydınız onaylandığında e-posta ile bilgilendirileceksiniz. Bu sırada siteyi gezmeye devam edebilirsiniz.&lt;/strong&gt;  </value>
   </data>
   <data name="DNN_ReadingComponent.Text" xml:space="preserve">
     <value>Bileşen Manifest'i Okunuyor</value>
@@ -1947,5 +1947,8 @@ Güncelle'ye tıklayın.</value>
   </data>
   <data name="NoRecords.Text" xml:space="preserve">
     <value>Görüntülenecek kayıt yok</value>
+  </data>
+  <data name="Search.Text" xml:space="preserve">
+    <value>Ara</value>
   </data>
 </root>

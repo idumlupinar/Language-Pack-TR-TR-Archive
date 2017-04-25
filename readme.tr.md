@@ -5,7 +5,7 @@
 [DNN Platform](https://github.com/dnnsoftware/Dnn.Platform) 08.00.00 ile 10.03.03 arasındaki sürümler için Türkçe
 (Türkiye) çekirdek dil paketleri. Her DNN Platform sürümü için bir commit ve bir etiket (`v{sürüm}`) vardır.
 
-Bu sürüm: **DNN Platform 9.0.2** (`09.00.02`), yayın tarihi 2017-02-17.
+Bu sürüm: **DNN Platform 9.1.0** (`09.01.00`), yayın tarihi 2017-04-27.
 
 Paketler [dnncommunity.org](https://dnncommunity.org/Extensions-Ecosystem/Languages) üzerindeki topluluk
 çevirileri temel alınarak hazırlanmıştır. Eksik metinler çevrilmiştir; paketteki tüm kaynak dosyaları

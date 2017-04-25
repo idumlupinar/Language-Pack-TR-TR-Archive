@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="Core_tr-TR" type="CoreLanguagePack" version="09.00.02">
+    <package name="Core_tr-TR" type="CoreLanguagePack" version="09.01.00">
       <friendlyName>DNN Platform Core Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) core language pack for DNN Platform.</description>
       <iconFile />
@@ -18,38 +18,6 @@
             <code>tr-TR</code>
             <displayName>Türkçe (Türkiye)</displayName>
             <fallback>en-US</fallback>
-            <languageFile>
-              <path>admin\ControlPanel\App_LocalResources</path>
-              <name>AddModule.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>admin\ControlPanel\App_LocalResources</path>
-              <name>AddPage.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>admin\ControlPanel\App_LocalResources</path>
-              <name>ControlBar.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>admin\ControlPanel\App_LocalResources</path>
-              <name>RibbonBar.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>admin\ControlPanel\App_LocalResources</path>
-              <name>SiteAddPage.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>admin\ControlPanel\App_LocalResources</path>
-              <name>SwitchSite.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>admin\ControlPanel\App_LocalResources</path>
-              <name>UpdatePage.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>admin\ControlPanel\App_LocalResources</path>
-              <name>WebUpload.ascx.tr-TR.resx</name>
-            </languageFile>
             <languageFile>
               <path>admin\Modules\App_LocalResources</path>
               <name>Export.ascx.tr-TR.resx</name>
@@ -247,212 +215,12 @@
               <name>ViewConsole.ascx.tr-TR.resx</name>
             </languageFile>
             <languageFile>
-              <path>DesktopModules\Admin\Dashboard\App_LocalResources</path>
-              <name>Dashboard.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Dashboard\App_LocalResources</path>
-              <name>DashboardControls.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Dashboard\App_LocalResources</path>
-              <name>Export.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Dashboard\App_LocalResources</path>
-              <name>SharedResources.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Dashboard\Controls\App_LocalResources</path>
-              <name>Database.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Dashboard\Controls\App_LocalResources</path>
-              <name>Host.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Dashboard\Controls\App_LocalResources</path>
-              <name>Modules.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Dashboard\Controls\App_LocalResources</path>
-              <name>Portals.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Dashboard\Controls\App_LocalResources</path>
-              <name>Server.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Dashboard\Controls\App_LocalResources</path>
-              <name>Skins.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\App_LocalResources</path>
-              <name>BatchInstall.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\App_LocalResources</path>
-              <name>EditExtension.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\App_LocalResources</path>
-              <name>Extensions.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\App_LocalResources</path>
-              <name>ExtensionWizard.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\App_LocalResources</path>
-              <name>Install.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\App_LocalResources</path>
-              <name>LanguagePacks.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\App_LocalResources</path>
-              <name>PackageWriter.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\App_LocalResources</path>
-              <name>SharedResources.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\App_LocalResources</path>
-              <name>UnInstall.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\App_LocalResources</path>
-              <name>UsageDetails.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\Editors\App_LocalResources</path>
-              <name>AuthenticationEditor.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\Editors\App_LocalResources</path>
-              <name>EditModuleControl.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\Editors\App_LocalResources</path>
-              <name>EditModuleDefinition.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\Editors\App_LocalResources</path>
-              <name>JavaScriptLibraryEditor.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\Editors\App_LocalResources</path>
-              <name>LanguagePackEditor.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\Editors\App_LocalResources</path>
-              <name>ModuleEditor.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\Editors\App_LocalResources</path>
-              <name>SkinEditor.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Extensions\Editors\App_LocalResources</path>
-              <name>SkinObjectEditor.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
               <path>DesktopModules\Admin\FiftyOneClientCapabilityProvider\App_LocalResources</path>
               <name>Administration.ascx.tr-TR.resx</name>
             </languageFile>
             <languageFile>
               <path>DesktopModules\Admin\FiftyOneClientCapabilityProvider\App_LocalResources</path>
               <name>SharedResources.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\HostSettings\App_LocalResources</path>
-              <name>EditIPFilters.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\HostSettings\App_LocalResources</path>
-              <name>FriendlyUrls.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\HostSettings\App_LocalResources</path>
-              <name>HostSettings.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\HostSettings\App_LocalResources</path>
-              <name>IPFilters.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\HostSettings\App_LocalResources</path>
-              <name>RequestFilters.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>CLTools.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>EditLanguage.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>EnableLocalizedContent.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>LanguageEditor.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>LanguageEditorExt.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>LanguageEnabler.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>LanguagePackWriter.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>LanguageSettings.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>LocalizePages.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>ResourceVerifier.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>SharedResources.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Languages\App_LocalResources</path>
-              <name>TranslationStatus.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Lists\App_LocalResources</path>
-              <name>ListEditor.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Lists\App_LocalResources</path>
-              <name>ListEntries.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\LogViewer\App_LocalResources</path>
-              <name>EditLogTypes.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\LogViewer\App_LocalResources</path>
-              <name>LogViewer.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\MobilePreview\App_LocalResources</path>
-              <name>Preview.ascx.tr-TR.resx</name>
             </languageFile>
             <languageFile>
               <path>DesktopModules\Admin\ModuleCreator\App_LocalResources</path>
@@ -485,94 +253,6 @@
             <languageFile>
               <path>DesktopModules\Admin\ModuleCreator\Templates\VB\Settings - User Control</path>
               <name>Settings.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Portals\App_LocalResources</path>
-              <name>Portals.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Portals\App_LocalResources</path>
-              <name>Signup.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Portals\App_LocalResources</path>
-              <name>SiteSettings.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Portals\App_LocalResources</path>
-              <name>template.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
-              <name>FileManager.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
-              <name>ProviderConfig.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
-              <name>RadEditor.Dialogs.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
-              <name>RadEditor.Main.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
-              <name>RadEditor.Modules.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
-              <name>RadEditor.Tools.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
-              <name>RadListBox.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
-              <name>RadProgressArea.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
-              <name>RadScheduler.Main.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
-              <name>RadSpell.Dialog.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
-              <name>RadUpload.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RadEditorProvider\Dialogs\App_LocalResources</path>
-              <name>SaveTemplate.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\RecycleBin\App_LocalResources</path>
-              <name>RecycleBin.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Scheduler\App_LocalResources</path>
-              <name>EditSchedule.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Scheduler\App_LocalResources</path>
-              <name>ViewSchedule.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Scheduler\App_LocalResources</path>
-              <name>ViewScheduleHistory.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Scheduler\App_LocalResources</path>
-              <name>ViewScheduleStatus.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\SearchAdmin\App_LocalResources</path>
-              <name>SearchAdmin.ascx.tr-TR.resx</name>
             </languageFile>
             <languageFile>
               <path>DesktopModules\Admin\SearchResults\App_LocalResources</path>
@@ -655,58 +335,6 @@
               <name>UserSettings.ascx.tr-TR.resx</name>
             </languageFile>
             <languageFile>
-              <path>DesktopModules\Admin\Sitemap\App_LocalResources</path>
-              <name>SitemapSettings.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\SiteWizard\App_LocalResources</path>
-              <name>SiteWizard.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Sql\App_LocalResources</path>
-              <name>SQL.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Tabs\App_LocalResources</path>
-              <name>ManageTabs.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Tabs\App_LocalResources</path>
-              <name>TabLocalization.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Tabs\App_LocalResources</path>
-              <name>Tabs.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Taxonomy\App_LocalResources</path>
-              <name>CreateVocabulary.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Taxonomy\App_LocalResources</path>
-              <name>EditVocabulary.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Taxonomy\App_LocalResources</path>
-              <name>SharedResources.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\Taxonomy\App_LocalResources</path>
-              <name>VocabularyList.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\UrlManagement\App_LocalResources</path>
-              <name>AdvancedUrlSettings.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\UrlManagement\App_LocalResources</path>
-              <name>FriendlyUrls.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\UrlManagement\App_LocalResources</path>
-              <name>SharedResources.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
               <path>DesktopModules\Admin\ViewProfile\App_LocalResources</path>
               <name>Settings.ascx.tr-TR.resx</name>
             </languageFile>
@@ -717,10 +345,6 @@
             <languageFile>
               <path>DesktopModules\Admin\ViewProfile\App_LocalResources</path>
               <name>ViewProfile.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\XmlMerge\App_LocalResources</path>
-              <name>XmlMerge.ascx.tr-TR.resx</name>
             </languageFile>
             <languageFile>
               <path>DesktopModules\AuthenticationServices\DNN\App_LocalResources</path>
@@ -745,10 +369,6 @@
             <languageFile>
               <path>DesktopModules\DDRMenu\App_LocalResources</path>
               <name>MenuView.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\DevicePreviewManagement\App_LocalResources</path>
-              <name>SharedResources.tr-TR.resx</name>
             </languageFile>
             <languageFile>
               <path>DesktopModules\DigitalAssets\App_LocalResources</path>
@@ -833,6 +453,10 @@
             <languageFile>
               <path>DesktopModules\MemberDirectory\App_LocalResources</path>
               <name>View.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\SiteExportImport\App_LocalResources</path>
+              <name>ExportImport.tr-TR.resx</name>
             </languageFile>
             <languageFile>
               <path>DesktopModules\SocialGroups\App_LocalResources</path>

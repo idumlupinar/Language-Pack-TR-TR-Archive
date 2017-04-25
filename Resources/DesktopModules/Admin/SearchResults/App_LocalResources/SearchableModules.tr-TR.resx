@@ -144,4 +144,7 @@
   <data name="Module_Text/HTML.Text" xml:space="preserve">
     <value>Sayfalar</value>
   </data>
+  <data name="Module_Group Directory.Text" xml:space="preserve">
+    <value>Grup Dizinleri</value>
+  </data>
 </root>

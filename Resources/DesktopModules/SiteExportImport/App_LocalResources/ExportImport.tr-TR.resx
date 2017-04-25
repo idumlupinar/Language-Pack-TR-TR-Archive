@@ -12,7 +12,7 @@
     
     Example:
     
-    ... ado.net/XML headers && schema ...
+    ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
     <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
@@ -112,39 +112,63 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="plName.Text" xml:space="preserve">
-    <value>Ad:</value>
+  <data name="ASSETS.InfoText" xml:space="preserve">
+    <value>Varlıklar:</value>
   </data>
-  <data name="RequiredField.ErrorMessage" xml:space="preserve">
-    <value>Çeviri için bir değer girmelisiniz.</value>
+  <data name="InvalidPortal.Text" xml:space="preserve">
+    <value>Geçersiz site.</value>
   </data>
-  <data name="plDefault.Text" xml:space="preserve">
-    <value>Varsayılan Değer:</value>
+  <data name="JobNotExist.Text" xml:space="preserve">
+    <value>Böyle bir iş yok!</value>
   </data>
-  <data name="Save.ErrorMessage" xml:space="preserve">
-    <value>Bir Dosya İşlemi Başarısız Oldu. Dosyaların düzenlenebilmesi için kaynak dosyası izinlerini kontrol edin.</value>
+  <data name="JobStatus_Cancelled.Text" xml:space="preserve">
+    <value>İptal Edildi</value>
   </data>
-  <data name="ControlTitle_editresourcekey.Text" xml:space="preserve">
-    <value>Dil Düzenleyicisi</value>
+  <data name="JobStatus_DoneFailure.Text" xml:space="preserve">
+    <value>Başarısız</value>
   </data>
-  <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;h1&gt;Diller Hakkında&lt;/h1&gt;&lt;p&gt;Süper Kullanıcı, sistemde yüklü olan desteklenen dilleri yönetebilir.&lt;/p&gt;</value>
+  <data name="JobStatus_DoneSuccess.Text" xml:space="preserve">
+    <value>Başarılı</value>
   </data>
-  <data name="plDefault.Help" xml:space="preserve">
-    <value>Kaynak anahtarının varsayılan değeri.</value>
+  <data name="JobStatus_InProgress.Text" xml:space="preserve">
+    <value>Devam Ediyor</value>
   </data>
-  <data name="plFile.Help" xml:space="preserve">
-    <value>Bu kaynak anahtarını içeren kaynak dosyası.</value>
+  <data name="JobStatus_Submitted.Text" xml:space="preserve">
+    <value>Gönderildi</value>
   </data>
-  <data name="plFile.Text" xml:space="preserve">
-    <value>Kaynak Dosyası:</value>
+  <data name="JobType_Export.Text" xml:space="preserve">
+    <value>Siteyi Dışa Aktarma</value>
   </data>
-  <data name="plName.Help" xml:space="preserve">
-    <value>Düzenlenen kaynak anahtarının adı.</value>
+  <data name="JobType_Import.Text" xml:space="preserve">
+    <value>Siteyi İçe Aktarma</value>
+  </data>
+  <data name="NotPortalAdmin.Text" xml:space="preserve">
+    <value>Kullanıcı bir site yöneticisi değil</value>
+  </data>
+  <data name="PAGES.InfoText" xml:space="preserve">
+    <value>Sayfalar:</value>
+  </data>
+  <data name="PORTAL.InfoText" xml:space="preserve">
+    <value>Site Yapılandırmaları:</value>
+  </data>
+  <data name="PROFILE_PROPERTIES.InfoText" xml:space="preserve">
+    <value>Profil Tanımları:</value>
+  </data>
+  <data name="ROLES.InfoText" xml:space="preserve">
+    <value>Roller:</value>
+  </data>
+  <data name="USERS.InfoText" xml:space="preserve">
+    <value>Kullanıcılar:</value>
+  </data>
+  <data name="USERS_DATA.InfoText" xml:space="preserve">
+    <value>Kullanıcıların Ek Verileri:</value>
+  </data>
+  <data name="VOCABULARIES.InfoText" xml:space="preserve">
+    <value>Sözlükler:</value>
   </data>
 </root>
