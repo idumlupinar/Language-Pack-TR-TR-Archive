@@ -222,4 +222,10 @@ daha iyi anlamamızı sağlar. Veriler, kullanımı ve ürünü kullananlar içi
   <data name="UpgradeStarted.Text" xml:space="preserve">
     <value>Yükseltme Başlangıç Saati</value>
   </data>
+  <data name="AcceptTerms.Required" xml:space="preserve">
+    <value>Lisans sözleşmesinin şartlarını kabul ederek devam edin.</value>
+  </data>
+  <data name="AcceptTerms.Text" xml:space="preserve">
+    <value>&lt;a href="../Licenses/Dnn_Corp_License.pdf" target="_blank"&gt;Lisans sözleşmesinin&lt;/a&gt; koşullarını kabul ediyorum</value>
+  </data>
 </root>

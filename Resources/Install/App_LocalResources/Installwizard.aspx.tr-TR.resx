@@ -546,4 +546,10 @@ Windows Gezgini'ni kullanarak web sitenizin klasörlerine ( {0} ) gidin. Klasör
   <data name="Email.Text" xml:space="preserve">
     <value>E-posta adresi:</value>
   </data>
+  <data name="AcceptTerms.Text" xml:space="preserve">
+    <value>&lt;a href="../Licenses/Dnn_Corp_License.pdf" target="_blank"&gt;Lisans sözleşmesinin&lt;/a&gt; koşullarını kabul ediyorum</value>
+  </data>
+  <data name="AcceptTerms.Required" xml:space="preserve">
+    <value>Devam etmek için lisans sözleşmesinin şartlarını kabul edin.</value>
+  </data>
 </root>
