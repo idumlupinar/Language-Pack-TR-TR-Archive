@@ -121,7 +121,8 @@
     <value>Kullanıcı Adı:</value>
   </data>
   <data name="Username.Help" xml:space="preserve">
-    <value>Bir kullanıcı adı girin.  En az beş karakter uzunluğunda olmalı ve alfanümerik bir değer olmalıdır.</value>
+    <value>Bir kullanıcı adı girin.  En az beş karakter uzunluğunda ve alfanümerik bir değer olmalı,
+    boşlukla başlamamalı/bitmemeli ve şu karakterlerden hiçbirini içermemelidir: !"#$%&amp;'()*+,/:;&lt;=&gt;?@[\]^`{|}</value>
   </data>
   <data name="FirstName.Text" xml:space="preserve">
     <value>Ad:</value>

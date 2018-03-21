@@ -147,6 +147,18 @@
   <data name="plResultsScopeForPortals.Text" xml:space="preserve">
     <value>Site(ler) İçin Sonuç Kapsamı</value>
   </data>
+  <data name="plShowDescriptionForSnippet.Help" xml:space="preserve">
+    <value>Kısa özet yerine açıklamayı gösterir. Açıklama yoksa kısa özet yine de gösterilir.</value>
+  </data>
+  <data name="plShowDescriptionForSnippet.Text" xml:space="preserve">
+    <value>Arama Kısa Özeti Yerine Açıklamayı Göster</value>
+  </data>
+  <data name="plShowFriendlyTitle.Help" xml:space="preserve">
+    <value>İç adı yerine sayfanın başlığını gösterin.</value>
+  </data>
+  <data name="plShowFriendlyTitle.Text" xml:space="preserve">
+    <value>Kullanıcı Dostu Başlığı Göster</value>
+  </data>
   <data name="plTitleLinkTarget.Help" xml:space="preserve">
     <value>Bağlantıyı aynı sayfada mı yoksa yeni bir pencerede mi açılacağını seçin.</value>
   </data>

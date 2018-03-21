@@ -1350,6 +1350,9 @@
   <data name="SMTPConfigurationProblem.Text" xml:space="preserve">
     <value>SMTP Sunucunuzun yapılandırması ile ilgili bir sorun var. Posta gönderilmedi.</value>
   </data>
+  <data name="SmtpInvalidPort.Text" xml:space="preserve">
+    <value>Belirtilen bağlantı noktası geçersiz. Bağlantı noktası 0'dan büyük ve 65536'dan küçük olmalıdır. Posta gönderilmedi.</value>
+  </data>
   <data name="FILE_NotAllowed.Text" xml:space="preserve">
     <value>Dosya uzantısı izin verilmeyen - {0}</value>
   </data>
@@ -1907,7 +1910,7 @@ Güncelle'ye tıklayın.</value>
     <value>&lt;div class="invalidFiles"&gt;&lt;p&gt;[TOTAL] dosyadan [COUNT] tanesi, dosya türleri desteklenmediği için çıkarılamadı:&lt;/p&gt;[FILELIST]&lt;/div&gt;</value>
   </data>
   <data name="FileUpload.UnzipFileSuccessPromptBody.Text" xml:space="preserve">
-    <value>&lt;div class="validFiles"&gt;&lt;p&gt;[TOTAL] dosyadan [TOTAL] dosya başarıyla çıkarıldı.&lt;/div&gt;</value>
+    <value>&lt;div class="validFiles"&gt;&lt;p&gt;[TOTAL] dosyanın [TOTAL] tanesi başarıyla çıkarıldı.&lt;/p&gt;&lt;/div&gt;</value>
   </data>
   <data name="AuthorizeUser.Text" xml:space="preserve">
     <value>Yetkilendir</value>
@@ -1950,5 +1953,19 @@ Güncelle'ye tıklayın.</value>
   </data>
   <data name="Search.Text" xml:space="preserve">
     <value>Ara</value>
+  </data>
+  <data name="PotentialDangerousFile.Text" xml:space="preserve">
+    <value>Web sitenize potansiyel olarak tehlikeli bir dosya eklendi</value>
+  </data>
+  <data name="RestrictFileMail_Body.Text" xml:space="preserve">
+    <value>&lt;p&gt;Sayın Site Sunucusu,&lt;/p&gt;&lt;p&gt;Güvenlik izleyicisi, web sitenize &lt;b&gt;potansiyel olarak tehlikeli dosyalar&lt;/b&gt; eklendiğini tespit etti. Eklenen tüm dosyaları görmek için site olay günlüklerini kontrol edin.
+Bu eklemeyi bekliyorsanız, bu e-postayı yok sayın; aksi takdirde, derhal işlem yapılması önerilir.&lt;/p&gt;
+&lt;p&gt;Eklenen dosya(lar):&lt;br/&gt;&lt;b&gt;[Path]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Teşekkürler,&lt;/p&gt;&lt;p&gt;[AppName] [AppVersion]&lt;/p&gt;</value>
+  </data>
+  <data name="RestrictFileMail_Subject.Text" xml:space="preserve">
+    <value>Web sitenize potansiyel olarak tehlikeli dosya eklendi</value>
+  </data>
+  <data name="ModuleShared.Text" xml:space="preserve">
+    <value>Paylaşılan Modül</value>
   </data>
 </root>

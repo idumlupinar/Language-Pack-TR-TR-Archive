@@ -120,6 +120,9 @@
   <data name="AddFileExtensionNotAllowed.Text" xml:space="preserve">
     <value>'{0}' uzantısına izin verilmiyor. Dosya eklenmedi.</value>
   </data>
+  <data name="AddFileInvalidContent.Text" xml:space="preserve">
+    <value>'{0}' içeriği geçerli değil. Dosya eklenmedi.</value>
+  </data>
   <data name="AddFileNoSpaceAvailable.Text" xml:space="preserve">
     <value>Belirtilen dosyayı saklamak için sitede boş alan yok. Dosya eklenmedi.</value>
   </data>
@@ -497,5 +500,11 @@
   </data>
   <data name="AlreadyFollowingUser.Text" xml:space="preserve">
     <value>Bu kullanıcıyı zaten takip ediyorsunuz.</value>
+  </data>
+  <data name="IPAddressIncorrect.Text" xml:space="preserve">
+    <value>IP adresi doğru formatta değil</value>
+  </data>
+  <data name="SubnetMaskIncorrect.Text" xml:space="preserve">
+    <value>Ağ alt maskesi doğru formatta değil</value>
   </data>
 </root>

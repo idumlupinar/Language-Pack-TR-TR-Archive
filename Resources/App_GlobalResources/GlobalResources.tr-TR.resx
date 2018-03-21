@@ -700,9 +700,9 @@ Kullanıcı Adı: [User:UserName]
 
 Doğrulanmış kaydınızı tamamlamak için aşağıdaki bağlantıyı kullanabilirsiniz:
 
-http://[Portal:URL]/default.aspx?ctl=Login&amp;username=[Custom:0]&amp;verificationcode=[Custom:1]
+[Portal:FULLURL]/default.aspx?ctl=Login&amp;username=[Custom:0]&amp;verificationcode=[Custom:1]
 
-Teşekkür ederiz, desteğiniz için minnettarız...
+Desteğiniz için teşekkür ederiz...
 
 [Portal:PortalName]
 
@@ -719,8 +719,8 @@ Teşekkür ederiz, desteğiniz için minnettarız...
 Site Web Adresi: [Portal:URL]
 Kullanıcı Adı: [User:UserName]
 
-Şifrenizi bilmiyor veya hatırlamıyorsanız, sıfırlamak için http://[Portal:URL]/default.aspx?ctl=PasswordReset&amp;resetToken=[Membership:PasswordResetToken] adresine gidin.
-Teşekkür ederiz, desteğiniz için minnettarız...
+Şifrenizi bilmiyorsanız veya hatırlayamıyorsanız, sıfırlamak için şu adrese gidin: [Portal:FULLURL]/default.aspx?ctl=PasswordReset&amp;resetToken=[Membership:PasswordResetToken]
+Desteğiniz için teşekkür ederiz...
 
 [Portal:PortalName]
 
@@ -962,7 +962,7 @@ E-posta mesajları:   [Custom:2]
   </data>
   <data name="License.Text" xml:space="preserve">
     <value>&lt;p&gt;DotNetNuke&amp;reg; - http://www.dotnetnuke.com&lt;br /&gt;
-Copyright (c) 2002-2017&lt;br/&gt;
+Copyright (c) 2002-2018&lt;br/&gt;
     by DotNetNuke Corporation&lt;/p&gt;
     &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
@@ -1503,7 +1503,7 @@ Lütfen bu e-postayı yanıtlamayın.</value>
         &lt;td&gt;
             &lt;table width="80" border="0" cellspacing="0" cellpadding="8" align="left"&gt;
                 &lt;tr&gt;
-                    &lt;td&gt;&lt;a href="PROFILEURL"&gt;&lt;img src="[PROFILEPICURL]" /&gt;&lt;/a&gt;&lt;br/&gt;[DISPLAYNAME]&lt;/td&gt;
+                    &lt;td&gt;&lt;a href="[PROFILEURL]"&gt;&lt;img src="[PROFILEPICURL]" /&gt;&lt;/a&gt;&lt;br/&gt;[DISPLAYNAME]&lt;/td&gt;
                 &lt;/tr&gt;
             &lt;/table&gt;
             &lt;table width="350" border="0" cellspacing="0" cellpadding="8" align="left"&gt;
