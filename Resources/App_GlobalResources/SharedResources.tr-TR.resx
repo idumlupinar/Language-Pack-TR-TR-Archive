@@ -1329,6 +1329,9 @@
   <data name="CLEANUP_ProcessComplete.Text" xml:space="preserve">
     <value>Temizleme Dosyası İşleme Tamamlandı - {0}</value>
   </data>
+  <data name="CLEANUP_ProcessError.Text" xml:space="preserve">
+    <value>Dosyalar Temizlenirken Ölümcül Olmayan Hata: {0}</value>
+  </data>
   <data name="CLEANUP_Processing.Text" xml:space="preserve">
     <value>Temizleme Dosyası İşleniyor - {0}</value>
   </data>

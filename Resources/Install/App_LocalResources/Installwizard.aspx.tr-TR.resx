@@ -225,13 +225,13 @@ daha iyi anlamamızı sağlar. Veriler, kullanımı ve ürünü kullananlar içi
     <value>Veritabanı kullanıcınız dbo izinlerine sahip değil</value>
   </data>
   <data name="IsValidDotNetVersion.Text" xml:space="preserve">
-    <value>DotNetNuke'un çalışması için .net 4.0 veya üstü gereklidir</value>
+    <value>DNN'in çalışması için .net 4.0 veya üstü gereklidir</value>
   </data>
   <data name="IsValidSqlServerVersionCheck.Text" xml:space="preserve">
     <value>Veritabanı sürümünün çalışma için SQL 2008 (express veya tam sürüm) ya da üstü olup olmadığı denetleniyor</value>
   </data>
   <data name="IsValidSqlServerVersion.Text" xml:space="preserve">
-    <value>DotNetNuke'un çalışması için SQL 2008 (express veya tam sürüm) gereklidir</value>
+    <value>DNN'in çalışması için SQL 2008 (express veya tam sürüm) gereklidir</value>
   </data>
   <data name="Language.Text" xml:space="preserve">
     <value>Dil</value>

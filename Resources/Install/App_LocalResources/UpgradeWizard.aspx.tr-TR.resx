@@ -150,12 +150,9 @@
     <value>Uzantılar güncelleniyor</value>
   </data>
   <data name="IntroDetail.Text" xml:space="preserve">
-    <value>&lt;p&gt;DotNetNuke Yükseltme Sayfasına hoş geldiniz.&lt;/p&gt;
+    <value>&lt;p&gt;DNN Yükseltme Sayfasına Hoş Geldiniz.&lt;/p&gt;
 
-&lt;p&gt;İlk adım, yükseltme için kullanmak istediğiniz dili seçmektir.&lt;/p&gt;
-
-
-</value>
+&lt;p&gt;İlk adım, yükseltme için kullanmak istediğiniz dili seçmektir.&lt;/p&gt;</value>
   </data>
   <data name="InvalidCredentials.Text" xml:space="preserve">
     <value>Kullanıcı adı ve şifre tanınmadı.</value>

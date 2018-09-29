@@ -805,7 +805,7 @@ Teşekkürler,
   <data name="404.Error" xml:space="preserve">
     <value>&lt;div style="height: 100%; width: 90%;"&gt;
         &lt;p style="color:red; font-weight:bold;"&gt;{0} Etki Alanı Adı Veritabanında Mevcut Değil&lt;/p&gt;
-        &lt;p&gt;DotNetNuke, tek bir veritabanı/kod tabanından birden fazla web sitesini destekler. Bunu,
+        &lt;p&gt;DNN, tek bir veritabanı/kod tabanından birden fazla web sitesini destekler. Bunu,
     istemci tarayıcının gönderdiği İsteğin URL'sini Portals veritabanı tablosundaki geçerli bir
         PortalID değerine dönüştürerek gerçekleştirir. Aşağıdaki adımlar bu süreci açıklar:&lt;/p&gt;
     &lt;ol style="text-align: left; list-style-type: decimal; list-style-position: outside;"&gt;
@@ -865,10 +865,10 @@ Teşekkürler,
   </data>
   <data name="403_3.Error" xml:space="preserve">
     <value>&lt;div style="height: 100%; width: 90%;"&gt;
-        &lt;h3&gt;DotNetNuke Yapılandırma Hatası&lt;/h3&gt;
+        &lt;h3&gt;DNN Yapılandırma Hatası&lt;/h3&gt;
         &lt;p&gt;{0}&lt;/p&gt;
-        &lt;p&gt;DotNetNuke kurulumunuzda bir güvenlik ayarları sorunu var gibi görünüyor (büyük olasılıkla
-        izinlerle ilgili). DotNetNuke, içerik, modüller ve temalar için kapsamlı dosya yükleme
+        &lt;p&gt;DNN kurulumunuzda bir güvenlik ayarları sorunu var gibi görünüyor (büyük olasılıkla
+        izinlerle ilgili). DNN, içerik, modüller ve temalar için kapsamlı dosya yükleme
         özelliklerine sahiptir. Bu özellikler, uygulamanın web sitenizde dosya oluşturup
         kaldırabilmesi için özel güvenlik ayarları gerektirir.&lt;/p&gt;
         &lt;p&gt;Windows Gezgini'ni kullanarak web sitesinin kök klasörüne gidin ( varsayılan olarak
@@ -1006,7 +1006,7 @@ Desteğiniz için teşekkür ederiz...
     <value>Bu Önbellek Sağlayıcısı PurgeCache özelliğini gerektirmez.</value>
   </data>
   <data name="NoLoginControl.Text" xml:space="preserve">
-    <value>Bu web sitesi için ayarlanan Giriş Sayfası geçerli bir DotNetNuke Hesap Girişi (Account Login) modülü içermediği veya izinler doğru ayarlanmadığı için bu varsayılan Giriş Sayfasına yönlendirildiniz.</value>
+    <value>Bu web sitesi için ayarlanan Giriş Sayfası geçerli bir DNN Hesap Giriş modülü içermediği için varsayılan Giriş Sayfasına yönlendirildiniz...</value>
   </data>
   <data name="EMAIL_USER_UPDATED_OWN_PASSWORD_BODY.Text" xml:space="preserve">
     <value>Sayın [User:DisplayName],

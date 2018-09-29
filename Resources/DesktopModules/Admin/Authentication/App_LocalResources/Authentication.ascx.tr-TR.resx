@@ -124,6 +124,6 @@
     <value>Kimlik Doğrulama Ayarları</value>
   </data>
   <data name="NoProvidersEnabled.Text" xml:space="preserve">
-    <value>Etkin sağlayıcı yok. Standart DotNetNuke Kimlik Doğrulama sağlayıcısı kullanılacak.</value>
+    <value>Hiçbir sağlayıcı etkin değil. Standart DNN Kimlik Doğrulama sağlayıcısı kullanılacaktır.</value>
   </data>
 </root>
