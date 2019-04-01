@@ -1605,7 +1605,16 @@ Saygılarımızla,
   <data name="DefaultStopwordGroup.Text" xml:space="preserve">
     <value>ve,ile,ama,fakat,ancak,için,gibi,bu,şu,o,bir,da,de,ki,mi,daha,çok,her,ise,veya,ya,olan,olarak</value>
   </data>
-    <data name="DefaultSynonymGroup.Text" xml:space="preserve">
+  <data name="DefaultSynonymGroup.Text" xml:space="preserve">
     <value>dnn,dotnetnuke</value>
+  </data>
+  <data name="cc_dismiss.Text" xml:space="preserve">
+    <value>Anladım!</value>
+  </data>
+  <data name="cc_link.Text" xml:space="preserve">
+    <value>Daha fazla bilgi</value>
+  </data>
+  <data name="cc_message.Text" xml:space="preserve">
+    <value>Bu web sitesi, sitemizde en iyi deneyimi yaşamanız için çerezler kullanır.</value>
   </data>
 </root>

@@ -897,6 +897,9 @@
   <data name="CreatePortal.Error" xml:space="preserve">
     <value>Site oluşturulurken hata oluştu.</value>
   </data>
+  <data name="CreatePortalHomeFolderExists.Error" xml:space="preserve">
+    <value>Site klasörü {0} zaten kullanılıyor.</value>
+  </data>
   <data name="CreateAdminUser.Error" xml:space="preserve">
     <value>Yönetici kullanıcı hesabı oluşturulurken hata oluştu.</value>
   </data>
@@ -1970,5 +1973,11 @@ Bu eklemeyi bekliyorsanız, bu e-postayı yok sayın; aksi takdirde, derhal işl
   </data>
   <data name="ModuleShared.Text" xml:space="preserve">
     <value>Paylaşılan Modül</value>
+  </data>
+  <data name="OAuthConfigBase_HostConfig.Help" xml:space="preserve">
+    <value>Tüm sitelerin bu kimlik doğrulama sağlayıcısı için aynı yapılandırma bilgilerini paylaşması amacıyla yapılandırmayı sunucu düzeyinde saklamak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="OAuthConfigBase_HostConfig.Text" xml:space="preserve">
+    <value>Sunucu Yapılandırması Kullanılsın mı? </value>
   </data>
 </root>
