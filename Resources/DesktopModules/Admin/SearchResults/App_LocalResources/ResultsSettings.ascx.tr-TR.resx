@@ -153,6 +153,12 @@
   <data name="plResultsScopeForPortals.Text" xml:space="preserve">
     <value>Site(ler) İçin Sonuç Kapsamı</value>
   </data>
+  <data name="plResultsScopeForRoles.Help" xml:space="preserve">
+    <value>Rol(ler)i seçerek arama sonuçlarını sınırlayın.</value>
+  </data>
+  <data name="plResultsScopeForRoles.Text" xml:space="preserve">
+    <value>Rol(ler) İçin Sonuç Kapsamı</value>
+  </data>
   <data name="plShowDescription.Help" xml:space="preserve">
     <value>Açıklamayı Göster</value>
   </data>

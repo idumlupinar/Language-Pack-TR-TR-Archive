@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="Core_tr-TR" type="CoreLanguagePack" version="09.03.02">
+    <package name="Core_tr-TR" type="CoreLanguagePack" version="09.04.00">
       <friendlyName>DNN Platform Core Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) core language pack for DNN Platform.</description>
       <iconFile />
@@ -265,6 +265,10 @@
             <languageFile>
               <path>DesktopModules\Admin\SearchResults\App_LocalResources</path>
               <name>SearchResults.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>DesktopModules\Admin\Security\App_LocalResources</path>
+              <name>DataConsent.ascx.tr-TR.resx</name>
             </languageFile>
             <languageFile>
               <path>DesktopModules\Admin\Security\App_LocalResources</path>

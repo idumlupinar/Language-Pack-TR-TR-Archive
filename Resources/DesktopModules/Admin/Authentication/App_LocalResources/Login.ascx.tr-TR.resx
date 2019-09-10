@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AssociateHelp.Text" xml:space="preserve">
     <value>Giriş bilgilerinizi bir kullanıcı adı ve şifre girerek mevcut bir kullanıcı hesabıyla ilişkilendirebilirsiniz.</value>
@@ -230,5 +230,11 @@
   </data>
   <data name="UserLockedOut_ContactAdmin.Text" xml:space="preserve">
     <value>Bu hesap, çok sayıda başarısız giriş denemesinden sonra kilitlenmiştir. Lütfen Site Yöneticisi ile iletişime geçin.</value>
+  </data>
+  <data name="MustConsent.Text" xml:space="preserve">
+    <value>Devam etmek için şartlarımızı kabul etmeniz gerekir</value>
+  </data>
+  <data name="FailedToRemoveAccount.Text" xml:space="preserve">
+    <value>Hesap kaldırılamadı. Lütfen site yöneticisiyle iletişime geçin ve hesabınızın kaldırılmasını istediğinizi bildirin.</value>
   </data>
 </root>

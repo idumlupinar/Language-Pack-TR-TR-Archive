@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -305,6 +305,12 @@
   </data>
   <data name="InvalidUserName.Text" xml:space="preserve">
     <value>Belirtilen kullanıcı adı geçersiz. Lütfen geçerli bir kullanıcı adı belirtin.</value>
+  </data>
+  <data name="InvalidFirstName.Text" xml:space="preserve">
+    <value>Belirtilen ad geçersiz.</value>
+  </data>
+  <data name="InvalidLastName.Text" xml:space="preserve">
+    <value>Belirtilen soyad geçersiz.</value>
   </data>
   <data name="UserRejected.Text" xml:space="preserve">
     <value>Bu kullanıcı kaydının onayı reddedildi. Daha fazla bilgi için bir Yöneticiyle iletişime geçin.</value>
@@ -1021,13 +1027,13 @@
     <value>Yeni şifreniz güvenlik nedeniyle kabul edilmedi. Lütfen doğru kullanıcı adı ve cevabın girildiğinden emin olun.</value>
   </data>
   <data name="InsecureAdmin.Text" xml:space="preserve">
-    <value>Yönetici hesabınız hâlâ bilinen bir varsayılan şifreyi kullanıyor. Lütfen Yönetici-&gt;Kullanıcı Hesapları menüsüne gidin ve şifreyi güncelleyin. Ayrıca geçerli bir e-posta adresi girildiğinden emin olun.</value>
+    <value>Yönetici hesabınız hâlâ bilinen bir varsayılan şifreyi kullanıyor. Lütfen Yönet-&gt;Kullanıcılar menüsüne gidin ve şifreyi güncelleyin. Ayrıca geçerli bir e-posta adresi girildiğinden emin olun.</value>
   </data>
   <data name="InsecureHost.Text" xml:space="preserve">
-    <value>Sunucu (Süper Kullanıcı) hesabınız hâlâ bilinen bir varsayılan şifreyi kullanıyor. Lütfen Sunucu-&gt;Süper Kullanıcı Hesapları menüsüne gidin ve şifreyi güncelleyin.</value>
+    <value>Sunucu (Süper Kullanıcı) hesabınız hâlâ bilinen bir varsayılan şifreyi kullanıyor. Lütfen Yönet-&gt;Kullanıcılar menüsüne gidin ve şifreyi güncelleyin.</value>
   </data>
   <data name="InsecureDefaults.Text" xml:space="preserve">
-    <value>Varsayılan hesapların ikisi de (host ve admin) bilinen varsayılan şifreleri kullanıyor. Lütfen ilgili menü öğelerine (Sunucu-&gt;Süper Kullanıcı Hesapları ve Yönetici-&gt;Kullanıcı Hesapları) gidin ve şifreleri güncelleyin. Ayrıca geçerli e-posta adresleri girildiğinden emin olun.</value>
+    <value>Varsayılan hesapların ikisi de (host ve admin) bilinen varsayılan şifreleri kullanıyor. Lütfen Yönet-&gt;Kullanıcılar menüsüne gidin ve şifreleri güncelleyin. Ayrıca geçerli e-posta adresleri girildiğinden emin olun.</value>
   </data>
   <data name="InsecureDefaults.Title" xml:space="preserve">
     <value>Güvenli Olmayan Hesap Bilgileri</value>
@@ -1642,8 +1648,8 @@
     <value>Konum Bilgileri</value>
   </data>
   <data name="ProfileUrlCleaned.Text" xml:space="preserve">
-    <value>Gönderilen URL geçersiz karakterler içeriyordu ve bu karakterler kaldırıldı.  Değiştirilen URL'yi kabul etmek için 
-Güncelle'ye tıklayın.</value>
+    <value>Gönderilen URL yasağı karakterler içeriyor, bu karakterler kaldırıldı. Değiştirilmiş URL'yi kabul etmek için Güncelle'yi tıklayın.
+</value>
   </data>
   <data name="CleanWarningTitle.Text" xml:space="preserve">
     <value>URL Temizlendi</value>

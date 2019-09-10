@@ -144,9 +144,6 @@
   <data name="DatabaseName.Text" xml:space="preserve">
     <value>Veritabanı Adı</value>
   </data>
-  <data name="DatabaseObjectQualifier.Text" xml:space="preserve">
-    <value>Nesne Niteleyici</value>
-  </data>
   <data name="DatabasePassword.Text" xml:space="preserve">
     <value>Veritabanı Şifresi</value>
   </data>
@@ -296,9 +293,7 @@ daha iyi anlamamızı sağlar. Veriler, kullanımı ve ürünü kullananlar içi
   <data name="DatabaseName.Help" xml:space="preserve">
     <value>Veritabanınızın adı.</value>
   </data>
-  <data name="DatabaseObjectQualifier.Help" xml:space="preserve">
-    <value>Web siteniz için nesne niteleyici.</value>
-  </data>
+
   <data name="DatabaseOwner.Text" xml:space="preserve">
     <value>Veritabanı Sahibi</value>
   </data>

@@ -120,6 +120,9 @@
   <data name="AddFileExtensionNotAllowed.Text" xml:space="preserve">
     <value>'{0}' uzantısına izin verilmiyor. Dosya eklenmedi.</value>
   </data>
+  <data name="AddFilenameNotAllowed.Text" xml:space="preserve">
+    <value>'{0}' dosya adına izin verilmiyor. Dosya eklenmedi.</value>
+  </data>
   <data name="AddFileInvalidContent.Text" xml:space="preserve">
     <value>'{0}' içeriği geçerli değil. Dosya eklenmedi.</value>
   </data>
