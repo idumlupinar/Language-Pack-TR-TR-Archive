@@ -1528,7 +1528,7 @@
     <value>Sil</value>
   </data>
   <data name="UnverifiedUser.Text" xml:space="preserve">
-    <value>Doğrulanmamış bir hesap kullanıyorsunuz. Lütfen size gönderilen doğrulama e-postasındaki bağlantıya tıklayarak hesabınızı doğrulayın.</value>
+    <value>Doğrulanmamış bir hesap kullanıyorsunuz. Lütfen size gönderilen doğrulama e-postasında bulunan bağlantıyı tıklayarak hesabınızı doğrulayın. Doğrulama e-postasını yeniden göndermek için &lt;a href="#" class="send-verification-mail"&gt;buraya&lt;/a&gt; tıklayın.</value>
   </data>
   <data name="DayAgo.Text" xml:space="preserve">
     <value>{0} gün önce</value>
@@ -1985,5 +1985,8 @@ Bu eklemeyi bekliyorsanız, bu e-postayı yok sayın; aksi takdirde, derhal işl
   </data>
   <data name="OAuthConfigBase_HostConfig.Text" xml:space="preserve">
     <value>Sunucu Yapılandırması Kullanılsın mı? </value>
+  </data>
+  <data name="VerificationMailSendSuccessful.Text" xml:space="preserve">
+    <value>Doğrulama E-postası Başarıyla Gönderildi.</value>
   </data>
 </root>
