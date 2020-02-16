@@ -510,4 +510,7 @@
   <data name="SubnetMaskIncorrect.Text" xml:space="preserve">
     <value>Ağ alt maskesi doğru formatta değil</value>
   </data>
+  <data name="AddFolderNotAllowed.Text" xml:space="preserve">
+    <value>'{0}' klasör yoluna izin verilmiyor. Klasör eklenmedi.</value>
+  </data>
 </root>

@@ -743,30 +743,23 @@ Teşekkürler,
   </data>
   <data name="404.Error" xml:space="preserve">
     <value>&lt;div style="height: 100%; width: 90%;"&gt;
-        &lt;p style="color:red; font-weight:bold;"&gt;{0} Etki Alanı Adı Veritabanında Mevcut Değil&lt;/p&gt;
-        &lt;p&gt;DNN, tek bir veritabanı/kod tabanından birden fazla web sitesini destekler. Bunu,
-    istemci tarayıcının gönderdiği İsteğin URL'sini Portals veritabanı tablosundaki geçerli bir
-        PortalID değerine dönüştürerek gerçekleştirir. Aşağıdaki adımlar bu süreci açıklar:&lt;/p&gt;
+   &lt;p style="color:red; font-weight:bold;"&gt;{0} Etki Alanı Adı Veritabanında Mevcut Değil&lt;/p&gt;
+   &lt;p&gt;Bu sistem, tek bir veritabanı/kod tabanından birden fazla web sitesini destekler. Bunu, istemci tarayıcının gönderdiği isteğin URL'sini Portals veritabanı tablosundaki geçerli bir Portal satırına dönüştürerek gerçekleştirir. Aşağıdaki adımlar bu süreci açıklar:&lt;/p&gt;
     &lt;ol style="text-align: left; list-style-type: decimal; list-style-position: outside;"&gt;
         &lt;li&gt;&lt;strong&gt;Web Sunucusu İşlemesi&lt;/strong&gt;&lt;br /&gt;
             &lt;ul style="list-style-type: disc;"&gt;
-                &lt;li&gt;Bir web sunucusu, istemci tarayıcıdan bir İstek aldığında hedef URL kaynağının dosya
-                    adı uzantısını IIS'te tanımlı Uygulama Uzantısı Eşlemeleriyle karşılaştırır.&lt;/li&gt;
-                &lt;li&gt;IIS, bulunan eşleşmeye göre İsteği tanımlı Yürütülebilir Dosya
-                    Yoluna ( ASP.NET İstekleri için aspnet_asapi.dll ) gönderir.&lt;/li&gt;
-                &lt;li&gt;aspnet_isapi.dll motoru, İsteği Application_BeginRequest ile başlayan sıralı bir
-                    olaylar dizisi içinde işler.&lt;/li&gt;
+                &lt;li&gt;Bir web sunucusu, istemci tarayıcıdan bir istek aldığında hedef URL kaynağının dosya adı uzantısını IIS'te tanımlı Uygulama Uzantısı Eşlemeleriyle karşılaştırır.&lt;/li&gt;
+                &lt;li&gt;IIS, bulunan eşleşmeye göre isteği tanımlı Yürütülebilir Dosya Yoluna (ASP.NET istekleri için aspnet_asapi.dll) gönderir.&lt;/li&gt;
+                &lt;li&gt;aspnet_isapi.dll motoru, isteği Application_BeginRequest ile başlayan sıralı bir olaylar dizisi içinde işler.&lt;/li&gt;
             &lt;/ul&gt;
         &lt;/li&gt;
-        &lt;li&gt;&lt;strong&gt;HttpModule.URLRewrite OnBeginRequest ( UrlRewriteModule.vb )&lt;/strong&gt;&lt;br /&gt;
+        &lt;li&gt;&lt;strong&gt;HttpModule.URLRewrite OnBeginRequest (UrlRewriteModule.vb)&lt;/strong&gt;&lt;br /&gt;
             &lt;ul style="list-style-type: disc;"&gt;
                 &lt;li&gt;İstek URL'si "/" karakterine göre ayrıştırılır&lt;/li&gt;
-                &lt;li&gt;Ayrıştırılan ilgili URL bölümlerinin her biri kullanılarak bir Etki Alanı Adı oluşturulur.
+                &lt;li&gt;Ayrıştırılan ilgili URL bölümlerinin her biri kullanılarak bir etki alanı adı oluşturulur.&lt;br /&gt;
                     &lt;br /&gt;
-                    &lt;br /&gt;
-                    Örnekler:
-                    &lt;br /&gt;
-                    &lt;br /&gt;
+                    Örnekler:&lt;br /&gt;
+
                     URL: http://www.domain.com/default.aspx = Etki Alanı Adı: www.domain.com&lt;br /&gt;
                     URL: http://209.75.24.131/default.aspx = Etki Alanı Adı: 209.75.24.131&lt;br /&gt;
                     URL: http://localhost/DotNetNuke/default.aspx = Etki Alanı Adı: localhost/DotNetNuke&lt;br /&gt;
@@ -774,26 +767,9 @@ Teşekkürler,
                     URL: http://www.domain.com/directory/default.aspx = Etki Alanı Adı: www.domain.com/directory&lt;br /&gt;
                     &lt;br /&gt;
                 &lt;/li&gt;
-                &lt;li&gt;Uygulama, Etki Alanı Adını kullanarak eşleşen bir kaydı bulmak için veritabanını
-                    ( Portals tablosu - PortalAlias alanı ) sorgular.
+                &lt;li&gt;Uygulama, etki alanı adını kullanarak eşleşen bir kaydı bulmak için veritabanını ( PortalAlias tablosu - HTTTPAlias sütunu) sorgular.&lt;br /&gt;
                     &lt;br /&gt;
-                    &lt;br /&gt;
-                    Not: Aynı web sitesine karşılık gelen birden fazla URL varsa web sitesi takma adı
-                    alanı, geçerli tüm Etki Alanı Adlarını virgülle ayrılmış bir liste halinde içermelidir.
-                    &lt;br /&gt;
-                    &lt;br /&gt;
-                    Örnek:
-                    &lt;br /&gt;
-                    &lt;br /&gt;
-                    URL: http://localhost/DotNetNuke/default.aspx&lt;br /&gt;
-                    URL: http://MACHINENAME/DotNetNuke/default.aspx&lt;br /&gt;
-                    URL: http://209.32.134.65/DotNetNuke/default.aspx&lt;br /&gt;
-                    PortalAlias: localhost/DotNetNuke,MACHINENAME/DotNetNuke,209.32.134.65/DotNetNuke
-                    &lt;br /&gt;
-                    &lt;br /&gt;
-                    Not: Uygulamayı uzak bir sunucuya kuruyorsanız Portals tablosundaki varsayılan kaydın
-                    PortalAlias alanı değerini yukarıda tanımlanan kurallara göre
-                    değiştirmelisiniz. &lt;/li&gt;
+                    Not: Uygulamayı uzak bir sunucuya kuruyorsanız PortalAlias tablosunda uygun PortalID değerine sahip kaydın HTTPAlias alanı değerini yukarıda tanımlanan kurallara göre değiştirmelisiniz. &lt;/li&gt;
             &lt;/ul&gt;
         &lt;/li&gt;
     &lt;/ol&gt;
@@ -803,35 +779,7 @@ Teşekkürler,
     <value>{0}</value>
   </data>
   <data name="403_3.Error" xml:space="preserve">
-    <value>&lt;div style="height: 100%; width: 90%;"&gt;
-        &lt;h3&gt;DNN Yapılandırma Hatası&lt;/h3&gt;
-        &lt;p&gt;{0}&lt;/p&gt;
-        &lt;p&gt;DNN kurulumunuzda bir güvenlik ayarları sorunu var gibi görünüyor (büyük olasılıkla
-        izinlerle ilgili). DNN, içerik, modüller ve temalar için kapsamlı dosya yükleme
-        özelliklerine sahiptir. Bu özellikler, uygulamanın web sitenizde dosya oluşturup
-        kaldırabilmesi için özel güvenlik ayarları gerektirir.&lt;/p&gt;
-        &lt;p&gt;Windows Gezgini'ni kullanarak web sitesinin kök klasörüne gidin ( varsayılan olarak
-        C:\DotNetNuke ). Klasöre sağ tıklayın ve açılan menüden Paylaşım ve Güvenlik'i seçin
-        ( Windows XP kullanıyorsanız, bu seçenekler görüntülenmeden önce &lt;a href="http://support.microsoft.com/default.aspx/kb/307874"
-            target="_blank"&gt;Basit Dosya Paylaşımını Devre Dışı Bırakmanız&lt;/a&gt; gerekebileceğini
-        unutmayın ). Güvenlik sekmesini seçin. Uygun Kullanıcı Hesabını ekleyin ve İzinleri ayarlayın.&lt;/p&gt;
-		&lt;ul style="text-align: left; list-style-type: none; list-style-position: outside;"&gt;
-            &lt;li&gt;&lt;strong&gt;Windows 2000 - IIS5 kullanıyorsanız&lt;/strong&gt;
-		    &lt;br/&gt;
-		    &lt;ol style="list-style-type: circle;"&gt;
-		      &lt;li&gt;[SERVER]\ASPNET Kullanıcı Hesabı, web sitenizin sanal kökü üzerinde Okuma, Yazma ve Değiştirme Denetimi izinlerine sahip olmalıdır.&lt;/li&gt;
-		    &lt;/ol&gt;
-		    &lt;br/&gt;
-		  &lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;Windows 2003 - IIS6 veya Vista/Windows 2008 - IIS7 kullanıyorsanız&lt;/strong&gt;
-		    &lt;br/&gt;
-		    &lt;ol style="list-style-type: circle;"&gt;
-		      &lt;li&gt;NT AUTHORITY\NETWORK SERVICE Kullanıcı Hesabı, web sitenizin sanal kökü üzerinde Okuma, Yazma ve Değiştirme Denetimi izinlerine sahip olmalıdır.&lt;/li&gt;
-		    &lt;/ol&gt;
-		  &lt;/li&gt;
-		&lt;/ul&gt;
-        &lt;p&gt;&lt;img alt="Web sitesinin kök klasörüne ait güvenlik ayarlarının ASPNET veya NT AUTHORITY/NETWORK SERVICE hesapları için Okuma, Yazma ve Değiştirme Denetimi olarak ayarlanması gerektiğini gösteren görüntü." src="images/403-3.gif"&gt;&lt;/p&gt;
-  &lt;/div&gt;</value>
+    <value>&lt;div style="height: 100%; width: 90%;"&gt;     &lt;h3&gt;DNN Yapılandırma Hatası&lt;/h3&gt;     &lt;p&gt;{0}&lt;/p&gt;     &lt;p&gt;DNN kurulumunuzda bir güvenlik ayarları sorunu (büyük olasılıkla izinlerle ilgili) var gibi görünüyor. DNN; içerik, modüller ve temalar için kapsamlı dosya yükleme özelliklerine sahiptir. Bu özellikler, uygulamanın web sitenizde dosya oluşturabilmesi ve kaldırabilmesi için özel güvenlik ayarları gerektirir.&lt;/p&gt;     &lt;p&gt;Web sunucunuzda Windows Gezgini'ni kullanarak web sitesinin kök klasörüne (varsayılan olarak C:\DotNetNuke) gidin. Klasöre sağ tıklayın ve açılan menüden "Paylaşım ve Güvenlik" seçeneğini belirleyin. "Güvenlik" sekmesini seçin. Uygun kullanıcı hesabını ekleyin ve web sitenizi barındıran IIS uygulama havuzunun gelişmiş ayarlarında belirtilen ASP.Net kullanıcısı için uygun izinleri ayarlayın.&lt;/p&gt;     &lt;ul style="text-align: left; list-style-type: none; list-style-position: outside;"&gt;         &lt;li&gt;&lt;strong&gt;Yerleşik "NT AUTHORITY\NETWORK SERVICE" gibi adlandırılmış bir hesap kullanılıyorsa&lt;/strong&gt;&lt;br/&gt;             &lt;ol style="list-style-type: circle;"&gt;                 &lt;li&gt;Kullanıcı hesabına Okuma, Yazma, Okuma ve Yürütme ile Değiştirme izinleri verilmelidir.&lt;/li&gt;             &lt;/ol&gt;             &lt;br/&gt;         &lt;/li&gt;         &lt;li&gt;&lt;strong&gt;"ApplicationPoolIdentity" kullanılıyorsa (önerilir)&lt;/strong&gt;&lt;br/&gt;             &lt;ol style="list-style-type: circle;"&gt;                 &lt;li&gt;IIS AppPool\[AppPool Name] kullanıcı hesabına ([AppPool Name] ifadesini IIS uygulama havuzunun gerçek adıyla değiştirin) Okuma, Yazma, Okuma ve Yürütme ile Değiştirme izinleri verilmelidir.&lt;/li&gt;            &lt;/ol&gt;         &lt;/li&gt;     &lt;/ul&gt;     &lt;p&gt;&lt;img alt="Web sitesinin kök klasörüne ilişkin güvenlik ayarlarının, adlandırılmış bir hesap için Okuma, Yazma ve Değiştirme Denetimi olarak ayarlanması gerektiğini gösteren görsel." src="images/403-3.gif"&gt;&lt;/p&gt; &lt;/div&gt;</value>
   </data>
   <data name="Error.Text" xml:space="preserve">
     <value>Bir hata oluştu.</value>
@@ -891,20 +839,28 @@ E-posta mesajları:   [Custom:2]
     <value>Kimlik Doğrulama</value>
   </data>
   <data name="License.Text" xml:space="preserve">
-    <value>&lt;p&gt;DotNetNuke&amp;reg; - https://www.dnnsoftware.com&lt;br /&gt;
-Copyright (c) 2002-2018&lt;br/&gt;
-    by DotNetNuke Corporation&lt;/p&gt;
-    &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
-documentation files (the "Software"), to deal in the Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and
-    to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
-    &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions
-    of the Software.&lt;/p&gt;
-    &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
-CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-    DEALINGS IN THE SOFTWARE.&lt;/p&gt;</value>
+    <value>&lt;h2&gt;The MIT License (MIT)&lt;/h2&gt;
+
+&lt;h3&gt;Copyright (c) .NET Foundation and Contributors&lt;/h3&gt;
+&lt;p&gt;All Rights Reserved&lt;/p&gt;
+
+&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:&lt;/p&gt;
+
+&lt;p&gt;The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.&lt;/p&gt;
+
+&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.&lt;/p&gt;</value>
   </data>
   <data name="SkinLoadError.Text" xml:space="preserve">
     <value>Tema Yüklenemedi: {0}, Hata: {1}&lt;br/&gt;</value>
