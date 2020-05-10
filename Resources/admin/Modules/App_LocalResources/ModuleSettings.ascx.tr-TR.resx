@@ -220,7 +220,7 @@
     <value>Bitiş Tarihi:</value>
   </data>
   <data name="plEndDate.Help" xml:space="preserve">
-    <value>Bu modülün görüntüleneceği bitiş tarihini seçin. Bu tarihten sonra modül yalnızca Yönetme izinlerine sahip kullanıcılara görünür olur.</value>
+    <value>Bu modülü görüntülemek için bitiş tarihini seçin. Modül, bu tarihten sonra yalnızca Yönet iznine sahip kullanıcılara görünür olacaktır.</value>
   </data>
   <data name="plMoniker.Text" xml:space="preserve">
     <value>Modül Takma Adı:</value>
@@ -382,7 +382,7 @@
     <value>Etiketler:</value>
   </data>
   <data name="plAdminBorder.Help" xml:space="preserve">
-    <value>Yöneticiler siteye giriş yaptığında modülün etrafında kırmızı bir çerçeve göstermek için bu kutuyu işaretleyin.</value>
+    <value>Modül yalnızca Yöneticilere görünür olduğunda etrafında gösterilen kırmızı çerçeveyi gizlemek için bu kutuyu işaretleyin.</value>
   </data>
   <data name="plAdminBorder.Text" xml:space="preserve">
     <value>Yönetici Çerçevesini Gizle</value>
