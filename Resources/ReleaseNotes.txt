@@ -1,8 +1,8 @@
 <h2>tr-TR Dil Paketi Sürüm Notları</h2>
 <hr>
-<h3>tr-TR Dil Paketi 9.6.1</h3>
+<h3>tr-TR Dil Paketi 9.6.2</h3>
 <ul>
-<li style="margin-left: 20px;">DNN Platform 9.6.1 için Türkçe çekirdek dil paketi.</li>
+<li style="margin-left: 20px;">DNN Platform 9.6.2 için Türkçe çekirdek dil paketi.</li>
 <li style="margin-left: 20px;">dnncommunity.org topluluk çevirisi temel alınmış; eksik metinler çevrilerek dil dosyalarının tamamı Türkçeye çevrilmiştir.</li>
 <li style="margin-left: 20px;">Terimler ve yazım kuralları Türkçe çeviri kılavuzuna (COMMON_TERMS) göre güncellenmiştir.</li>
 </ul>

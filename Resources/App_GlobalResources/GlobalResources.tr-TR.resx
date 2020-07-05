@@ -59,8 +59,8 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema id="root" xmlns="" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="https://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -760,11 +760,11 @@ Teşekkürler,
                     &lt;br /&gt;
                     Örnekler:&lt;br /&gt;
 
-                    URL: http://www.domain.com/default.aspx = Etki Alanı Adı: www.domain.com&lt;br /&gt;
-                    URL: http://209.75.24.131/default.aspx = Etki Alanı Adı: 209.75.24.131&lt;br /&gt;
-                    URL: http://localhost/DotNetNuke/default.aspx = Etki Alanı Adı: localhost/DotNetNuke&lt;br /&gt;
-                    URL: http://www.domain.com/virtualdirectory/default.aspx = Etki Alanı Adı: www.domain.com/virtualdirectory&lt;br /&gt;
-                    URL: http://www.domain.com/directory/default.aspx = Etki Alanı Adı: www.domain.com/directory&lt;br /&gt;
+                    URL: https://www.domain.com/default.aspx = Etki Alanı Adı: www.domain.com&lt;br /&gt;
+                    URL: https://209.75.24.131/default.aspx = Etki Alanı Adı: 209.75.24.131&lt;br /&gt;
+                    URL: https://localhost/DotNetNuke/default.aspx = Etki Alanı Adı: localhost/DotNetNuke&lt;br /&gt;
+                    URL: https://www.domain.com/virtualdirectory/default.aspx = Etki Alanı Adı: www.domain.com/virtualdirectory&lt;br /&gt;
+                    URL: https://www.domain.com/directory/default.aspx = Etki Alanı Adı: www.domain.com/directory&lt;br /&gt;
                     &lt;br /&gt;
                 &lt;/li&gt;
                 &lt;li&gt;Uygulama, etki alanı adını kullanarak eşleşen bir kaydı bulmak için veritabanını ( PortalAlias tablosu - HTTTPAlias sütunu) sorgular.&lt;br /&gt;
@@ -1103,8 +1103,8 @@ Saygılarımızla,
     <value>Gönderilen URL mevcut değil. Önerilen alternatifi kabul etmek istiyorsanız, Kaydet'i tıklayın.</value>
   </data>
   <data name="EMAIL_MESSAGING_DISPATCH_BODY.Text" xml:space="preserve">
-    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="https://www.w3.org/1999/xhtml"&gt;
 &lt;head&gt;
     &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
     &lt;style type="text/css"&gt;
@@ -1265,7 +1265,7 @@ Saygılarımızla,
                             &lt;tr&gt;
                                 &lt;td align="center"&gt;
                                     &lt;p&gt;Telif Hakkı 2013 &lt;a href="[SITEURL]"&gt;[PORTALNAME]&lt;/a&gt; Tüm hakları saklıdır.&lt;/p&gt;
-                                    &lt;p&gt;Gelecekte e-posta almak istemiyorsanız lütfen buradan &lt;a href="[UNSUBSCRIBEURL]"&gt;aboneliğinizi iptal edin&lt;/a&gt;.&lt;/p&gt;
+                                    &lt;p&gt;İleride e-posta almak istemiyorsanız lütfen buradan &lt;a href="[UNSUBSCRIBEURL]"&gt;aboneliğinizi iptal edin&lt;/a&gt;.&lt;/p&gt;
                                 &lt;/td&gt;
                             &lt;/tr&gt;
                         &lt;/table&gt;

@@ -59,8 +59,8 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema id="root" xmlns="" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="https://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -180,7 +180,7 @@
   <data name="ImprovementProgramExplain.Text" xml:space="preserve">
     <value>Ürün geliştirme programı, DNN'i sizin için nasıl daha iyi hale getirebileceğimizi
 daha iyi anlamamızı sağlar. Veriler, kullanımı ve ürünü kullananlar için neyin
-önemli olduğunu analiz etmemize yardımcı olur. Tüm veriler anonimdir ve yalnızca dahili kullanım içindir. &lt;a href="http://www.dnnsoftware.com/dnn-improvement-program" target="_blank"&gt;Ürün Geliştirme Programı&lt;/a&gt; hakkında daha fazla bilgi edinin.</value>
+önemli olduğunu analiz etmemize yardımcı olur. Tüm veriler anonimdir ve yalnızca dahili kullanım içindir. &lt;a href="https://www.dnnsoftware.com/dnn-improvement-program" target="_blank"&gt;Ürün Geliştirme Programı&lt;/a&gt; hakkında daha fazla bilgi edinin.</value>
   </data>
   <data name="ImprovementProgramLabel.Text" xml:space="preserve">
     <value>Anonim kullanım bilgilerini DNN'e gönder</value>
@@ -210,7 +210,7 @@ daha iyi anlamamızı sağlar. Veriler, kullanımı ve ürünü kullananlar içi
     <value>Kurulum</value>
   </data>
   <data name="IntroDetail.Text" xml:space="preserve">
-    <value>&lt;a class="videoLink" href="https://www.dnnsoftware.com/Resources/Training/Training-Videos/Installation.aspx" target="new"&gt;Kurulum Videosunu İzle&lt;/a&gt;</value>
+    <value>&lt;a class="videoLink" href="https://dnncommunity.org/How-To/-Download-and-Install" target="new"&gt;DNN Topluluğu web sitesini kontrol edin&lt;/a&gt;</value>
   </data>
   <data name="IsAbleToPerformDatabaseActionsCheck.Text" xml:space="preserve">
     <value>Veritabanı kullanıcısının gerekli işlemleri gerçekleştirebilme yeteneğini kontrol etme</value>

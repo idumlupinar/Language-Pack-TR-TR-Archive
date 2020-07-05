@@ -59,8 +59,8 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema id="root" xmlns="" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="https://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -232,7 +232,7 @@
     <value>Dosya yükleme durduruldu</value>
   </data>
   <data name="FileUpload.UrlTooltip.Text" xml:space="preserve">
-    <value>http://SomeWebSite.com/Images/About.png gibi bir Kaynak URL'si girin</value>
+    <value>https://BirWebSitesesi.com/Gorseller/Hakkinda.png gibi Kaynak URL'si girin</value>
   </data>
   <data name="FileUpload.KeepButton.Text" xml:space="preserve">
     <value>Koru</value>

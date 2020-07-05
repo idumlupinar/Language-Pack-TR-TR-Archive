@@ -334,7 +334,7 @@
     <value>Site içinde bu modülü görüntüleme erişiminiz yok.</value>
   </data>
   <data name="CriticalError.Error" xml:space="preserve">
-    <value>Kritik bir hata oluştu. Daha fazla ayrıntı için lütfen Olay Görüntüleyici'yi kontrol edin.</value>
+    <value>Kritik bir hata oluştu. Daha fazla detay için Yönetici Günlüklerini kontrol edin.</value>
   </data>
   <data name="ModuleLoad.Error" xml:space="preserve">
     <value>Modül yüklenirken hata işlenemedi.</value>

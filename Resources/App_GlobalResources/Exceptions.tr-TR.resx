@@ -59,8 +59,8 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema id="root" xmlns="" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="https://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -244,7 +244,7 @@
     <value>Ya Gönderici null ya da Gönderici.KullanıcıKimliği negatiftir.</value>
   </data>
   <data name="PrivateMessageDisabledError.Text" xml:space="preserve">
-    <value>Geçerli mesaj ayarları, kullanıcıların diğer kullanıcılara/gruplara mesaj göndermesine izin vermiyor.</value>
+    <value>Mevcut mesajlaşma ayarları diğer kullanıcılara/gruplara mesaj gönderilmesine izin vermiyor.</value>
   </data>
   <data name="MsgOnlyHostOrAdminOrUserInGroupCanSendToRoleError.Text" xml:space="preserve">
     <value>Bu role yalnızca Süper Kullanıcılar, Yöneticiler ve grup üyeleri mesaj gönderebilir.</value>
