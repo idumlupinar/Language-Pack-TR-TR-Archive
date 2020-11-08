@@ -1404,24 +1404,6 @@
   <data name="TokenReplaceUnknownObject.Text" xml:space="preserve">
     <value>[{0}:{1}] erişim hatası, {0} bilinmeyen bir veri kaynağıdır.</value>
   </data>
-  <data name="DASHBOARD_KeyMissing.Text" xml:space="preserve">
-    <value>Gerekli Key alanı Manifest'te eksik.</value>
-  </data>
-  <data name="DASHBOARD_LocalResourcesMissing.Text" xml:space="preserve">
-    <value>Gerekli LocalResources alanı Manifest'te eksik.</value>
-  </data>
-  <data name="DASHBOARD_ReadSuccess.Text" xml:space="preserve">
-    <value>Pano Denetimi Manifest'i başarıyla ayrıştırıldı.</value>
-  </data>
-  <data name="DASHBOARD_Registered.Text" xml:space="preserve">
-    <value>Pano Denetimi başarıyla kaydedildi.</value>
-  </data>
-  <data name="DASHBOARD_SrcMissing.Text" xml:space="preserve">
-    <value>Gerekli Src alanı Manifest'te eksik.</value>
-  </data>
-  <data name="DASHBOARD_UnRegistered.Text" xml:space="preserve">
-    <value>Pano Denetiminin kaydı başarıyla kaldırıldı.</value>
-  </data>
   <data name="SKIN_Installed.Text" xml:space="preserve">
     <value>Tema farklı bir Paket Adıyla zaten yüklü.</value>
   </data>
