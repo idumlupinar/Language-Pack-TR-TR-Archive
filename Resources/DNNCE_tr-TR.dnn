@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="Core_tr-TR" type="CoreLanguagePack" version="09.08.00">
+    <package name="Core_tr-TR" type="CoreLanguagePack" version="09.08.01">
       <friendlyName>DNN Platform Core Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) core language pack for DNN Platform.</description>
       <iconFile />
@@ -225,38 +225,6 @@
             <languageFile>
               <path>DesktopModules\Admin\EditExtension\App_LocalResources</path>
               <name>EditExtension.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\ModuleCreator\App_LocalResources</path>
-              <name>CreateModule.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\ModuleCreator\App_LocalResources</path>
-              <name>ViewSource.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\ModuleCreator\Templates\C#\Module - Inline Script</path>
-              <name>template.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\ModuleCreator\Templates\C#\Module - User Control</path>
-              <name>template.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\ModuleCreator\Templates\C#\Settings - User Control</path>
-              <name>Settings.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\ModuleCreator\Templates\VB\Module - Inline Script</path>
-              <name>template.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\ModuleCreator\Templates\VB\Module - User Control</path>
-              <name>template.ascx.tr-TR.resx</name>
-            </languageFile>
-            <languageFile>
-              <path>DesktopModules\Admin\ModuleCreator\Templates\VB\Settings - User Control</path>
-              <name>Settings.ascx.tr-TR.resx</name>
             </languageFile>
             <languageFile>
               <path>DesktopModules\Admin\SearchResults\App_LocalResources</path>

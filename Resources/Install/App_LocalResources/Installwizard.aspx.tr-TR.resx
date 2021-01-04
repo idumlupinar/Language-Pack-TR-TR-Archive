@@ -210,14 +210,11 @@
   <data name="IsSqlServerDbo.Text" xml:space="preserve">
     <value>Veritabanı kullanıcınız dbo izinlerine sahip değil</value>
   </data>
-  <data name="IsValidDotNetVersion.Text" xml:space="preserve">
-    <value>DNN'in çalışması için .net 4.0 veya üstü gereklidir</value>
-  </data>
   <data name="IsValidSqlServerVersionCheck.Text" xml:space="preserve">
-    <value>Veritabanı sürümünün çalışma için SQL 2008 (express veya tam sürüm) ya da üstü olup olmadığı denetleniyor</value>
+    <value>Veritabanı sürümünün çalışma için SQL 2008 R2 (express veya tam sürüm) ya da üstü olup olmadığı denetleniyor</value>
   </data>
   <data name="IsValidSqlServerVersion.Text" xml:space="preserve">
-    <value>DNN'in çalışması için SQL 2008 (express veya tam sürüm) gereklidir</value>
+    <value>DNN'in çalışması için SQL 2008 R2 (express veya tam sürüm) gereklidir</value>
   </data>
   <data name="Language.Text" xml:space="preserve">
     <value>Dil</value>
@@ -500,16 +497,12 @@ Standart Veritabanı kurulum seçeneği mevcut değil</value>
     <value>Ana bilgisayar adınız yasaklı karakterler içeriyor (yalnızca a-Z, 0-9, - ve . izin verilir). Kullandığınız ana bilgisayar adını değiştirmelisiniz.</value>
   </data>
   <data name="FileAndFolderPermissionCheckFailed.Text" xml:space="preserve">
-    <value>&lt;div class="permission"&gt;&lt;img alt="Web sitesinin kök klasörü için güvenlik ayarlarının ASPNET veya NT AUTHORITY/NETWORK SERVICE hesapları için Okuma, Yazma ve Değiştirme Denetimi olarak ayarlanması gerektiğini gösteren görüntü." src="..\403-3.gif" align="right" hspace="10"/&gt;
-&lt;p&gt;&lt;b&gt;&lt;font color='red'&gt;Siteniz izin denetiminden geçemedi.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-Windows Gezgini'ni kullanarak web sitenizin klasörlerine ( {0} ) gidin. Klasöre sağ tıklayın ve açılan menüden Paylaşım ve Güvenlik'i seçin. Güvenlik sekmesini seçin. Uygun Kullanıcı Hesabını ekleyin ve İzinleri ayarlayın.
+    <value>&lt;div class="permission"&gt;&lt;img alt="Web sitesinin kök klasörü için güvenlik ayarlarını gösteren resim, ASPNET veya NT AUTHORITY/NETWORK SERVICE hesapları için Okuma, Yazma ve Değiştirme Kontrolü olarak ayarlanmalıdır." src="..\403-3.gif" align="right" hspace="10"/&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color='red'&gt;Siteniz izin kontrolünü geçemedi.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+Windows Gezgini'ni kullanarak web sitenizin klasörlerine gidin ( {0} ). Klasörün üzerine sağ tıklayın ve açılır menüden Paylaşım ve Güvenlik'i seçin. Güvenlik sekmesini seçin. Uygun Kullanıcı Hesabını ekleyin ve İzinleri ayarlayın.
 &lt;br/&gt;&lt;br/&gt;
-&lt;h3&gt;Windows 2000 - IIS5 kullanıyorsanız&lt;/h3&gt;
-&lt;p&gt;ASPNET Kullanıcı Hesabı, web sitenizin sanal kökü üzerinde Okuma, Yazma ve Değiştirme Denetimi izinlerine sahip olmalıdır.&lt;/p&gt;
-&lt;h3&gt;Windows 2003, Windows Vista veya Windows Server 2008 ile IIS6 ya da IIS7 kullanıyorsanız&lt;/h3&gt;
-&lt;p&gt;NT AUTHORITY\NETWORK SERVICE Kullanıcı Hesabı, web sitenizin sanal kökü üzerinde Okuma, Yazma ve Değiştirme Denetimi izinlerine sahip olmalıdır.&lt;/p&gt;
-&lt;h3&gt;Windows 7 veya Windows Server 2008 R2 ile IIS7.5 kullanıyorsanız&lt;/h3&gt;
-&lt;p&gt;IIS AppPool\DefaultAppPool Kullanıcı Hesabı, web sitenizin sanal kökü üzerinde Okuma, Yazma ve Değiştirme Denetimi izinlerine sahip olmalıdır.&lt;/p&gt;&lt;p&gt;&lt;a class="dnnPrimaryAction" href=""&gt;Yeniden Denetle&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</value>
+&lt;h3&gt;Windows 8 veya daha yeni, Windows Server 2008 R2 veya daha yeni ve IIS7.5 veya daha yeni kullanılıyorsa&lt;/h3&gt;
+&lt;p&gt;IIS AppPool\DefaultAppPool Kullanıcı Hesabının Web Sitesinin sanal kökünde Okuma, Yazma ve Değiştirme Kontrolüne sahip olması gerekir.&lt;/p&gt;&lt;p&gt;&lt;a class="dnnPrimaryAction" href=""&gt;Tekrar Kontrol Et&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</value>
   </data>
   <data name="InstallVersion.Text" xml:space="preserve">
     <value>Yükleme Sürümü Ekleme</value>

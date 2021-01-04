@@ -1026,18 +1026,6 @@
   <data name="PasswordResetFailed_WrongAnswer.Text" xml:space="preserve">
     <value>Yeni şifreniz güvenlik nedeniyle kabul edilmedi. Lütfen doğru kullanıcı adı ve cevabın girildiğinden emin olun.</value>
   </data>
-  <data name="InsecureAdmin.Text" xml:space="preserve">
-    <value>Yönetici hesabınız hâlâ bilinen bir varsayılan şifreyi kullanıyor. Lütfen Yönet-&gt;Kullanıcılar menüsüne gidin ve şifreyi güncelleyin. Ayrıca geçerli bir e-posta adresi girildiğinden emin olun.</value>
-  </data>
-  <data name="InsecureHost.Text" xml:space="preserve">
-    <value>Sunucu (Süper Kullanıcı) hesabınız hâlâ bilinen bir varsayılan şifreyi kullanıyor. Lütfen Yönet-&gt;Kullanıcılar menüsüne gidin ve şifreyi güncelleyin.</value>
-  </data>
-  <data name="InsecureDefaults.Text" xml:space="preserve">
-    <value>Varsayılan hesapların ikisi de (host ve admin) bilinen varsayılan şifreleri kullanıyor. Lütfen Yönet-&gt;Kullanıcılar menüsüne gidin ve şifreleri güncelleyin. Ayrıca geçerli e-posta adresleri girildiğinden emin olun.</value>
-  </data>
-  <data name="InsecureDefaults.Title" xml:space="preserve">
-    <value>Güvenli Olmayan Hesap Bilgileri</value>
-  </data>
   <data name="PrivateMembership.Text" xml:space="preserve">
     <value>&lt;strong&gt;*Not:&lt;/strong&gt; Bu siteye üyeliğin özel. Hesap bilgileriniz gönderildikten sonra, Site Yöneticisi bilgilendirilecek ve başvurunuz bir inceleme sürecine tabi tutulacaktır. Başvurunuz yetkilendirilirse, siteye erişebileceğinize dair bildirim alacaksınız.</value>
   </data>
