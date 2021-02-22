@@ -1962,4 +1962,13 @@ Bu eklemeyi bekliyorsanız, bu e-postayı yok sayın; aksi takdirde, derhal işl
   <data name="EXCEPTION_GlobDotDotNotSupportedInCleanup.Text" xml:space="preserve">
     <value>".." temizleme bileşeninde desteklenen bir glob özelliği değildir, bu temizleme atlandı.</value>
   </data>
+  <data name="SQL_Manifest_BadFile.Text" xml:space="preserve">
+    <value>Manifest'te {0} dosyasıyla ilgili bir hata var</value>
+  </data>
+  <data name="SQL_Manifest_Error.Text" xml:space="preserve">
+    <value>Manifest'te betiklerle ilgili bir hata var</value>
+  </data>
+  <data name="ErrorDecryptingSetting.Text" xml:space="preserve">
+    <value>{0} parametresi şifresi çözülemedi</value>
+  </data>
 </root>
