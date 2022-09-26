@@ -59,8 +59,8 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="https://www.w3.org/XML/1998/namespace" />
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -160,6 +160,9 @@
   <data name="Next.Text" xml:space="preserve">
     <value>Şimdi Yükselt</value>
   </data>
+  <data name="NextStep.Text" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
   <data name="NoInstallationLog.Text" xml:space="preserve">
     <value>Kurulum Günlüğü Yok</value>
   </data>
@@ -213,5 +216,53 @@
   </data>
   <data name="AcceptTerms.Text" xml:space="preserve">
     <value>&lt;a href="../Licenses/Dnn_Corp_License.pdf" target="_blank"&gt;Lisans sözleşmesinin&lt;/a&gt; koşullarını kabul ediyorum</value>
+  </data>
+  <data name="Security.Text" xml:space="preserve">
+    <value>Güvenlik</value>
+  </data>
+  <data name="TelerikInstalledAndUsedInfo.Text" xml:space="preserve">
+    <value>Kurulumunuz, aşağıdaki derlemelerde Telerik kullanıyor:</value>
+  </data>
+  <data name="TelerikInstalledAndUsedWarning.Text" xml:space="preserve">
+    <value>Telerik'e bağımlı uzantılarınız var gibi görünüyor. Tespit ettiğimiz ve yukarıda listelediğimiz bağımlılıkları sizin için kaldıramıyoruz. Ancak lütfen Telerik'e gerçekten doğru şekilde yama uyguladığınızdan ve &lt;a href="https://docs.dnncommunity.org/content/getting-started/setup/telerik-removal/index.html" target="_blank"&gt;burada&lt;/a&gt; bulunan yönergelere göre DNN Platform ile dağıtılan tüm Telerik bileşenlerini kaldırdığınızdan emin olun. Bu bağımlılıklar kendi Telerik kopyalarıyla birlikte dağıtılmadığı sürece DNN 10'a yükseltme YAPAMAYACAĞINIZI unutmayın.</value>
+  </data>
+  <data name="TelerikInstalledButNotUsedInfo.Text" xml:space="preserve">
+    <value>Kurulumunuz bu bileşenlerin hiçbirini kullanıyor GÖRÜNMEDİĞİNDEN, uygulamanızın güvenliğini artırmak için bu yükseltmenin bir parçası olarak bunların kaldırılmasını seçebilirsiniz.</value>
+  </data>
+  <data name="TelerikInstalledHeading.Text" xml:space="preserve">
+    <value>Güvenlik Uyarısı</value>
+  </data>
+  <data name="TelerikInstalledDetected.Text" xml:space="preserve">
+    <value>Daha önce dağıtılan Telerik geliştirici bileşenlerinin varlığını tespit ettik. Tespit edilen Telerik sürümü:</value>
+  </data>
+  <data name="TelerikInstalledBulletin.Text" xml:space="preserve">
+    <value>Ağustos 2021'de yayınlanan bir Güvenlik Bülteni, yüksek düzeyde güvenlik açıklarından dolayı bu bileşenin derhal kaldırılmasını önermektedir. Daha fazlasını &lt;a href="https://dnncommunity.org/security" target="_blank"&gt;DNN Güvenlik Merkezi&lt;/a&gt;nden okuyabilirsiniz.</value>
+  </data>
+  <data name="TelerikNotInstalledHeading.Text" xml:space="preserve">
+    <value>Gelecekteki Yükseltmelere Hazır</value>
+  </data>
+  <data name="TelerikNotInstalledInfo.Text" xml:space="preserve">
+    <value>Telerik'i kaldırdığınızı doğruladık; siteniz artık DNN 10.0.0 için hazır.</value>
+  </data>
+  <data name="TelerikUninstallInfo.Text" xml:space="preserve">
+    <value>"Aşağıdan "Evet" seçeneğini seçmeniz durumunda, &lt;a href="https://docs.dnncommunity.org/content/getting-started/setup/telerik-removal/index.html" target="_blank"&gt;bu adımları&lt;/a&gt; otomatik olarak tamamlayacaktır.</value>
+  </data>
+  <data name="TelerikUninstallNo.Text" xml:space="preserve">
+    <value>Hayır, Sitemi Güvensiz Bırak</value>
+  </data>
+  <data name="TelerikUninstallYes.Text" xml:space="preserve">
+    <value>Evet, Güvenliğimi Artır ve Telerik'i Şimdi Kaldır</value>
+  </data>
+  <data name="TelerikInvalidAntiForgeryToken.Text" xml:space="preserve">
+    <value>Geçersiz Telerik karşıtı sahtekarlık belirteci.</value>
+  </data>
+  <data name="TelerikUninstallOptionMissing.Text" xml:space="preserve">
+    <value>Telerik kaldırma seçeneği eksik.</value>
+  </data>
+  <data name="CheckingSecurity.Text" xml:space="preserve">
+    <value>Bu kurulumun güvenlik yönlerini kontrol etme</value>
+  </data>
+  <data name="TelerikInstalledButNotUsedInfoAutoInstall.Text" xml:space="preserve">
+    <value>Kurulumunuz bu bileşenlerin hiçbirini kullanıyor GÖRÜNMEDİĞİNDEN, bunları güvenle kaldırabilirsiniz. Bu bileşenleri kaldırmak için lütfen Persona Bar menüsündeki Telerik Kaldırma Aracını kullanın.</value>
   </data>
 </root>

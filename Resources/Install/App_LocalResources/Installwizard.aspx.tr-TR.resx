@@ -59,8 +59,8 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="https://www.w3.org/XML/1998/namespace" />
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -530,5 +530,17 @@ Windows Gezgini'ni kullanarak web sitenizin klasörlerine gidin ( {0} ). Klasör
   </data>
   <data name="DotNetVersion472Required.Text" xml:space="preserve">
     <value>.Net Framework 4.7.2 gereklidir. Devam etmeden önce Windows güncelleştirmelerini denetleyin.</value>
+  </data>
+  <data name="WebsiteSsl.Help" xml:space="preserve">
+    <value>Web sitesi HTTPS üzerinde çalışacak şekilde yapılandırılacaktır.</value>
+  </data>
+  <data name="WebsiteSsl.Text" xml:space="preserve">
+    <value>HTTPS</value>
+  </data>
+  <data name="InstallingSslStep.Text" xml:space="preserve">
+    <value>Site {0} için HTTPS kontrol ediliyor</value>
+  </data>
+  <data name="InstallingSslStepSiteNotFound.Text" xml:space="preserve">
+    <value>Site {0} bulunamadı, HTTPS ayarlanamadı</value>
   </data>
 </root>
