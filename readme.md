@@ -5,7 +5,7 @@
 Turkish (Türkiye) core language packs for [DNN Platform](https://github.com/dnnsoftware/Dnn.Platform)
 releases 08.00.00 to 10.03.03. Every DNN Platform release has one commit and one tag (`v{version}`).
 
-This version: **DNN Platform 9.11.1** (`09.11.01`), released 2023-02-22.
+This version: **DNN Platform 9.11.2** (`09.11.02`), released 2023-03-28.
 
 The packs started from the community translations on
 [dnncommunity.org](https://dnncommunity.org/Extensions-Ecosystem/Languages). Missing strings were translated,
