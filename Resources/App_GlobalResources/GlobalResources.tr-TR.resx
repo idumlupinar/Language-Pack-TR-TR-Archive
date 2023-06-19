@@ -1336,8 +1336,7 @@ Saygılarımızla,
     <value>Sayın [User:DisplayName],
 
 [Portal:PortalName] sitesinden bir Şifre Sıfırlama Belirteci talep ettiniz, ancak hesabınız onay beklemektedir.
-
-Şifreniz, hesabınız onaylandıktan sonra sıfırlanabilir.
+[Portal:PortalName] yöneticisine inceleme için bildirim gönderildi; hesabınız onaylanırsa size yeni bir şifre sıfırlama e-postası gönderilecektir.
 
 Saygılarımızla,
 [Portal:PortalName]
@@ -1347,6 +1346,18 @@ Saygılarımızla,
   </data>
   <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] - Şifre Hatırlatma</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_ADMINISTRATOR_BODY.Text" xml:space="preserve">
+    <value>
+Aşağıdaki kullanıcı [Portal:PortalName] sitesinden bir Şifre Sıfırlama Belirteci talep etti, ancak kullanıcı hesabı onay beklemektedir.
+Kullanıcı Adı: [User:UserName]
+Görünen Ad: [User:DisplayName]
+
+Bu kullanıcıyı inceledikten sonra hesap yetkilendirilirse kullanıcıya yeniden bir şifre sıfırlama e-postası gönderin.
+    </value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_ADMINISTRATOR_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] - Onaylanmamış kullanıcı için Şifre Hatırlatma talebi: [User:Username]</value>
   </data>
   <data name="503.Error" xml:space="preserve">
     <value>{0} - 503 Hizmet Kullanılamıyor</value>
