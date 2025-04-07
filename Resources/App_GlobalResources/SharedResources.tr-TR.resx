@@ -796,7 +796,7 @@
     <value>İşSon</value>
   </data>
   <data name="AllUsers.Text" xml:space="preserve">
-    <value>Tüm Kullanıcılar</value>
+    <value>Herkes</value>
   </data>
   <data name="Superuser.Text" xml:space="preserve">
     <value>Süper Kullanıcı</value>

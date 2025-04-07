@@ -238,36 +238,6 @@
   <data name="plNewTabs.Text" xml:space="preserve">
     <value>Yalnızca Yeni Sayfalara Ekle</value>
   </data>
-  <data name="plWebSlice.Help" xml:space="preserve">
-    <value>Bu modülü bir IE8 Web Slice yapmak için bu kutuyu işaretleyin.</value>
-  </data>
-  <data name="plWebSlice.Text" xml:space="preserve">
-    <value>WebSlice Olarak Kullan</value>
-  </data>
-  <data name="plWebSliceExpiry.Help" xml:space="preserve">
-    <value>Web Slice'ın sona ereceği tarihi girin veya modülün bitiş tarihini kullanmak için boş bırakın.</value>
-  </data>
-  <data name="plWebSliceExpiry.Text" xml:space="preserve">
-    <value>Web Slice Bitiş Tarihi:</value>
-  </data>
-  <data name="plWebSliceTitle.Help" xml:space="preserve">
-    <value>Web Slice için bir başlık girin veya modül başlığını kullanmak için boş bırakın.</value>
-  </data>
-  <data name="plWebSliceTitle.Text" xml:space="preserve">
-    <value>Web Slice Başlığı:</value>
-  </data>
-  <data name="plWebSliceTTL.Help" xml:space="preserve">
-    <value>Bu Web Slice için Yaşam Süresini (TTL) dakika cinsinden girin veya modülün önbellek süresini (dakikaya dönüştürülerek) kullanmak için boş bırakın.</value>
-  </data>
-  <data name="plWebSliceTTL.Text" xml:space="preserve">
-    <value>Web Slice TTL:</value>
-  </data>
-  <data name="valWebSliceExpiry.ErrorMessage" xml:space="preserve">
-    <value>Geçersiz Bitiş Tarihi</value>
-  </data>
-  <data name="valWebSliceTTL.ErrorMessage" xml:space="preserve">
-    <value>Geçersiz TTL - değer bir tam sayı olmalıdır.</value>
-  </data>
   <data name="InstalledOn.Text" xml:space="preserve">
     <value>Bu modül aşağıdaki sayfalara eklendi:</value>
   </data>

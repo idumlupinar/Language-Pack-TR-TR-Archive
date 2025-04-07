@@ -1066,9 +1066,6 @@ Saygılarımızla,
   <data name="LogEnd.Text" xml:space="preserve">
     <value>Bitiş </value>
   </data>
-  <data name="ActivatingLicense.Text" xml:space="preserve">
-    <value>Lisans etkinleştiriliyor</value>
-  </data>
   <data name="ModulePermissions.Action" xml:space="preserve">
     <value>İzinler</value>
   </data>
@@ -1401,5 +1398,89 @@ Saygılarımızla,
   </data>
   <data name="cc_message.Text" xml:space="preserve">
     <value>Bu web sitesi, sitemizde en iyi deneyimi yaşamanız için çerezler kullanır.</value>
+  </data>
+  <data name="StartWorkflowSubject.Text" xml:space="preserve">
+    <value>Sayfa Gönderildi</value>
+  </data>
+  <data name="StartWorkflowBody.Text" xml:space="preserve">
+    <value>'{0}' sayfası '{1}' durumunda ve gönderilmeyi bekliyor.</value>
+  </data>
+  <data name="CompleteStateSubject.Text" xml:space="preserve">
+    <value>Sayfa Onayı</value>
+  </data>
+  <data name="CompleteStateBody.Text" xml:space="preserve">
+    <value>'{0}' sayfası '{1}' durumunda ve inceleme ile onay bekliyor.</value>
+  </data>
+  <data name="DiscardStateSubject.Text" xml:space="preserve">
+    <value>Sayfa Reddedildi</value>
+  </data>
+  <data name="DiscardStateBody.Text" xml:space="preserve">
+    <value>'{0}' sayfasındaki düzenlemeler reddedildi ve sayfa şu anda '{1}' durumunda.</value>
+  </data>
+  <data name="CompleteWorkflowSubject.Text" xml:space="preserve">
+    <value>Sayfa Yayınlandı</value>
+  </data>
+  <data name="CompleteWorkflowBody.Text" xml:space="preserve">
+    <value>'{0}' sayfası yayınlandı ve artık yayında.</value>
+  </data>
+  <data name="DiscardWorkflowSubject.Text" xml:space="preserve">
+    <value>Sayfa Reddedildi</value>
+  </data>
+  <data name="DiscardWorkflowBody.Text" xml:space="preserve">
+    <value>'{0}' sayfasındaki düzenlemeler iptal edildi.</value>
+  </data>
+  <data name="Administrators.Role" xml:space="preserve">
+    <value>Yöneticiler</value>
+  </data>
+  <data name="All Users.Role" xml:space="preserve">
+    <value>Herkes</value>
+  </data>
+  <data name="Superuser.Role" xml:space="preserve">
+    <value>Süper Kullanıcılar</value>
+  </data>
+  <data name="Unauthenticated Users.Role" xml:space="preserve">
+    <value>Kimliği Doğrulanmamış Kullanıcılar</value>
+  </data>
+  <data name="Registered Users.Role" xml:space="preserve">
+    <value>Kayıtlı Kullanıcılar</value>
+  </data>
+  <data name="Unverified Users.Role" xml:space="preserve">
+    <value>Doğrulanmamış Kullanıcılar</value>
+  </data>
+  <data name="Subscribers.Role" xml:space="preserve">
+    <value>Aboneler</value>
+  </data>
+  <data name="Content Editors.Role" xml:space="preserve">
+    <value>İçerik Editörleri</value>
+  </data>
+  <data name="Content Managers.Role" xml:space="preserve">
+    <value>İçerik Yöneticileri</value>
+  </data>
+  <data name="Administrators.RoleDescription" xml:space="preserve">
+    <value>Yöneticiler bu sitedeki tüm içeriğe erişebilir, içeriği değiştirebilir ve tüm site ayarlarını yönetebilir. Kullanıcıların siteye erişimini ve diğer yöneticileri de yönetebilirler.  Bu kullanıcı türü, Süper Kullanıcıların yapabildiği sistem düzeyindeki değişiklikleri veya ayrıcalıklı yönetim görevlerini gerçekleştiremez.</value>
+  </data>
+  <data name="All Users.RoleDescription" xml:space="preserve">
+    <value>Bu, platform tarafından yönetilen bir roldür (yani bu role kullanıcı ekleyemez veya bu rolden kullanıcı kaldıramazsınız). Bu rol, giriş/hesap durumundan bağımsız olarak web sitesinin HERHANGİ bir ziyaretçisini temsil eder.</value>
+  </data>
+  <data name="Content Editors.RoleDescription" xml:space="preserve">
+    <value>İçerik editörleri bu sitede içerik ekleyebilir ve içeriği değiştirebilir. Tam işlevsellik, bu sitede kullanılan modüllerin neyi desteklediğine bağlıdır.</value>
+  </data>
+  <data name="Content Managers.RoleDescription" xml:space="preserve">
+    <value>İçerik yöneticileri web sitesinde neyin görüntüleneceğine karar verebilir. İçerik editörlerinin eklediği içeriği değiştirebilir ve bu içeriğin yayınlanıp yayınlanmayacağına karar verebilirler. Tam işlevsellik, bu sitede kullanılan modüllerin neyi desteklediğine bağlıdır.</value>
+  </data>
+  <data name="Subscribers.RoleDescription" xml:space="preserve">
+    <value>Aboneler, bu web sitesinden kendileriyle e-posta yoluyla iletişim kurulmasına izin verir. Kullanıcılar bunu denetleyebilmek için kendilerini bu rolden çıkarabilir.</value>
+  </data>
+  <data name="Superuser.RoleDescription" xml:space="preserve">
+    <value>Süper Kullanıcılar (bazen sunucu kullanıcıları olarak da adlandırılır) siteye "sunucu" düzeyinde erişime sahiptir; yani bu kurulumdaki sitelerin herhangi birindeki her türlü içeriğe erişebilir ve bu içeriği değiştirebilirler. Buna yöneticileri ve diğer süper kullanıcıları ekleme ve kaldırma da dahildir. Ayrıca önbelleği temizleme, uygulamayı yeniden başlatma, yapılandırma dosyalarını yönetme ve genel ayarları yapılandırma gibi sistem düzeyindeki görevleri de gerçekleştirebilirler.</value>
+  </data>
+  <data name="Unauthenticated Users.RoleDescription" xml:space="preserve">
+    <value>Bu, platform tarafından yönetilen bir roldür (yani bu role kullanıcı atayamazsınız). Giriş yapmamış kullanıcıları belirtmek için kullanılır.</value>
+  </data>
+  <data name="Unverified Users.RoleDescription" xml:space="preserve">
+    <value>Bu site hesap doğrulaması kullanıyorsa, kaydolan her kullanıcı önce "kayıtlı kullanıcılar" yerine bu rolün bir parçası olur. Kullanıcı doğrulandığı anda (ayara bağlı olarak bir e-posta bağlantısına tıklayarak veya bir yönetici tarafından), artık bu rolün üyesi olmaz ve normal bir "kayıtlı kullanıcı" olur.</value>
+  </data>
+  <data name="Registered Users.RoleDescription" xml:space="preserve">
+    <value>Bu sitede hesabı olan ve (doğrulama etkinleştirilmişse) doğrulanmış tüm kullanıcılar.</value>
   </data>
 </root>

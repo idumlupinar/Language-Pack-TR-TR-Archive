@@ -211,10 +211,10 @@
     <value>Veritabanı kullanıcınız dbo izinlerine sahip değil</value>
   </data>
   <data name="IsValidSqlServerVersionCheck.Text" xml:space="preserve">
-    <value>Veritabanı sürümünün çalışma için SQL 2008 R2 (express veya tam sürüm) ya da üstü olup olmadığı denetleniyor</value>
+    <value>Veritabanı sürümünün SQL 2017 (express veya tam ürün) veya daha yüksek olup olmadığını kontrol et</value>
   </data>
   <data name="IsValidSqlServerVersion.Text" xml:space="preserve">
-    <value>DNN'in çalışması için SQL 2008 R2 (express veya tam sürüm) gereklidir</value>
+    <value>DNN'in çalışması için SQL 2017 (express veya tam ürün) gereklidir</value>
   </data>
   <data name="Language.Text" xml:space="preserve">
     <value>Dil</value>
@@ -408,6 +408,9 @@
   <data name="NoInstallationLog.Text" xml:space="preserve">
     <value>Kurulum Günlüğü Yok</value>
   </data>
+  <data name="LoadingInstallationLog.Text" xml:space="preserve">
+    <value>Yükleme günlükleri yükleniyor, lütfen bekleyin...</value>
+  </data>
   <data name="NoErrorsLogged.Text" xml:space="preserve">
     <value>Kurulum hataları kaydedilmedi</value>
   </data>
@@ -528,8 +531,8 @@ Windows Gezgini'ni kullanarak web sitenizin klasörlerine gidin ( {0} ). Klasör
   <data name="AcceptTerms.Required" xml:space="preserve">
     <value>Devam etmek için lisans sözleşmesinin şartlarını kabul edin.</value>
   </data>
-  <data name="DotNetVersion472Required.Text" xml:space="preserve">
-    <value>.Net Framework 4.7.2 gereklidir. Devam etmeden önce Windows güncelleştirmelerini denetleyin.</value>
+  <data name="DotNetVersion48Required.Text" xml:space="preserve">
+    <value>.Net Framework 4.8 gereklidir. Devam etmeden önce Windows güncellemelerini kontrol edin.</value>
   </data>
   <data name="WebsiteSsl.Help" xml:space="preserve">
     <value>Web sitesi HTTPS üzerinde çalışacak şekilde yapılandırılacaktır.</value>
