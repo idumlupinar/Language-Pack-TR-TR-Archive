@@ -130,7 +130,7 @@
     <value>Bu işlevsellik henüz uygulanmamıştır.</value>
   </data>
   <data name="Prompt_ServerError.Text" xml:space="preserve">
-    <value>Sunucu bir sorunla karşılaştı ve isteğinizi işleyemedi. Lütfen daha sonra tekrar deneyin.</value>
+    <value>Sunucu bir sorunla karşılaştı ve isteğinizi işlemeyi başaramadı. Lütfen daha sonra tekrar deneyiniz.</value>
   </data>
   <data name="Prompt_SessionTimedOut.Text" xml:space="preserve">
     <value>Oturumunuzun süresi dolmuş olabilir. Bu durumda lütfen yeniden giriş yapınız.</value>
@@ -742,7 +742,7 @@
     <value>DNN yükleme hakkında bilgi getirir</value>
   </data>
   <data name="Prompt_GetHost_ResultHtml.Text" xml:space="preserve">
-    <value>&lt;h4&gt;Mevcut DNN Kurulumu Hakkında Bilgi Al&lt;/h4&gt;
+    <value>&lt;h4&gt;Mevcut DNN Yükleme Hakkında Bilgi Alma&lt;/h4&gt;
   &lt;code class="block"&gt;
     get-host
   &lt;/code&gt;
@@ -791,7 +791,7 @@
     &lt;tr&gt;
       &lt;td&gt;Url&lt;/td&gt;
       &lt;td&gt;:&lt;/td&gt;
-      &lt;td&gt;http://www.dnnsoftware.com&lt;/td&gt;
+      &lt;td&gt;https://dnncommunity.org/&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Email&lt;/td&gt;
@@ -832,7 +832,7 @@
     <value>Bilgisi alınacak sitenin kimliği. Geçerli site dışındaki sitelerin bilgilerini yalnızca süper kullanıcılar alabilir.</value>
   </data>
   <data name="Prompt_GetPortal_ResultHtml.Text" xml:space="preserve">
-    <value>&lt;h4&gt;Mevcut Site Hakkında Bilgi Al&lt;/h4&gt;
+    <value>&lt;h4&gt;Geçerli Site Hakkında Bilgi Alma&lt;/h4&gt;
   &lt;code class="block"&gt;
     get-portal
   &lt;/code&gt;
@@ -846,7 +846,7 @@
     &lt;tr&gt;
       &lt;td&gt;PortalName&lt;/td&gt;
       &lt;td&gt;:&lt;/td&gt;
-      &lt;td&gt;dnnsoftware.com&lt;/td&gt;
+      &lt;td&gt;dnncommunity.org&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;CdfVersion&lt;/td&gt;
@@ -861,7 +861,7 @@
     &lt;tr&gt;
       &lt;td&gt;DefaultPortalAlias&lt;/td&gt;
       &lt;td&gt;:&lt;/td&gt;
-      &lt;td&gt;dnnsoftware.com&lt;/td&gt;
+      &lt;td&gt;dnncommunity.org&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;PageCount&lt;/td&gt;
@@ -907,7 +907,7 @@
     <value>Bilgisi alınacak sitenin kimliği. Geçerli site dışındaki sitelerin bilgilerini yalnızca süper kullanıcılar alabilir.</value>
   </data>
   <data name="Prompt_GetSite_ResultHtml.Text" xml:space="preserve">
-    <value>&lt;h4&gt;Mevcut Site Hakkında Bilgi Al&lt;/h4&gt;
+    <value>&lt;h4&gt;Geçerli Site Hakkında Bilgi Alma&lt;/h4&gt;
   &lt;code class="block"&gt;
     get-portal
   &lt;/code&gt;
@@ -921,7 +921,7 @@
     &lt;tr&gt;
       &lt;td&gt;PortalName&lt;/td&gt;
       &lt;td&gt;:&lt;/td&gt;
-      &lt;td&gt;dnnsoftware.com&lt;/td&gt;
+      &lt;td&gt;dnncommunity.org&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;CdfVersion&lt;/td&gt;
@@ -936,7 +936,7 @@
     &lt;tr&gt;
       &lt;td&gt;DefaultPortalAlias&lt;/td&gt;
       &lt;td&gt;:&lt;/td&gt;
-      &lt;td&gt;dnnsoftware.com&lt;/td&gt;
+      &lt;td&gt;dnncommunity.org&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;PageCount&lt;/td&gt;

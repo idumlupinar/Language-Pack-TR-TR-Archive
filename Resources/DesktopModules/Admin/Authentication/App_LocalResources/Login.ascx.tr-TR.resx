@@ -235,6 +235,6 @@
     <value>Devam etmek için şartlarımızı kabul etmeniz gerekir</value>
   </data>
   <data name="FailedToRemoveAccount.Text" xml:space="preserve">
-    <value>Hesap kaldırılamadı. Lütfen site yöneticisiyle iletişime geçin ve hesabınızın kaldırılmasını istediğinizi bildirin.</value>
+    <value>Hesap kaldırılamadı. Lütfen site yöneticisi ile iletişime geçin ve hesabınızın kaldırılmasını istediğinizi bildirin.</value>
   </data>
 </root>

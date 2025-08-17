@@ -139,7 +139,7 @@
     <value>Özellik Kategorisi:</value>
   </data>
   <data name="ProfilePropertyDefinition_PropertyCategory.Help" xml:space="preserve">
-    <value>Bu özellik için kategoriyi girin.  Bu, ilgili özelliklerin kullanıcıya gösterilirken gruplanmasını sağlar.</value>
+    <value>Bu özellik için kategoriyi girin. Bu, ilgili özelliklerin kullanıcıya gösterildiğinde gruplandırılmasına olanak tanır.</value>
   </data>
   <data name="ProfilePropertyDefinition_PropertyName.Text" xml:space="preserve">
     <value>Özellik Adı:</value>

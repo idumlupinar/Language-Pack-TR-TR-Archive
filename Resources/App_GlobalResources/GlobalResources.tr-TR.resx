@@ -743,33 +743,33 @@ Teşekkürler,
   </data>
   <data name="404.Error" xml:space="preserve">
     <value>&lt;div style="height: 100%; width: 90%;"&gt;
-   &lt;p style="color:red; font-weight:bold;"&gt;{0} Etki Alanı Adı Veritabanında Mevcut Değil&lt;/p&gt;
-   &lt;p&gt;Bu sistem, tek bir veritabanı/kod tabanından birden fazla web sitesini destekler. Bunu, istemci tarayıcının gönderdiği isteğin URL'sini Portals veritabanı tablosundaki geçerli bir Portal satırına dönüştürerek gerçekleştirir. Aşağıdaki adımlar bu süreci açıklar:&lt;/p&gt;
+   &lt;p style="color:red; font-weight:bold;"&gt;{0} Alan Adı Veritabanında Mevcut Değil&lt;/p&gt;
+   &lt;p&gt;Bu sistem, tek bir veritabanı/kod tabanı üzerinden birden fazla web sitesini destekler. Bunu, istemci tarayıcı isteğinin URL'sini Portals veritabanı tablosundaki geçerli bir Portal satırına dönüştürerek gerçekleştirir. Süreç aşağıdaki adımlarda açıklanmaktadır:&lt;/p&gt;
     &lt;ol style="text-align: left; list-style-type: decimal; list-style-position: outside;"&gt;
-        &lt;li&gt;&lt;strong&gt;Web Sunucusu İşlemesi&lt;/strong&gt;&lt;br /&gt;
+        &lt;li&gt;&lt;strong&gt;Web Sunucusu İşlemi&lt;/strong&gt;&lt;br /&gt;
             &lt;ul style="list-style-type: disc;"&gt;
-                &lt;li&gt;Bir web sunucusu, istemci tarayıcıdan bir istek aldığında hedef URL kaynağının dosya adı uzantısını IIS'te tanımlı Uygulama Uzantısı Eşlemeleriyle karşılaştırır.&lt;/li&gt;
-                &lt;li&gt;IIS, bulunan eşleşmeye göre isteği tanımlı Yürütülebilir Dosya Yoluna (ASP.NET istekleri için aspnet_asapi.dll) gönderir.&lt;/li&gt;
+                &lt;li&gt;Bir web sunucusu, istemci tarayıcıdan bir istek aldığında hedef URL kaynağındaki dosya adı uzantısını IIS'te tanımlı Uygulama Uzantısı Eşlemeleriyle karşılaştırır.&lt;/li&gt;
+                &lt;li&gt;Ardından IIS, ilgili eşleşmeye göre isteği tanımlı Yürütülebilir Dosya Yoluna (ASP.NET istekleri için aspnet_isapi.dll) gönderir.&lt;/li&gt;
                 &lt;li&gt;aspnet_isapi.dll motoru, isteği Application_BeginRequest ile başlayan sıralı bir olaylar dizisi içinde işler.&lt;/li&gt;
             &lt;/ul&gt;
         &lt;/li&gt;
         &lt;li&gt;&lt;strong&gt;HttpModule.URLRewrite OnBeginRequest (UrlRewriteModule.vb)&lt;/strong&gt;&lt;br /&gt;
             &lt;ul style="list-style-type: disc;"&gt;
                 &lt;li&gt;İstek URL'si "/" karakterine göre ayrıştırılır&lt;/li&gt;
-                &lt;li&gt;Ayrıştırılan ilgili URL bölümlerinin her biri kullanılarak bir etki alanı adı oluşturulur.&lt;br /&gt;
+                &lt;li&gt;Ayrıştırılan ilgili URL bölümlerinin her biri kullanılarak bir alan adı oluşturulur.&lt;br /&gt;
                     &lt;br /&gt;
                     Örnekler:&lt;br /&gt;
 
-                    URL: https://www.domain.com/default.aspx = Etki Alanı Adı: www.domain.com&lt;br /&gt;
-                    URL: https://209.75.24.131/default.aspx = Etki Alanı Adı: 209.75.24.131&lt;br /&gt;
-                    URL: https://localhost/DotNetNuke/default.aspx = Etki Alanı Adı: localhost/DotNetNuke&lt;br /&gt;
-                    URL: https://www.domain.com/virtualdirectory/default.aspx = Etki Alanı Adı: www.domain.com/virtualdirectory&lt;br /&gt;
-                    URL: https://www.domain.com/directory/default.aspx = Etki Alanı Adı: www.domain.com/directory&lt;br /&gt;
+                    URL: https://www.domain.com/default.aspx = Alan Adı: www.domain.com&lt;br /&gt;
+                    URL: https://209.75.24.131/default.aspx = Alan Adı: 209.75.24.131&lt;br /&gt;
+                    URL: https://localhost/DotNetNuke/default.aspx = Alan Adı: localhost/DotNetNuke&lt;br /&gt;
+                    URL: https://www.domain.com/virtualdirectory/default.aspx = Alan Adı: www.domain.com/virtualdirectory&lt;br /&gt;
+                    URL: https://www.domain.com/directory/default.aspx = Alan Adı: www.domain.com/directory&lt;br /&gt;
                     &lt;br /&gt;
                 &lt;/li&gt;
-                &lt;li&gt;Uygulama, etki alanı adını kullanarak eşleşen bir kaydı bulmak için veritabanını ( PortalAlias tablosu - HTTTPAlias sütunu) sorgular.&lt;br /&gt;
+                &lt;li&gt;Uygulama, eşleşen bir kaydı bulmak için alan adını kullanarak veritabanını ( PortalAlias tablosu - HTTPAlias sütunu) sorgular.&lt;br /&gt;
                     &lt;br /&gt;
-                    Not: Uygulamayı uzak bir sunucuya kuruyorsanız PortalAlias tablosunda uygun PortalID değerine sahip kaydın HTTPAlias alanı değerini yukarıda tanımlanan kurallara göre değiştirmelisiniz. &lt;/li&gt;
+                    Not: Uygulamayı uzak bir sunucuya kuruyorsanız, PortalAlias tablosunda uygun PortalID değerine sahip kaydın HTTPAlias alanının değerini yukarıda tanımlanan kurallara göre değiştirmeniz gerekir. &lt;/li&gt;
             &lt;/ul&gt;
         &lt;/li&gt;
     &lt;/ol&gt;

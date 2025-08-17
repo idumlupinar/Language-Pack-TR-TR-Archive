@@ -153,12 +153,6 @@
   <data name="LastLockoutDate.Help" xml:space="preserve">
     <value>Bu kullanıcının tekrarlanan başarısız girişler nedeniyle siteden son kilitlendiği tarih.</value>
   </data>
-  <data name="IsOnLine.Text" xml:space="preserve">
-    <value>Kullanıcı Çevrimiçi:</value>
-  </data>
-  <data name="IsOnLine.Help" xml:space="preserve">
-    <value>Kullanıcının şu anda çevrimiçi olup olmadığını gösterir.</value>
-  </data>
   <data name="LockedOut.Text" xml:space="preserve">
     <value>Kilitli:</value>
   </data>

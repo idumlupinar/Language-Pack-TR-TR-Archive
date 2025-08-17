@@ -192,7 +192,7 @@
   <data name="AdvancedSearchHint.Text" xml:space="preserve">
     <value>&lt;table class="dnnSearchResult-hint-tbl dnnTableDisplay"&gt;
 
-
+                
 				&lt;tr&gt;
                     &lt;th style="width: 150px"&gt;&lt;span&gt;Tür&lt;/span&gt;
                     &lt;/th&gt;
@@ -201,54 +201,54 @@
                     &lt;th&gt;&lt;span&gt;Notlar&lt;/span&gt;
                     &lt;/th&gt;
 				&lt;/tr&gt;
-
+         
 
                 &lt;tr&gt;
                     &lt;td&gt;Bulanık&lt;/td&gt;
-                    &lt;td&gt;kalem&lt;b&gt;~&lt;/b&gt;&lt;/td&gt;
-                    &lt;td&gt;&lt;i&gt;kalem&lt;/i&gt; kelimesine yakın terimleri içerir; örneğin &lt;i&gt;kelam&lt;/i&gt;&lt;/td&gt;
+                    &lt;td&gt;kettle&lt;b&gt;~&lt;/b&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;i&gt;kettle&lt;/i&gt; kelimesine yakın terimleri içerir, örneğin &lt;i&gt;cattle&lt;/i&gt;&lt;/td&gt;
                 &lt;/tr&gt;
 
                 &lt;tr&gt;
                     &lt;td&gt;Joker&lt;/td&gt;
-                    &lt;td&gt;kat*&lt;/td&gt;
-                    &lt;td&gt;&lt;i&gt;kat&lt;/i&gt; ile başlayan terimleri içerir; örneğin &lt;i&gt;katalog&lt;/i&gt; ve tam olarak &lt;i&gt;kat&lt;/i&gt; teriminin kendisi&lt;/td&gt;
+                    &lt;td&gt;cat*&lt;/td&gt;
+                    &lt;td&gt;&lt;i&gt;cat&lt;/i&gt; ile başlayan terimleri içerir, örneğin &lt;i&gt;category&lt;/i&gt; ve tam olarak &lt;i&gt;cat&lt;/i&gt; teriminin kendisi&lt;/td&gt;
                 &lt;/tr&gt;
 
                 &lt;tr&gt;
-                    &lt;td&gt;Tam Eşleşme - Tek Kelime&lt;/td&gt;
-                    &lt;td&gt;elma&lt;/td&gt;
-                    &lt;td&gt;&lt;i&gt;elma&lt;/i&gt; terimini içerir&lt;/td&gt;
+                    &lt;td&gt;Tam-Tek&lt;/td&gt;
+                    &lt;td&gt;orange&lt;/td&gt;
+                    &lt;td&gt;&lt;i&gt;orange&lt;/i&gt; terimini içerir&lt;/td&gt;
                 &lt;/tr&gt;
 
                 &lt;tr&gt;
-                    &lt;td&gt;Tam Eşleşme - İfade&lt;/td&gt;
-                    &lt;td&gt;"dnn harika"&lt;/td&gt;
-                    &lt;td&gt;Tam olarak &lt;i&gt;dnn harika&lt;/i&gt; ifadesini içerir&lt;/td&gt;
+                    &lt;td&gt;Tam-İfade&lt;/td&gt;
+                    &lt;td&gt;"dnn is awesome"&lt;/td&gt;
+                    &lt;td&gt;&lt;i&gt;dnn is awesome&lt;/i&gt; tam ifadesini içerir&lt;/td&gt;
                 &lt;/tr&gt;
 
                 &lt;tr&gt;
-                    &lt;td&gt;OR&lt;/td&gt;
-                    &lt;td&gt;elma bisiklet&lt;/td&gt;
-                    &lt;td&gt;&lt;i&gt;elma&lt;/i&gt; veya &lt;i&gt;bisiklet&lt;/i&gt; terimini ya da her ikisini içerir. &lt;b&gt;&lt;i&gt;OR&lt;/i&gt; kullanılırsa büyük harfle yazılmalıdır&lt;/b&gt;&lt;/td&gt;
+                    &lt;td&gt;VEYA&lt;/td&gt;
+                    &lt;td&gt;orange bike&lt;/td&gt;
+                    &lt;td&gt;&lt;i&gt;orange&lt;/i&gt; veya &lt;i&gt;bike&lt;/i&gt;, veya her ikisini de içerir. &lt;b&gt;&lt;i&gt;VEYA&lt;/i&gt;, kullanılırsa, büyük harf olmalıdır&lt;/b&gt;&lt;/td&gt;
                 &lt;/tr&gt;
 
                 &lt;tr&gt;
                     &lt;td&gt;&lt;/td&gt;
-                    &lt;td&gt;elma &lt;b&gt;OR&lt;/b&gt; bisiklet&lt;/td&gt;
+                    &lt;td&gt;orange &lt;b&gt;OR&lt;/b&gt; bike&lt;/td&gt;
                     &lt;td&gt;&lt;/td&gt;
                 &lt;/tr&gt;
 
                 &lt;tr&gt;
-                    &lt;td&gt;AND&lt;/td&gt;
-                    &lt;td&gt;elma &lt;b&gt;AND&lt;/b&gt; bisiklet&lt;/td&gt;
-                    &lt;td&gt;Hem &lt;i&gt;elma&lt;/i&gt; hem de &lt;i&gt;bisiklet&lt;/i&gt; terimini içerir. &lt;b&gt;&lt;i&gt;AND&lt;/i&gt; büyük harfle yazılmalıdır&lt;/b&gt;&lt;/td&gt;&lt;/td&gt;
+                    &lt;td&gt;VE&lt;/td&gt;
+                    &lt;td&gt;orange &lt;b&gt;AND&lt;/b&gt; bike&lt;/td&gt;
+                    &lt;td&gt;Hem &lt;i&gt;orange&lt;/i&gt; hem de &lt;i&gt;bike&lt;/i&gt; içerir. &lt;b&gt;&lt;i&gt;VE&lt;/i&gt; büyük harf olmalıdır&lt;/b&gt;&lt;/td&gt;&lt;/td&gt;
                 &lt;/tr&gt;
 
                 &lt;tr&gt;
-                    &lt;td&gt;Birleşik&lt;/td&gt;
-                    &lt;td&gt;(çevik &lt;b&gt;OR&lt;/b&gt; ekstrem) &lt;b&gt;AND&lt;/b&gt; metodoloji&lt;/td&gt;
-                    &lt;td&gt;&lt;i&gt;metodoloji&lt;/i&gt; terimini içerir ve ayrıca &lt;i&gt;çevik&lt;/i&gt; ve/veya &lt;i&gt;ekstrem&lt;/i&gt; terimini de içermelidir
+                    &lt;td&gt;Kombinasyon&lt;/td&gt;
+                    &lt;td&gt;(agile &lt;b&gt;OR&lt;/b&gt; extreme) &lt;b&gt;AND&lt;/b&gt; methodology&lt;/td&gt;
+                    &lt;td&gt;&lt;i&gt;methodology&lt;/i&gt; içermeli ve ayrıca &lt;i&gt;agile&lt;/i&gt; ve/veya &lt;i&gt;extreme&lt;/i&gt; içermelidir
                 &lt;/tr&gt;
             &lt;/table&gt;</value>
   </data>

@@ -319,7 +319,7 @@
     <value>Belirtilen kullanıcı adı için zaten bir kullanıcı var. Lütfen farklı bir kullanıcı adı kullanarak tekrar kayıt olun.</value>
   </data>
   <data name="RegError.Text" xml:space="preserve">
-    <value>Kayıt sırasında beklenmeyen bir hata oluştu.  Daha fazla bilgi için lütfen Yönetici ile iletişime geçin.</value>
+    <value>Kayıt sırasında beklenmeyen bir hata oluştu. Daha fazla bilgi için Yöneticiyle iletişime geçin.</value>
   </data>
   <data name="PaneNotFound.Error" xml:space="preserve">
     <value>Tema için İçerikPane bulunamıyor</value>
@@ -520,7 +520,7 @@
     <value>İstisna</value>
   </data>
   <data name="EXCEPTION_DesktopSrc.Text" xml:space="preserve">
-    <value>Bir modül denetiminin Desktopsrc değeri olmalıdır, iptal ediliyor</value>
+    <value>Bir modül denetiminin DesktopSrc değeri olmalıdır, iptal ediliyor</value>
   </data>
   <data name="EXCEPTION_FileLoad.Text" xml:space="preserve">
     <value>Dosya yükleme başarısız oldu, iptal ediliyor</value>

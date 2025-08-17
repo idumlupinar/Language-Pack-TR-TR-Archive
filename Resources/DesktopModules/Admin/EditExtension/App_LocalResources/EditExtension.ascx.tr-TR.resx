@@ -232,7 +232,7 @@
     <value>Yeni Konteyner Ekle</value>
   </data>
   <data name="PackageUpdated.Text" xml:space="preserve">
-    <value>Uzantı başarıyla güncellendi.</value>
+    <value>Uzatma başarıyla güncellendi.</value>
   </data>
   <data name="UpgradeMessage.Text" xml:space="preserve">
     <value>Güncellemeyi Almak İçin Buraya Tıklayın</value>
