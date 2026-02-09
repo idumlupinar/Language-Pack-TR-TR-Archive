@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="Core_tr-TR" type="CoreLanguagePack" version="10.02.01">
+    <package name="Core_tr-TR" type="CoreLanguagePack" version="10.02.02">
       <friendlyName>DNN Platform Core Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) core language pack for DNN Platform.</description>
       <iconFile />
@@ -61,6 +61,10 @@
             <languageFile>
               <path>admin\Security\App_LocalResources</path>
               <name>SendPassword.ascx.tr-TR.resx</name>
+            </languageFile>
+            <languageFile>
+              <path>admin\Skins\App_LocalResources</path>
+              <name>BreadCrumb.ascx.tr-TR.resx</name>
             </languageFile>
             <languageFile>
               <path>admin\Skins\App_LocalResources</path>
