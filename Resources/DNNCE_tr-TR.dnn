@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="Core_tr-TR" type="CoreLanguagePack" version="10.03.00">
+    <package name="Core_tr-TR" type="CoreLanguagePack" version="10.03.01">
       <friendlyName>DNN Platform Core Türkçe (Türkiye)</friendlyName>
       <description>Turkish (Türkiye) core language pack for DNN Platform.</description>
       <iconFile />
